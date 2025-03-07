@@ -455,7 +455,7 @@
         "geyserdsc": "Um gêiser instável com uma tendência de atirar água. Mas pelo menos no máximo, á temperatura normal.",
         "oilpipe": "Cano de esgoto",
         "oilpipedsc": "Um cano enferrujado com óleo derramando dele. Você não quer olhar dentro... Vai provavelmente encher o lugar todo com óleo uma hora.",
-        "plantiation": "Plantastação",
+        "plantiation": "Planta-stação",
         "plantiationdsc": "Um planta roxa, longa, com um bulbo semitransparente crescendo em seu extremo."
     },
     "moodles": {
@@ -839,7 +839,7 @@
         "itemonlyinhands": "Só pode segurar nas mãos",
         "itemwearable": "Slot vestível:",
         "itemwearableprotection": "Proteção:",
-        "itemwearableisolation": "Isolamento:",
+        "itemwearableisolation": "Insulamento:",
         "itemvalue": "Valor de troca:",
         "use": "Usar",
         "grab": "Pegar",
@@ -988,8 +988,8 @@
         "keybinds": "Teclas",
         "resetkeybinds": "Redefinir para padrão",
         "reloadbinds": "Atualizar teclas\n(Aplicar mudanças)",
-        "startlorenote": "Ano 2XXX \n<>\nA humanidade progrediu de forma significativa tecnologicamente. \n<>\nUma corporação realiza pesquisas em bioengenharia, combinando DNA animal e humano. \n<>\nEssas pesquisas levam a criação da espécie Experimento, junto com suas múltiplas ramificações futuras. \n<>\nApós anos de testes antiéticos secretos em laboratório, eles estabelecem um objetivo maior. \n<>\nCientes da existência de um planeta cinza prospero em flora e fauna e com uma rota espacial fácil de realizar. \n<>\nLogo, milhares de espécimes, construções e cargas diversas foram enviadas. \n<>\nEmbora a maior parte da carga foi enviada corretamente, uma grande quantidade foi direcionada acidentalmente devido a um erro de calibração para a expansiva rede de cavernas do planeta. \n<>\nNeste material enviado estava incluso uma parte de tecnologia experimental muito importante, agora posicionada no fundo do sistema subterrâneo, sem forma fácil de acesso. \n<>\nIsso, contudo, foi visto pelos cientistas como uma oportunidade de realizar pesquisas comportamentais enviando milhares de espécimes para recuperar a tecnologia perdida. \n<>\nA probabilidade de funcionar é baixa, mas o embarque é barato e seu estoque vivo é abundante. \n<>\nVocê é um destes espécimes sem sorte.\nResistir não é uma opção.",
-        "jsonthing": "oi, isso só tá aqui para que eu possa copiar texto json sem ter ele me irritando sobre vírgulas. essa parte não é necessária :)     ...fodase, voce tambem vai ser traduzido, otario :)"
+        "startlorenote": "Ano 2XXX \n<>\nA humanidade progrediu na tecnologia consideravelmente. \n<>\nUma corporação realizou pesquisas em bioengenharia, combinando DNA animal e humano. \n<>\nEssas pesquisas levaram a criação da espécie Experimento, além de suas muitas ramificações futuras. \n<>\nApós anos de testes secretos e antiéticos em laboratório, eles estabeleceram um objetivo maior. \n<>\nDescobriram um planeta cinza prosperando ecologicamente e com uma rota espacial fácil de realizar. \n<>\nLogo, milhares de espécimens, construções e variadas cargas foram enviadas. \n<>\nEmbora a maioria das cargas foram enviadas corretamente, uma grande quantidade foi enviada para a expansiva rede de cavernas do planeta devido a um erro de calibração. \n<>\nNeste material enviado estava incluso uma tecnologia experimental muito importante, agora posicionada no fundo do sistema subterrâneo, sem forma fácil de acesso. \n<>\nMesmo assim, foi visto pelos cientistas como uma oportunidade de realizar pesquisas comportamentais enviando milhares de espécimens para recuperar a tecnologia perdida. \n<>\nA viabilidade é minúscula, mas o embarque é barato e seu estoque vivo é abundante. \n<>\nVocê é um dos espécimens sem sorte.\nResistir não é uma opção.",
+        "jsonthing": "oi, isso só tá aqui para que eu possa copiar texto json sem ter ele me irritando sobre vírgulas. essa parte não é necessária :)     ...fodase, tambem vai ser traduzido, otario :)"
     },
     "character": [
         {
@@ -1008,17 +1008,17 @@
                 "Eu cai muita altura... Minha perna tá completamente destruída, acho que tá quebrada... Andar é muito difícil, tenho que tomar cuidado com os meus movimentos pra não cair entrar em colapso por causa da dor... Eu não sei o quanto mais eu consigo.",
                 "Eu encontrei alguém lá emcima, e decidi que nós íamos só tentar voltar pra superfície e escapar dessa droga de caverna... Quando andaram por um dos buracos abertos pra sair daqui... Ele só... Morreu. Sem pulso. Tem algo lá fora. Algo que não nos deixa sair daqui. Nossos captores, talvez? Nos forçando a ficar aqui...",
                 "(A nota contém um desenho muito malfeito do que parece ser um de seus captores com um jaleco de laboratório e um taser na mão. Sua cara está com um enorme X e a arma te traz memórias terríveis. Dá pra ver que alguém nunca desenhou na vida.)",
-                "Pode ficar bem frio por aqui, especialmente se eu estiver molhado... Preciso estar em movimento constante para ficar quente. É uma existência difícil...",
-                "Merda... Cuidado com as piscinas daqui, principalmente se forem fundas... Nadar pode ser bem exaustivo, quase me afoguei em um desses reservatórios d'água depois de ser levado pela corrente. Derramar elas pode ser útil, só preciso ter cuidado.",
-                "EU AMO FENTANIL! Minha vida era tão merda antes de parar aqui... Preso naqueles miseráveis laboratórios sem cor... Quando fui enviado pra cá junto com essas drogas tudo ficou muuuuito melhor... Eu só queria... Achar mais...",
+                "Pode ficar bem frio por aqui, especialmente se eu estiver molhado... Preciso ficar me mexendo para ficar quente. É uma vida difícil...",
+                "Merda... Cuidado com as piscinas daqui, principalmente se forem fundas... Nadar pode ser bem exaustivo, quase me afoguei em um desses poços d'água depois de ter sido levado pela corrente. Derramar as águas pode ser útil, só preciso ter cuidado...",
+                "EU AMO FENTANIL! Minha vida era tão merda antes de ir parar aqui... Preso naquela merda de laboratório sem cor... Quando fui enviado pra cá junto dessas belezinhas tudo ficou tãaao melhor... Eu só queria... Poder achar mais...",
                 "Eu preciso parar de ficar preso em lugares sem nenhuma luz comigo. Até essas plantinhas brilhantes já servem... Meus olhos não chegam nem perto de iluminar os meus arredores. Minha mão esquerda aprendeu isso do jeito difícil. Não tenho ideia como ainda estou vivo.",
                 "Tudo dói.",
-                "Eu ouvi uma conversa entre os nossos captores... Aparentemente a carga que nós estamos atrás é algum tipo de \"fonte de energia avançada\". Algo que pode... guardar uma grande quantidade de energia e distribui-la... sem nenhuma conexão? Não tenho certeza o que isso significa... Talvez algum de vocês saiba mais.",
-                "Não não não. Socorro. Me ajude. Se alguém passar por isto... Eu fui ferido... E não consigo parar o sangramento... Estou com medo, me sinto tão fraco. Por favor...",
+                "Eu ouvi uma conversa entre nossos captores... Aparentemente a carga de que nós estamos atrás é algum tipo de \"fonte de energia avançada\". Algo que pode... Guardar uma grande quantidade de energia e distribui-la... Sem nenhuma conexão? Não tenho certeza do que isso significa... Talvez vocês saibam mais sobre isso?",
+                "Não não não. Socorro. Me ajude. Se alguém passar por isto... Eu fui ferido... Não consigo parar o sangramento... Tô com medo, eu me sinto tão fraco. Por favor...",
                 "Eu consigo. Eu finalmente posso fazer isso. Esperei minha vida inteira por isso, mas o momento finalmente chegou. Eu tenho tudo que preciso para fazer isso. Eu... Eu estou equipando minha Aura Verde.",
-                "A distribuição de espécies por aqui parece muito desproporcional. Os experimentos estão por todos os lugares, mas outros como eu são muito mais incomuns... estranho. Eu não gosto da quantidade de baixas por aqui. Mais de nós precisam ser ajudados.",
-                "Um amalgama de \"Humano, Raposa e Rato\"... O que isso significa? O que são essas coisas? Eu ouvi nossos captores se referindo a nós dessas formas... Quantas coisas existem que eles escondem de nós? Esse pensamento me assusta... Eu nunca havia considerado a possibilidade de existir alguma coisa fora do lugar que nós crescemos. E agora estou aqui... Eu gostaria de entender... Tudo isso.",
-                "Que porra vocês tão fazendo??? Por que vocês estão enviando tantos dos suprimentos que nós precisamos para essa bola de cascalho gigante? Esse planeta que, até onde eu sei, não tem oceanos ou qualquer outra coisa útil??? Nós PRECISAVAMOS DOS SNORKELS... Nossos clientes estavam esperando já fazia um tempo por aquelas coisas... O que a nossa gerencia tá fazendo??? Eu odeio essa porra de trabalho. Estou reportando vocês. Se enviarem a maquina de fax tambem, eu caço cada um de vocês.\n\n(Há uma miniatura de maquina de fax anexada ao papel)"
+                "A distribuição de espécies por aqui parece meio desproporcional. Os experimentos estão no lugar todo, mas outros como eu são muito mais raros... Estranho. Eu não gosto de todas essas mortes por aqui. A gente precisa de ajuda.",
+                "Um amalgamação de \"Humano, Raposa e Rato\"... O que isso significa? O que são essas coisas? Eu ouvi nossos captores se referindo a nós desse jeito... Quantas coisas existem que eles escondem de nós? Esse pensamento me assusta... Eu nunca havia considerado a chance de ter qualquer outra coisa fora do lugar em que crescemos. E agora estou aqui... Eu só queria entender... Tudo isso...",
+                "Que porra vocês tão fazendo??? Mas pra que merda vocês estão enviando tantos suprimentos de que a jente precisa pra essa enorme bosta de bola de cascalho??? Esse planeta que, até onde eu sei, não tem oceanos ou qualquer outra coisa útil??? NÓS PRECISAVAMOS DOS SNORKELS... A clientela já estava esperando há séculos por aquelas coisas... O que que a chefia tá fazendo??? Eu odeio essa porra de trabalho. Estou reportando vocês. Se enviarem a maquina de fax também, eu caço cada um de vocês.\n\n(Tem uma miniatura de maquina de fax anexada ao papel)"
             ],
             "seeGravel": [
                 "Chegamos...",
@@ -1789,7 +1789,7 @@
                 "Eu avisei IDOTA. EU AVISEI, seu bosta. CHEGA!",
                 "Deixarei essa bosta de mundo de uma vez por todas.",
                 "Paz. Tchauzinho. Foda-se isso eu tô saindo. Direto para o inferno por isso.",
-                "Tô no limite de TODA ESSA MERDA. NO LIMITE! CAIAM FORA!!!",
+                "Tô no limite de TODA ESSA MERDA. NO LIMITE! CAI FORA!!!",
                 "Fim da linha, seu fodido. Fim da TUA, FODENDO, LINHA. TÔ SAINDO!!!",
                 "Isso deve bastar... Tchau, tchau... E desculpe por isso... Espero que exista uma pós-vida...",
                 "Esse é o fim. Espero que quem encontrar meu corpo faça bom uso. Não consigo continuar assim. Me desculpe.",
@@ -2653,7 +2653,7 @@
                 "Sinto paladar de metal.",
                 "Eu ingeri tal metálico?",
                 "Não sabia que metais tinham cheiro.",
-                "Metais na minha boca... 217?",
+                "Metais na minha boca... 217? É você?",
                 "...Aço...?",
                 "O    que     tá  acontecendo              co",
                 "Isso isso      tá                      errado    .",
@@ -2666,7 +2666,7 @@
                 "Irritado. Se eu tivesse um sentido de paladar, estaria sentindo gosto de metal.",
                 "Para como estranhamente a quem urgentemente ele amigou ratos! Mineirinho ela mesma certo sobre.",
                 "Realmente é como você disse. Isso é uma bandagem que nunca terminará.",
-                "Eu vou ARRANCAR os olhos de pegajosos. Preciso eslurpar seus olhos...",
+                "Eu vou ARRANCAR os olhos desses pegajosos. Preciso eslurpah seus olhos... Necessito substância...",
                 "Fora de meus olhos- sobre meus olhos- dentro de meus olhos...",
                 "As cores todas... Tem gostos errados...",
                 "LASCIATE OGNI SPERANZA, VOI CH'ENTRATE.",
