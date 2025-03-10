@@ -12,4 +12,3 @@ Localization files for the "Scavenge Game" by Orsoniks.
 
 # Maintainers
 * [@Orsoniks](https://github.com/Orsoniks)
-* [@Fracix](https://github.com/Fracix)
