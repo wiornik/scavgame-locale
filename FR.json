@@ -353,7 +353,7 @@
         "bulbskin": "Membrane de bulbe",
         "bulbskindsc": "Un morceau de membrane végétale jaune, très épais et assez gras. Sa consommation apporte une grande quantité d’adrénaline et a un effet légèrement hydratant, cependant elle risque d’affecter légèrement les fonctions cérébrales. Peut également servir de bandage de fortune et d’analgésique une fois appliqué sur un membre.",
         "geigefruit": "Fruit-geige",
-        "geigefruitdsc": "Un étrange fruit rectangulaire et brillant. Il sent l’huile, mais il a bon goût ! Comble la faim et la soif. Peut altérer vos poumons pendant un moment, et peut soigner ou intensifier une intoxication radiative de façon aléatoire. Réagit bruyamment lorsqu’il percute le sol à grande vitesse : utile pour vérifier la hauteur d’une chute."
+        "geigefruitdsc": "Un étrange fruit rectangulaire et brillant. Il sent l’huile, mais il a bon goût ! Comble la faim et la soif. Peut altérer vos poumons pendant un moment, et peut soigner ou intensifier une intoxication radiative au hasard. Réagit bruyamment lorsqu’il percute le sol à grande vitesse : utile pour vérifier la hauteur d’une chute."
     },
     "buildings": {
         "animalcorpse": "Animal mort",
@@ -2501,7 +2501,7 @@
                 "AAAHHHHH !",
                 "AAAAAAAAHHHHH !",
                 "AHHH !! MERDE !!!",
-                "YAAAHHHHHH !!! ENLÈVEZ-ÇA !",
+                "YAAAHHHHHH !!! ENLEVEZ-ÇA !",
                 "RETIREZ MOI CE TRUC ! AAAHHH !",
                 "DÉGAGE !",
                 "AAAAAAAAAAAAAA !",
