@@ -46,6 +46,8 @@
         "braingrowdsc": "Uma garrafa contendo medicina que estimula a regeneração do cérebro. Aumenta a integridade do cérebro, mas normalmente tem efeitos colaterais sérios.",
         "autopump": "Bomba ventilatória",
         "autopumpdsc": "Quando usada, é pregada no seu peito, controlando seu oxigênio para o bem, também dando adrenalina e energia por 5 minutos. Pode potencialmente te dar mais tempo para viver, mas é uso único.",
+        "autoautopump": "Bomba ventilatória Automática",
+        "autoautopumpdsc": "Pode ser amarrada a sua coxa. Ativa automaticamente ao entrar em estado crítico, mantendo seu oxigênio a níveis aceitáveis e providenciando energia pro corpo, uso único.",
         "antidepressants": "Antidepressivos",
         "antidepressantsdsc": "Uma garrafa de antidepressivos fortes. Faz você sentir menos de tudo por um certo tempo, e lentamente aumenta a felicidade. Pode ter efeitos colaterais.",
         "antibiotics": "Antibióticos",
@@ -78,6 +80,8 @@
         "trashbagdsc": "Uma sacola plástica de lixo preta. Você deveria se enfiar nela.",
         "reinforcedrope": "Trepadeira reforçada",
         "reinforcedropedsc": "Uma corda de folhagem longa e durável. Usada em criações.",
+        "flammablepowder": "Pó inflamável",
+        "flammablepowderdsc": "Um pó altamente inflamável com uma textura semelhante a calcário. Útil na produção de explosivos.",
         "foliagebag": "Bolsa de folhagem",
         "foliagebagdsc": "Uma bolsa muito frágil feita com trepadeiras amarradas.",
         "slingbag": "Bolsa de ombro",
@@ -250,6 +254,10 @@
         "troweldsc": "Ferramenta de jardinagem primitiva, feita de madeira e metal. Talvez melhor do que usar suas garras.",
         "woodtrowel": "Espátula de madeira",
         "woodtroweldsc": "Ferramenta de jardinagem primitiva, feita puramente de madeira. Talvez melhor do que usar suas garras..?",
+        "canteen": "Cantil",
+        "canteendsc": "Um cantil reutilizável. Embora seja portátil, tomar água do chão nele ainda te deixará levemente enjoado.",
+        "filtercanteen": "Cantil Filtro",
+        "filtercanteendsc": "Você apenas prendeu um canudo com filtro nele. Funciona surpreendentemente bem! Pode ser reenchido com água.",
         "experimentflesh": "Carne amarela",
         "experimentfleshdsc": "Um pedaço arrancado de um dos seus comparsas. Te enche, tanto a barriga como de nojo. Pode te fazer passar mal.",
         "rope": "Corda de folhagem",
@@ -262,6 +270,8 @@
         "blobfleshdsc": "Pedaço de carne estranhamente gosmenta. Te enche e é gostoso... Pode te fazer passar um pouco mal.",
         "cactusflesh": "Cacto-carne",
         "cactusfleshdsc": "Alto em água, sabores doces e espinhos. Gostoso e hidratante, mas comer isso vai doer.",
+        "neuralbooster": "Impulsionador Neural",
+        "neuralboosterdsc": "Uma mistura avançada de drogas que alteram a estrutura e função do seu cérebro, aumentando levemente sua mobilidade permanentemente.",
         "watch": "Relógio eletrônico",
         "watchdsc": "Periodicamente te da informação útil (tempo de sangramento, infecções escondidas, mudanças no peso, etc). Quando usado, te fala a temperatura e o tempo que passou aqui embaixo. Ter um amigo de bolso é comfortante!",
         "tutorialradio": "Rádio de treinamento",
@@ -304,6 +314,17 @@
         "bellyarmordsc": "Um grande pedaço de metal feito para ser amarrado na sua barriga. Oferece ótima proteção e um pouco de insulação.",
         "belt": "Cinta",
         "beltdsc": "Uma cinta de couro feita para bater em pivetes irritantes. Vai na sua barriga e você pode anexar algo nela.",
+
+        
+        "popcorn": "Popcorn",
+
+        "popcorndsc": "A bucket containing a bunch of corn kernels, puffed up from being heated. You find it to be quite a novel concept. Tasty.",
+
+        "nopopcorn": "No popcorn",
+
+        "nopopcorndsc": "Empty paper bucket. You could store something in it.",
+
+        
         "spacedrain": "Dreno espacial",
         "spacedraindsc": "Usando uma avançada tecnologia de teleportação, esse dispositivo pode drenar líquidos ao seu redor quando usado. Ninguém sabe para onde os líquidos vão, mas isso não é problema seu. Recarrega automaticamente.",
         "hoodie": "Moletom",
@@ -313,7 +334,7 @@
         "xalorissponge": "Esponja de Xaloris",
         "xalorisspongedsc": "Um contêiner de esporos arrancado de um Xaloris. Pode ser usado em seus membros corporais para reduzir infecções ou comido pelo seu valor nutricional. Os esporos podem afetar seu sistema imunológico.",
         "jetpack": "Mochila a jato",
-        "jetpackdsc": "Um dispositivo usado como mochila, que usa motores á jato para propelir o usuário. O combustível é limitado. Segure W para usar e A/D para manobrar.",
+        "jetpackdsc": "Um dispositivo usado como mochila, que usa motores á jato para propelir o usuário. O combustível é limitado e não funcionará quando molhado. Segure W para usar.",
         "dynamite": "Dinamite",
         "dynamitedsc": "Um explosivo feito de nitroglicerina, materiais absorventes, e estabilizantes. Explode logo após ser jogado. Bom para criar buracos no terreno. Definitivamente vai estourar seus ouvidos.",
         "climbingclaws": "Garras de escalada",
@@ -350,6 +371,21 @@
         "icepackdsc": "Uma bolsa fria cheia de gel refrigerante que se esfria sozinho. Ajuda no tratamento da saúde múscular, reduz dores e te esfria um pouco. O item se resfria com o tempo.",
         "armwarmers": "Aquecedores de braço",
         "armwarmersdsc": "Um par de aquecedores de braço azuis. Oferece um pouco de insulação contra o frio. Qualidade: Macho alfa.",
+
+        "carapace": "Carapace",
+
+        "carapacedsc": "A sturdy steel carapace to protect your thorax. Feels royal.",
+
+        "limbwraps": "Limb wraps",
+
+        "limbwrapsdsc": "Makeshift wraps made from gauze to cover the extremities. Slightly protects your arms and feet from damage and makes you feel like a warrior.",
+
+        "kneepads": "Kneepads",
+
+        "kneepadsdsc": "Plastic pads, made to protect the knees and cushion impacts.",
+
+        "plushie": "Pelúcia",
+        "plushiedsc": "Faz um som estridente quando é apertado.",
         "tornshirt": "Camisa rasgada",
         "tornshirtdsc": "Uma camisa azul e velha um pouco rasgada. Oferece um pouquinho de proteção e insulação. Também faz você parecer um mendigo.",
         "rangefinder": "Telêmetro",
@@ -380,12 +416,129 @@
         "bulbskindsc": "Casca amarela, oleosa e grossa de uma planta. Possui altas doses de adrenalina e é levemente hidratante, mas pode afetar negativamente o funcionamento cerebral. Também pode ser usada como curativo improvisado e analgésico.",
         "geigefruit": "Fruta de Geiger",
         "geigefruitdsc": "Uma estranha fruta brilhante e retangular. Cheira a óleo, mas é saborosa! Sacia fome e sede. Pode interferir na sua respiração por um momento, e também pode aleatoriamente afetar a radiação do corpo. Faz um som alto ao acertar uma superfície - útil para checar a altura de quedas.",
+
+        "antisepticmush": "Antiseptic mush",
+
+
+        "antisepticmushdsc": "Smushed together bits of fruit and foliage, resulting in a mixture effective in treating infections. Lasts one use.",
+
+        
         "striderpelt": "Pele de Andarilho",
         "striderpeltdsc": "Um grande pedaço de pele peluda e grossa retirada de um andarilho de neve. Garante boa insulação."
+
+
+        "funguschunk": "Funugs chunk",
+
+        "funguschunkdsc": "A ripped piece of fungi. Does a decent enough job as food, though you're unsure about the side effects.",
+
+        "clottingmush": "Clotting mush",
+
+        "clottingmushdsc": "A small vial of a clot promoting poultice. While not particularly useful on its own, it could be refined further...",
+
+        "bunchunk": "Bunchunk",
+
+        "bunchunkdsc": "A piece of fungus with clot-promoting properties. While not particularly useful on its own, it could be refined further...",
+
+        "pistol": "Pistol",
+
+        "pistoldsc": "A basic, semi-automatic handgun. Uses small magazines loaded with 9mm rounds. Might jam when wet or low condition. Hold in your main hand to use and see controls.",
+
+        "rifle": "Rifle",
+
+        "rifledsc": "A stockless, fully automatic rifle. Uses rifle magazines loaded with 5.56 rounds. Might jam when wet or low condition. Hold in your main hand to use and see controls.",
+
+        "shotgun": "Pump-action shotgun",
+
+        "shotgundsc": "A stockless, pump-action shotgun with an internal magazine. Uses 12 gauge shells loaded directly into the gun. Might jam when wet or low condition. Hold in your main hand to use and see controls.",
+
+        "9mmround": "9mm round",
+
+        "9mmrounddsc": "A small handgun round. Can be loaded into a small magazine, or directly into the chamber if the gun's bolt is open.",
+
+        "556round": "5.56 round",
+
+        "556rounddsc": "A rifle round. Can be loaded into a rifle magazine, or directly into the chamber if the gun's bolt is open.",
+
+        "12gauge": "12-Gauge buckshot",
+
+        "12gaugedsc": "A 12 gauge buckshot round. Can be loaded into shotguns, or directly into the chamber if the gun's bolt is open.",
+
+        "boxof12gauge": "Box of 12-Gauge",
+
+        "boxof12gaugedsc": "A box that can store sixteen 12-Gauge rounds. Use to unload a shell to insert into a firearm.",
+
+        "smallmagazine": "Small magazine",
+
+        "smallmagazinedsc": "A universal handgun magazine that accepts 9mm rounds.",
+
+        "riflemagazine": "Rifle magazine",
+
+        "riflemagazinedsc": "A universal rifle magazine that accepts 5.56 rounds.",
+
+        "magazinebase": "Magazine base",
+
+        "magazinebasedsc": "A specially shaped container with a spring in it. Used in magazine and firearm making.",
+
+        "makeshiftrifle": "Makeshift rifle",
+
+        "makeshiftrifledsc": "An improvised bolt-action firearm, made of scrapped together tubes and gun scraps. Uses small magazines loaded with 9mm rounds. Might jam when wet or low condition. Hold in your main hand to use and see controls.",
+
+        "casing": "Casing",
+
+        "casingdsc": "Spent casing. While it's not of much use anymore, you could reuse it in crafting."
+
+        
     },
     "buildings": {
         "animalcorpse": "Corpo de animal",
         "animalcorpsedsc": "",
+
+        
+        "fungalibungali": "Fungali bungali",
+
+
+        "fungalibungalidsc": "A small patch of green-ish mushrooms. You might be able to harvest one of the caps if you're lucky.",
+
+
+        "mushroomplatform": "Mushroom platform",
+
+
+        "mushroomplatformdsc": "A sturdy piece of fungi you can stand on.",
+
+
+        "bouncecap": "Bouncecap",
+
+
+        "bouncecapdsc": "Wheeeeee!",
+
+
+        "glowshroom": "Glowshroom",
+
+
+        "glowshroomdsc": "Slightly radioactive and strikingly bright.",
+
+
+        "mushroomtree": "Mushroom tree",
+
+
+        "mushroomtreedsc": "Looks bioluminescent.",
+
+
+        "drillpod": "Drill pod",
+
+
+        "drillpoddsc": "Used for transporting people long distances through solid ground. While it's not in a functional state, you could get it working if you bring a piece of metal alloy. Can be used to skip 2 layers downwards.",
+
+
+        "drillpoddscfixed": "Used for transporting people long distances through solid ground.\n\nCrouch inside it to skip 2 layers downwards. Might cause some hearing loss, as the soundproofing is worn out.",
+
+
+        "drillpodbroken": "Broken drill pod",
+
+
+        "drillpodbrokendsc": "It's broken beyond repair.",
+
+        
         "frigiant": "Géliplanta",
         "frigiantdsc": "Uma refletiva planta glacial. Tem um bulbo esférico pendurando nela.",
         "snowstrider": "Andarilho de neve",
@@ -398,10 +551,17 @@
         "lifepodheaterdsc": "Ficará esquentando essa cápsula até o fim dos tempos.",
         "barbedwirefence": "Cerca farpada",
         "barbedwirefencedsc": "Não toque nas partes cutucantes.",
-        "beartrap": "Armadilha de urso",
-        "beartrapdsc": "",
+        "beartrap": "Maquinário antigo",
+        "beartrapdsc": "Possui um par de mandíbulas com dentes pontudos",
         "bioterminal": "Bio-terminal",
         "bioterminaldsc": "Um terminal de computador com uma placa for baixo dele em que está escrito: \"Insira amostra de DNA humano para continuar...\"",
+
+        
+        "lifepodshower": "Lifepod shower",
+
+        "lifepodshowerdsc": "Provides a one-time spray of antiseptic cleaning foam.",
+
+        
         "BloodCrystal": "Cristal de sangue",
         "BloodCrystaldsc": "Parece estar molhado com um líquido amarelo, jorrando o por tudo em volta.",
         "cactus": "Cacto",
@@ -427,6 +587,13 @@
         "thornbackelderdsc": "FUDEU",
         "cavetick": "Carrapato de caverna",
         "cavetickdsc": "",
+
+        
+        "overgrowntick": "Overgrown tick",
+
+        "overgrowntickdsc": "A cave tick that had way too much food and space to grow. As aggressive as usual.",
+
+        
         "DigestionCrystal": "Cristal de digestão",
         "DigestionCrystaldsc": "Visualmente e psicologicamente parece estranho.",
         "dropcapsule": "Cápsula de lançamento",
@@ -450,7 +617,7 @@
         "lifepodchest": "Baú de sobrevivência",
         "lifepodchestdsc": "Provavelmente tem equipamentos básicos.",
         "LifePodLight": "Luz",
-        "LifePodLightdsc": "",
+        "LifePodLightdsc": "Tem uma lâmpada ali - você provavelmente pode pega-la",
         "medcrate": "Caixa medicinal",
         "medcratedsc": "Tem itens de cura e seus relacionados dentro.",
         "medicalstation": "Estação médica",
@@ -501,6 +668,15 @@
         "soundcannondsc": "Tampe seus ouvidos se ouvir ele carregando.",
         "trader": "Sobrevivente",
         "traderdsc": "Você provavelmente poderia trocar alguns de seus itens com ele.",
+
+        
+        "traderdschostile": "They don't seem pleased with your presence.",
+
+        "traderdsccombat": "...",
+
+        "traderdscdead": "They're not breathing anymore. Thanks to you.",
+
+        
         "bananaplant": "Banana-Planta",
         "bananaplantdsc": "Uma curta porém larga planta, coloquialmente chamada assim devido a sua cabeça amarela e mole. Muito escorregadia.",
         "geyser": "Gêiser",
@@ -509,6 +685,31 @@
         "oilpipedsc": "Um cano enferrujado com óleo derramando dele. Você não quer olhar dentro... Vai provavelmente encher o lugar todo com óleo uma hora.",
         "plantiation": "Planta-stação",
         "plantiationdsc": "Um planta roxa, longa, com um bulbo semitransparente crescendo em seu extremo."
+
+
+        "mushroomdropper": "Dropshroom",
+
+        "mushroomdropperdsc": "A fungus that releases its cap to spread its spores around any unfortunate passerbys.",
+
+        "mushroomdropperpayload": "Dropshroom cap",
+
+        "mushroomdropperpayloaddsc": "It's the part that falls down and hurts.",
+
+        "sidestabber": "Sidestabber",
+
+        "sidestabberdsc": "An odd animal fused with a fungus. Launches a large spike at any passing prey.",
+
+        "skullcrusher": "Skullcrusher",
+
+        "skullcrusherdsc": "Might give you a headache.",
+
+        "gunmine": "Minarma",
+        "gunminedsc": "Coloquialmente chamada de \"Estoura dedões\".",
+
+        "sawblade": "Sawblade",
+
+        "sawbladedsc": "Brings up horrifying memories."
+        
     },
     "moodles": {
         "dead": "Morto",
@@ -641,6 +842,20 @@
         "hollow": "Vazio",
         "badsleep": "Sono ruim",
 
+        
+        "laststand": "Last stand",
+
+        "dirty1": "Dirty",
+
+        "dirty2": "Very dirty",
+
+        "adrenaline": "Adrenaline",
+
+        "tachycardia": "Tachycardia",
+
+        "bradycardia": "Bradycardia",
+        
+
         "deaddsc": "Perda de função cerebral completa, permanente e irreversível. Você deixou este mundo, diferente dos outros.",
         "braindamage4dsc": "...",
         "braindamage3dsc": "realidade  ..  parou   fazer   sentido",
@@ -770,14 +985,47 @@
         "hemothoraxdsc": "Sangue está acumulando na cavidade pleural devido a sangramento interno. Seu peito dói... Tratamento necessário.",
         "hollowdsc": "",
         "badsleepdsc": "Suas costas estão te matando. Tente durmir em um canto melhor da próxima vez. Consciência diminuída."
+
+
+        "laststanddsc": "You're not going down that easily. Something deep inside you compels you to push through.",
+
+        "dirty1dsc": "Consider taking a quick bath. (<>%)",
+
+        "dirty2dsc": "While you don't particularly mind the lack of hygiene, your immune system certainly will. Take a bath. (<>%)",
+
+        "adrenalinedsc": "Pain numbed. You're on high alert.",
+
+        "tachycardiadsc": "Your heart rate feels abnormally high.",
+
+        "bradycardiadsc": "Your heart rate feels abnormally low."
+
+        
     },
     "other": {
+        "layertitletutorial": "Terra\nLaboratório de treinamento",
         "layertitle1": "Terras de cascalho",
         "layertitle2": "Terras de cascalho profundas",
         "layertitle3": "Deserto secado",
         "layertitle4": "Terrenos baldios",
         "layertitle5": "Profundezas ultra-vegetadas",
         "layertitle6": "Abismo glacial",
+
+        
+        "layertitle7": "Fungal pools",
+
+        "layertitle8": "Crystalline hollow",
+
+        "layertitle9": "Geothermal vents",
+
+        "layertitle10": "Where we must reach",
+
+        "layertitle11": "The ascent",
+
+        "layertitle12": "Surface",
+
+        "layertitle13": "Pathway to freedom",
+
+        
         "air": "Ar",
         "lightrock": "Pedra leve",
         "gravel": "Cascalho",
@@ -808,8 +1056,26 @@
         "ice": "Gelo",
         "thinice": "Gelo fino",
         "powdersnow": "Pó de neve",
+
+        
+        "heavyrock": "Heavy rock",
+
+        "fungus": "Fungus",
+
+        "mushroomcap": "Mushroom",
+
+        "mushroombody": "Mushroom",
+
+        
         "water": "Água",
         "waterdsc": "Água de chão um pouco suja. Meio segura de se beber, mas também meio enjoativa.",
+
+        
+        "dirtywater": "Dirty water",
+
+        "dirtywaterdsc": "Atleast it's not on your body anymore.",
+
+        
         "algae": "Lumineságua",
         "algaedsc": "Água com algas bioluminescentes e grossas. Deve te fazer boiar.",
         "oil": "Óleo",
@@ -910,6 +1176,20 @@
         "wear": "Vestir",
         "drop": "Soltar",
         "you": "Você",
+        
+        "wet": "Wet",
+
+        "saveexit": "Save and exit",
+
+
+        "saveexitdsc": "Save your progress and take a break.\nThe run will be resumed at the start of the next layer.",
+
+
+        "savecontinue": "Continue",
+
+
+        "savecontinuedsc": "Keep going.\nYou can only save and resume the run at layer transitions. Dying or quitting mid-layer will erase your progress.",
+        
         "carryingtip": "Sobrecarga",
         "tradergivebuttontip": "Arraste items aqui para entregar ao negociador",
         "ripclothingtip": "Arraste itens aqui para rasgar-los e fazer bandagens improvisadas",
@@ -947,13 +1227,14 @@
         "combinetip": "Segure dois itens iguais em ambas as mãos para combinar suas durabilidades\nSó aplica para itens combináveis",
         "combinetipname": "Combinar",
         "crafttip": "Abre o menu de criação",
-        "crafttipname": "Criar",
+        "crafttipname": "Criar (C)",
         "craftbox": "Ingredientes",
-        "craftboxdsc": "Arraste itens até aqui para usá-los em criações",
+        "craftboxdsc": "Arraste itens até aqui para usá-los em criações\nShift + Clique Esquerdo para adição rápida de item",
         "createbutton": "Crie algo com os ingredientes selecionados",
+        "createbuttondsc": "Shift + C para criação rápida",
         "clearbutton": "Remover ingredientes",
         "recipesbox": "Receitas de criações",
-        "recipesboxdsc": "Posicione itens aqui para ver todas as receitas em que eles são usados\n\nNota: Isso mostrará apenas ingredientes necessários, não o que será criado. Experiemente e memorize receitas!",
+        "recipesboxdsc": "Posicione itens aqui para ver todas as receitas em que eles são usados\n\nSomente receitas simples mostram seu resultado",
         "combineable": "Combinável",
         "speed1": "Normal",
         "speed2": "Rápido",
@@ -1020,13 +1301,68 @@
         "tut38": "Use isso para destruir coisas. Tente não minerar muito, é lento e vai te cansar rápido.",
         "tut39": "Algumas condições como a dor ou a exaustão podem demorar para irem embora. Acelere o tempo com (1-3) para fazer elas sumirem mais rápido.",
         "tut40": "Boa.",
-        "tut41": "Você pode dormir com o botão no canto inferior direito do painel de saúde.",
-        "tut42": "Você pode combinar itens com o botão no canto inferior esquerdo.",
+
+        "tut41": "You can sleep with the button in the lower right of the health panel. Don't sleep on the cold hard floor; things like rubber are much comfier.",
+
+
+        "tut42": "Procuring things on your own can be useful at times.",
+
+
+        "tut42a": "Here are 2 pieces of foliage. You'll tie them together into some rope.",
+
+
+        "tut42ab": "Open the crafting menu, drag them into the ingredients field and create.",
+
+
+        "tut42ac": "Well done. Remember, ingredient order doesn't matter.",
+
+
+        "tut42ad": "You can see other recipes by dragging an item to the see recipes box.",
+
+
+        "tut42ae": "Crafting is useful for making basic resources and refining certain items into better versions.",
+        
         "tut42b": "Ficar em um estado ou lugar ruim por muito tempo pode te desanimar muito. Tente ficar positivo para o que der e vier. Coisas como uma boa dieta sempre ajudam.",
         "tut43": "E isso conclui o nosso último treinamento revisional. Por favor ande até o dispositivo amarelo no fim do corredor.",
         "tut44": "Mais instruções serão dadas á você quando acordar. Refira-se á página dos controles se necessário. Boa sorte.",
         "craftminimum": "Precisa de pelo menos ",
         "craftconsume": "Usará ",
+        
+        "craftprocures": "Makes ",
+
+
+        "craftsomething": "something",
+
+
+        "craftrecipes": "See recipes...",
+
+
+        "craftresultcondition": "% condition",
+
+
+        "craftconditionaffect": "Affected by first item's condition",
+
+
+        "tagdressing": "Any dressing",
+
+
+        "tagopiate": "Any opiate",
+
+
+        "tagantiseptic": "Any antiseptic",
+
+
+        "tagtool": "Any tool",
+
+
+        "tagwater": "Any water item",
+
+
+        "tagmeat": "Any meat",
+
+
+        "tagfruit": "Any fruit",
+        
         "tutorial": "Tutorial",
         "categorymedical": "Medicinal",
         "categorydrug": "Drogas",
@@ -1046,7 +1382,7 @@
         "hpbleedspeed": "Sangramento total",
         "hpoxygenamount": "Quantidade de oxigênio",
         "hpimmunity": "Imunidade",
-        "hpimmunitydsc": "Determina a capacidade do seu corpo de combater infecções",
+        "hpimmunitydsc": "Capacidade do seu corpo de combater infecções\nImunidade baixa faz infecções progredirem mesmo quando desinfectadas",
         "hptemperature": "Temperatura",
         "hpsickness": "Nível de doença",
         "hphappiness": "Humor",
@@ -1070,6 +1406,18 @@
         "hplimbbleed": "Sangramento no membro",
         "hpopiate": "Quantidade de opioides",
         "keybinds": "Teclas",
+        "layer": "Camada",
+        "magazinerounds": "munição",
+        "gunrack": "Puxar ferrolho/slide",
+        "gunmagazine": "Ejetar carregador",
+        "gunsafety": "Alterar segurança",
+        "alertitemblocked": "Item bloqueado por parede",
+        "alertitemfar": "Item muito distante",
+        "alertinvalidrecipe": "Receita inválida",
+        "alertcraftconainer": "Esvazie o contêiner antes de adicionar a receita",
+        "alertsellcontainer": "Esvazie o contêiner antes de vender",
+        "alertpickupwearable": "Vestíveis não podem ser segurados ou guardados",
+        "alerttoounhappy": "Incapaz de usar medicamentos não-opióides quando miserável",
         "resetkeybinds": "Redefinir para padrão",
         "reloadbinds": "Atualizar teclas\n(Aplicar mudanças)",
         "startlorenote": "Ano 2XXX \n<>\nA humanidade progrediu na tecnologia consideravelmente. \n<>\nUma corporação realizou pesquisas em bioengenharia, combinando DNA animal e humano. \n<>\nEssas pesquisas levaram a criação da espécie Experimento, além de suas muitas ramificações futuras. \n<>\nApós anos de testes secretos e antiéticos em laboratório, eles estabeleceram um objetivo maior. \n<>\nDescobriram um planeta cinza prosperando ecologicamente e com uma rota espacial fácil de realizar. \n<>\nLogo, milhares de espécimens, construções e variadas cargas foram enviadas. \n<>\nEmbora a maioria dessas coisas foram enviadas corretamente, uma grande quantidade foi enviada para a expansiva rede de cavernas do planeta devido a um erro de calibração. \n<>\nNeste material enviado estava incluso uma tecnologia experimental muito importante, agora posicionada no fundo do sistema subterrâneo, sem forma fácil de acesso. \n<>\nMesmo assim, foi visto pelos cientistas como uma oportunidade de realizar pesquisas comportamentais enviando milhares de espécimens para recuperar a tecnologia perdida. \n<>\nA viabilidade é minúscula, mas o embarque é barato e seu estoque vivo é abundante. \n<>\nVocê é um desses espécimens sem sorte.\nResistir não é uma opção.",
@@ -2360,65 +2708,6 @@
                 "SEM MAIS... sofrimento...",
                 "Ahhhhhh... booooomm..."
             ],
-            "opiateend": [
-                "Aw... o efeito tá terminando, eu acho.",
-                "O efeito parece estar passando...",
-                "Tristemente... não durou muito.",
-                "Meu gás parece estar acabando.",
-                "Me sinto menos... eufórico...",
-                "Essa euforia toda parece estar no fim... tô me sentindo pior.",
-                "N... na pior outra vez...",
-                "Aquele sensação de formigamento desapareceu...",
-                "Ahh cara... tava me sentindo tão bem...",
-                "Eu não me sinto tão bem...",
-                "Ugh...  triste que acabou.",
-                "Começando a me sentir, não bobo, de novo.",
-                "Sensação ruim... o efeito deve ter acabando.",
-                "Tá terminando... me sinto pesado.",
-                "Algo não parece certo... uggh...",
-                "Sensações... normais de volta.",
-                "A brisa tá terminando... me sinto mal.",
-                "Acho que minha brisa ja era.",
-                "Como eu gostaria que isso durasse mais...",
-                "Huh... que... estranho.",
-                "Ohh... tá acabando... e o cansaço tá vindo.",
-                "Terminando... droga...",
-                "Tá quase no fim... Adoraria ficar assim eternamente...",
-                "Pareço estar voltando a normalidade...",
-                "Ta. Tudo. Pior."
-            ],
-            "opiateendsad": [
-                "De volta a realidade...",
-                "Não... por favor... retorne...",
-                "Tá tudo... voltando.",
-                "Não... de novo não...",
-                "Lá se vai minha brisa... Que sensação merda.",
-                "Tá tudo... de volta.",
-                "Todos os pensamentos, reaparecendo.",
-                "Acho que chegou a hora de voltar a realidade.",
-                "Me sinto... sem vida, novamente.",
-                "Aquela sensação prazerosa... sumiu...",
-                "Minha única distração... acabando...",
-                "Minha única felicidade... se foi novamente.",
-                "Eu me sinto tão merda denovo. Ugh...",
-                "Ugh... terminou... tô muito mal.",
-                "Porra. A realidade tá me puxando de volta.",
-                "Está tudo... ficando claro de novo... não consigo fazer isso.",
-                "Não... não acaba agora... eu não posso lidar com isso...",
-                "Minha distração do mundo real, ja era.",
-                "Eu preciso de mais... pra alcançar a felicidade...",
-                "Preciso me distrair com algo de novo...",
-                "Minha brisa se foi...  me sinto horrível.",
-                "Eu acho que acabou. Minha esperança tá lá embaixo de novo.",
-                "Era apenas uma distração temporária, eu acho.",
-                "Ugh... e os pensamentos voltaram...",
-                "Aquela desesperança, tá voltando.",
-                "A falta de esperança voltou... e tá me levando com ela.",
-                "Minha distração do mundo real já era.",
-                "Eu preciso de mais... preciso ficar feliz denovo...",
-                "O efeito tá... acabando...",
-                "Não posso... continuar assim..."
-            ],
             "opiatewithdrawal": [
                 "Eu... eu preciso de mais...",
                 "Ópio... por gentileza...",
@@ -2615,12 +2904,24 @@
             "watchlike": [
                 "Eu gosto dessa coisa relógio. É confortável."
             ],
+            "drillend": [
+                "...Demorou um pouco.",
+                "Tenho certeza que essa coisa não era a prova de sons.",
+                "Foi um passeio bem longo...",
+                "Meus ouvidos tão doendo agora"
+            ],
             "loud": [
                 "PORRA! Isso foi alto...",
                 "GAHH! ...Merda! Meus ouvidos!",
                 "AHHH! Porra... Meus ouvidos estão zumbindo...",
                 "MERDA! ... Aiii... Isso foi tão alto...",
                 "NÃO!! Toma no cu, velho... Aaaagh, aquilo foi alto..."
+            ],
+            "regret": [
+                "Por... Por que eu fiz isso..? M-merda...",
+                "D-Deus... Por que..?",
+                "Eu... Isso foi horrível.. Eu sou um monstro...",
+                "Mhh... Por... que? Era um de nós..."
             ],
             "tradeemeet": [
                 "Eai!",
@@ -2733,6 +3034,48 @@
                 "Eu vou através disso sozinho.",
                 "Por favor saia."
             ],
+            "traderwarning": [
+                "SAIA.",
+                "Sai. AGORA.",
+                "FORA! CAI FORA!",
+                "Retire-se desta capsula.",
+                "Não gosto da sua companhia. Vá embora.",
+                "SAI!",
+                "FORA.",
+                "CAI FORA DAQUI!",
+                "Se manda.",
+                "Não, FODE!",
+                "Não fode.",
+                "Não vou repetir."
+            ],
+            "tradercombat": [
+                "Fudido do caralho. Cansei dessa merda.",
+                "TE FODE!",
+                "JA CHEGA!",
+                "VAI SE FODER!",
+                "FORA! VAI EMBORA! AGORA! FORA!",
+                "SEU ARROMBADO! SAI FORA!"
+            ],
+            "traderlightbreak": [
+                "Cara, que porra foi essa? Pra que fazer isso? Se afasta.",
+                "...Você realmente acha que eu não veria isso. Seu idiota. Se manda!",
+                "Ei! Que inferno! Eu preciso disso! Some daqui porra!",
+                "Ahh! LADRÃO! CAI FORA!",
+                "Cara. Tá... Então tá. Beleza... Eu... Uh... Saia, por favor."
+            ],
+            "swingresponse": [
+                "PERDÃO!?",
+                "PARA!",
+                "AGH!",
+                "CHEGA!",
+                "ARROMBADO!",
+                "CORTA ESSA!",
+                "AAH!",
+                "NGH!",
+                "DROGA.",
+                "Merda. Merda. MERDA!",
+                "SEU..!"
+            ],
             "braindamaged": [
                 "Sinto paladar de metal.",
                 "Eu ingeri tal metálico?",
@@ -2765,6 +3108,126 @@
                 "Gghh...... Hh-h...... Ágah...                                                              H",
                 "O que foi ISSSSSSSSSOOOOOOOOOOOOOOOOOOOO!!                ?",
                 "Eu tô...               Choro de medo 2013"
+            ]
+        },
+        {
+            "tradermeet": [
+                "Saudações.",
+                "Olá.",
+                "Prazer em conhece-lo.",
+                "Ah! Olá!",
+                "Bem-vindo, companheiro viajante.",
+                "Minhas saudações a você.",
+                "Bem-vindo.",
+                "Agradável encontrar você!",
+                "Espero que esteja tudo bem.",
+                "Me sinto honrado em conhecer outro sobrevivente."
+            ],
+            "traderanswer": [
+                "Nossa situação parece bem precária. Contudo, tenho esperança que alguns de nós saiam com vida...",
+                "...Mesmo que eu não aprecie ser acordado desta forma é bom ver mais alguém vivo aqui.",
+                "Estive descansando nesta cápsula por um tempinho. O chão emborrachado é agradável!",
+                "Não é com frequência que encontro alguém que não se assemelhe a um tapete mutilado. Bom ver você.",
+                "É ótimo ver alguém vivo por aqui!",
+                "Espero que você esteja bem. São terras difíceis estas.",
+                "Pode descansar aqui se desejar. Essa cápsula é relativamente confortável..",
+                "Fico feliz em ver mais uma alma viva. Me traz esperança..."
+            ],
+            "traderspeaktrade": [
+                "O que você procura?",
+                "Então, o que você quer?",
+                "De qualquer forma, você está procurando alguma coisa?",
+                "Então, como eu posso lhe ajudar?",
+                "Continuando. Como posso ser útil?",
+                "Indo direto ao ponto, você quer algo?",
+                "Bem, eu tenho umas coisas que me disponho a trocar. Interessado em alguma?"
+            ],
+            "traderdepressed": [
+                "...Esse seu olhar é perturbador... Você parece petrificado. NÃO tente nada estranho, por favor.",
+                "Mais um desses esquisitos... Incapaz até de falar. Não faça nada idiota.",
+                "...Que silencio. Você parece aterrorizado. Espero que encontre a ajuda que precisa. Eu não posso providenciar muito, perdão.",
+                "Olá. ...Ah, perdoe-me... Por favor seja cuidadoso."
+            ],
+            "traderhurt": [
+                "Você está ferido! Hmmh... Aguenta aí.",
+                "Céus. Você está sangrando. Me dê momento.",
+                "Oh. Sangue. Nada higiênico... Um momento."
+            ],
+            "traderhurtanswer": [
+                "Aplique isto no ferimento. Mantenha-o sempre limpo e desinfecte se possível. ",
+                "Pegue isso. Não sangre aqui por favor, é anti-higiênico.",
+                "Remenda-se e por gentileza não sangre em mim. Eu não quero adquirir nenhuma doença."
+            ],
+            "tradershow": [
+                "Muito bem. Eu tenho isso comigo.",
+                "Esse é o meu estoque.",
+                "Aqui está tudo que tenho.",
+                "Estou disposto a trocar estes.",
+                "Aqui.",
+                "Se qualquer um destes lhe interessar eu estou disposto a trocar."
+            ],
+            "tradergiveitem": [
+                "Obrigado.",
+                "Isso virá a calhar.",
+                "Agradeço sua contribuição.",
+                "Levarei este.",
+                "Útil.",
+                "É um prazer.",
+                "Farei bom uso disto."
+            ],
+            "traderbuy": [
+                "Sem reembolsos.",
+                "Aqui está.",
+                "Não quebre.",
+                "Boa sorte com isto.",
+                "Espero que você saiba usar isto.",
+                "Espero que seja útil para você.",
+                "Aqui, sua recompensa."
+            ],
+            "traderbuyfail": [
+                "Não.",
+                "Não faço caridade.",
+                "Eu não dou coisas de graça.",
+                "Pague primeiro.",
+                "Não lhe entregarei nada sem o retorno apropriado.",
+                "Pareço fazer caridade pra você?",
+                "Você esta brincando.",
+                "Deveras insultante."
+            ],
+            "traderdispleased": [
+                "Saia.",
+                "Eu não interagir com você. Não tenho nada para você.",
+                "Mais um desses ladrões. Vá embora!",
+                "Não estou interessado.",
+                "Por favor deixe minha cápsula em paz. Eu cheguei primeiro.",
+                "Agora não. Desculpe.",
+                "Não posso lidar com você no momento."
+            ],
+            "traderwarning": [
+                "Saia de uma vez.",
+                "Eu NÃO APRECIO sua presença. Retire-se.",
+                "Eu não fui claro?",
+                "FORA!",
+                "Não acha que fui sério? Fora.",
+                "Vá. Embora.",
+                "Por favor. Sai.",
+                "SAIA."
+            ],
+            "tradercombat": [
+                "Eu não queria chegar nisso.",
+                "Seu imbecil.",
+                "Porra. Vai EMBORA!",
+                "Ah, VAI SE FUDER!",
+                "CAI FORA!",
+                "Essa é MINHA CÁPSULA! FORA!",
+                "Eu NÂO vou tolerar SUA PRESENÇA aqui!"
+            ],
+            "traderlightbreak": [
+                "...Cara. Eu tenho olhos. Ladrão idiota... Saia!",
+                "Oh, seu burro! Se manda, AGORA! FORA!",
+                "EI! Vai se foder! Some daqui porra!",
+                "Por que caralhos você faria isso!? Se manda! Eu precisava da luz!",
+                "Por que você tá destruindo a cápsula!? Vai EMBORA! SOME!"
             ]
         }
     ]
