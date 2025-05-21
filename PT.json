@@ -46,8 +46,8 @@
         "braingrowdsc": "Uma garrafa contendo medicina que estimula a regeneração do cérebro. Aumenta a integridade do cérebro, mas normalmente tem efeitos colaterais sérios.",
         "autopump": "Bomba ventilatória",
         "autopumpdsc": "Quando usada, é pregada no seu peito, controlando seu oxigênio para o bem, também dando adrenalina e energia por 5 minutos. Pode potencialmente te dar mais tempo para viver, mas é uso único.",
-        "autoautopump": "Bomba ventilatória Automática",
-        "autoautopumpdsc": "Pode ser amarrada a sua coxa. Ativa automaticamente ao entrar em estado crítico, mantendo seu oxigênio a níveis aceitáveis e providenciando energia pro corpo, uso único.",
+        "autoautopump": "Bomba ventilatória automática",
+        "autoautopumpdsc": "Pode ser amarrada na sua coxa. Ativa automaticamente ao entrar em estado crítico, mantendo seu oxigênio a níveis aceitáveis e providenciando energia pro corpo, de uso único.",
         "antidepressants": "Antidepressivos",
         "antidepressantsdsc": "Uma garrafa de antidepressivos fortes. Faz você sentir menos de tudo por um certo tempo, e lentamente aumenta a felicidade. Pode ter efeitos colaterais.",
         "antibiotics": "Antibióticos",
@@ -81,7 +81,7 @@
         "reinforcedrope": "Trepadeira reforçada",
         "reinforcedropedsc": "Uma corda de folhagem longa e durável. Usada em criações.",
         "flammablepowder": "Pó inflamável",
-        "flammablepowderdsc": "Um pó altamente inflamável com uma textura semelhante a calcário. Útil na produção de explosivos.",
+        "flammablepowderdsc": "Um pó altamente inflamável com uma textura semelhante a calcário. Utilizável na produção de explosivos.",
         "foliagebag": "Bolsa de folhagem",
         "foliagebagdsc": "Uma bolsa muito frágil feita com trepadeiras amarradas.",
         "slingbag": "Bolsa de ombro",
@@ -200,7 +200,7 @@
         "foliagedsc": "Planta alienígena genérica. Não muito comestível e tem um gosto ruim. Pode te deixar doente e apodrece rápido. Frequentemente usado em criações",
         "dryfoliage": "Folhagem seca",
         "dryfoliagedsc": "Parece um pouco melhor comer quando está seca. Pode te deixar um pouco enjoado.",
-        "glowplantfruit": "Fruta de planta brilhante",
+        "glowplantfruit": "Fruta de brilha-planta",
         "glowplantfruitdsc": "Bioluminescente e incomestível. Tem toxinas meio perigosas dentro, capazes de combater infecções. Seus sucos promovem reações químicas, úteis em algumas criações.",
         "flashlight": "Lanterna",
         "flashlightdsc": "Ilumina uma grande área na sua frente, perdendo bateria ao longo do tempo. Use para mudar de modo.",
@@ -255,9 +255,9 @@
         "woodtrowel": "Espátula de madeira",
         "woodtroweldsc": "Ferramenta de jardinagem primitiva, feita puramente de madeira. Talvez melhor do que usar suas garras..?",
         "canteen": "Cantil",
-        "canteendsc": "Um cantil reutilizável. Embora seja portátil, tomar água do chão nele ainda te deixará levemente enjoado.",
-        "filtercanteen": "Cantil Filtro",
-        "filtercanteendsc": "Você apenas prendeu um canudo com filtro nele. Funciona surpreendentemente bem! Pode ser reenchido com água.",
+        "canteendsc": "Um cantil reutilizável. Embora seja portátil, tomar água do chão nele ainda te deixará meio enjoado. Pode armazenar água.",
+        "filtercanteen": "Cantil filtrado",
+        "filtercanteendsc": "Você literalmente só prendeu um canudo filtrante nele. Funciona surpreendentemente bem! Pode armazenar água.",
         "experimentflesh": "Carne amarela",
         "experimentfleshdsc": "Um pedaço arrancado de um dos seus comparsas. Te enche, tanto a barriga como de nojo. Pode te fazer passar mal.",
         "rope": "Corda de folhagem",
@@ -270,8 +270,8 @@
         "blobfleshdsc": "Pedaço de carne estranhamente gosmenta. Te enche e é gostoso... Pode te fazer passar um pouco mal.",
         "cactusflesh": "Cacto-carne",
         "cactusfleshdsc": "Alto em água, sabores doces e espinhos. Gostoso e hidratante, mas comer isso vai doer.",
-        "neuralbooster": "Impulsionador Neural",
-        "neuralboosterdsc": "Uma mistura avançada de drogas que alteram a estrutura e função do seu cérebro, aumentando levemente sua mobilidade permanentemente.",
+        "neuralbooster": "Impulsionador neural",
+        "neuralboosterdsc": "Uma mistura avançada de drogas que alteram a estrutura e função do seu cérebro, aumentando sua mobilidade um pouco para sempre.",
         "watch": "Relógio eletrônico",
         "watchdsc": "Periodicamente te da informação útil (tempo de sangramento, infecções escondidas, mudanças no peso, etc). Quando usado, te fala a temperatura e o tempo que passou aqui embaixo. Ter um amigo de bolso é comfortante!",
         "tutorialradio": "Rádio de treinamento",
@@ -314,17 +314,10 @@
         "bellyarmordsc": "Um grande pedaço de metal feito para ser amarrado na sua barriga. Oferece ótima proteção e um pouco de insulação.",
         "belt": "Cinta",
         "beltdsc": "Uma cinta de couro feita para bater em pivetes irritantes. Vai na sua barriga e você pode anexar algo nela.",
-
-        
-        "popcorn": "Popcorn",
-
-        "popcorndsc": "A bucket containing a bunch of corn kernels, puffed up from being heated. You find it to be quite a novel concept. Tasty.",
-
-        "nopopcorn": "No popcorn",
-
-        "nopopcorndsc": "Empty paper bucket. You could store something in it.",
-
-        
+        "popcorn": "Pipoca",
+        "popcorndsc": "Um BALDE contendo um monte de grãos de milho, esquentados até estourar. Você acha disso um conceito bem inovador. Saborosa.",
+        "nopopcorn": "Não-pipoca",
+        "nopopcorndsc": "BALDE de pipoca vazio. Dá pra guardar algumas coisas nele.",
         "spacedrain": "Dreno espacial",
         "spacedraindsc": "Usando uma avançada tecnologia de teleportação, esse dispositivo pode drenar líquidos ao seu redor quando usado. Ninguém sabe para onde os líquidos vão, mas isso não é problema seu. Recarrega automaticamente.",
         "hoodie": "Moletom",
@@ -371,21 +364,14 @@
         "icepackdsc": "Uma bolsa fria cheia de gel refrigerante que se esfria sozinho. Ajuda no tratamento da saúde múscular, reduz dores e te esfria um pouco. O item se resfria com o tempo.",
         "armwarmers": "Aquecedores de braço",
         "armwarmersdsc": "Um par de aquecedores de braço azuis. Oferece um pouco de insulação contra o frio. Qualidade: Macho alfa.",
-
-        "carapace": "Carapace",
-
-        "carapacedsc": "A sturdy steel carapace to protect your thorax. Feels royal.",
-
-        "limbwraps": "Limb wraps",
-
-        "limbwrapsdsc": "Makeshift wraps made from gauze to cover the extremities. Slightly protects your arms and feet from damage and makes you feel like a warrior.",
-
-        "kneepads": "Kneepads",
-
-        "kneepadsdsc": "Plastic pads, made to protect the knees and cushion impacts.",
-
+        "carapace": "Carapaça",
+        "carapacedsc": "Uma forte carapaça de ferro para proteger seu peito. Parece nobre.",
+        "limbwraps": "Protetor corporal",
+        "limbwrapsdsc": "Panos improvisados feitos de gaze para cobrir suas extremidades. Protege levemente os seus braços e suas patas. Elas fazem você se sentir um guerreiro.",
+        "kneepads": "Joelheiras",
+        "kneepadsdsc": "Almofadas de plástico, feitas para proteger seus joelhos de impactos.",
         "plushie": "Pelúcia",
-        "plushiedsc": "Faz um som estridente quando é apertado.",
+        "plushiedsc": "Faz um som agudo quando é apertado.",
         "tornshirt": "Camisa rasgada",
         "tornshirtdsc": "Uma camisa azul e velha um pouco rasgada. Oferece um pouquinho de proteção e insulação. Também faz você parecer um mendigo.",
         "rangefinder": "Telêmetro",
@@ -416,129 +402,59 @@
         "bulbskindsc": "Casca amarela, oleosa e grossa de uma planta. Possui altas doses de adrenalina e é levemente hidratante, mas pode afetar negativamente o funcionamento cerebral. Também pode ser usada como curativo improvisado e analgésico.",
         "geigefruit": "Fruta de Geiger",
         "geigefruitdsc": "Uma estranha fruta brilhante e retangular. Cheira a óleo, mas é saborosa! Sacia fome e sede. Pode interferir na sua respiração por um momento, e também pode aleatoriamente afetar a radiação do corpo. Faz um som alto ao acertar uma superfície - útil para checar a altura de quedas.",
-
-        "antisepticmush": "Antiseptic mush",
-
-
-        "antisepticmushdsc": "Smushed together bits of fruit and foliage, resulting in a mixture effective in treating infections. Lasts one use.",
-
-        
+        "antisepticmush": "Cogumelo antisséptico",
+        "antisepticmushdsc": "Pedaços de frutas e folhagens amassadas, resultando em uma mistura eficaz no tratamento de infecções. Uso único.",
         "striderpelt": "Pele de Andarilho",
-        "striderpeltdsc": "Um grande pedaço de pele peluda e grossa retirada de um andarilho de neve. Garante boa insulação."
-
-
-        "funguschunk": "Funugs chunk",
-
-        "funguschunkdsc": "A ripped piece of fungi. Does a decent enough job as food, though you're unsure about the side effects.",
-
-        "clottingmush": "Clotting mush",
-
-        "clottingmushdsc": "A small vial of a clot promoting poultice. While not particularly useful on its own, it could be refined further...",
-
-        "bunchunk": "Bunchunk",
-
-        "bunchunkdsc": "A piece of fungus with clot-promoting properties. While not particularly useful on its own, it could be refined further...",
-
-        "pistol": "Pistol",
-
-        "pistoldsc": "A basic, semi-automatic handgun. Uses small magazines loaded with 9mm rounds. Might jam when wet or low condition. Hold in your main hand to use and see controls.",
-
-        "rifle": "Rifle",
-
-        "rifledsc": "A stockless, fully automatic rifle. Uses rifle magazines loaded with 5.56 rounds. Might jam when wet or low condition. Hold in your main hand to use and see controls.",
-
-        "shotgun": "Pump-action shotgun",
-
-        "shotgundsc": "A stockless, pump-action shotgun with an internal magazine. Uses 12 gauge shells loaded directly into the gun. Might jam when wet or low condition. Hold in your main hand to use and see controls.",
-
-        "9mmround": "9mm round",
-
-        "9mmrounddsc": "A small handgun round. Can be loaded into a small magazine, or directly into the chamber if the gun's bolt is open.",
-
-        "556round": "5.56 round",
-
-        "556rounddsc": "A rifle round. Can be loaded into a rifle magazine, or directly into the chamber if the gun's bolt is open.",
-
-        "12gauge": "12-Gauge buckshot",
-
-        "12gaugedsc": "A 12 gauge buckshot round. Can be loaded into shotguns, or directly into the chamber if the gun's bolt is open.",
-
-        "boxof12gauge": "Box of 12-Gauge",
-
-        "boxof12gaugedsc": "A box that can store sixteen 12-Gauge rounds. Use to unload a shell to insert into a firearm.",
-
-        "smallmagazine": "Small magazine",
-
-        "smallmagazinedsc": "A universal handgun magazine that accepts 9mm rounds.",
-
-        "riflemagazine": "Rifle magazine",
-
-        "riflemagazinedsc": "A universal rifle magazine that accepts 5.56 rounds.",
-
-        "magazinebase": "Magazine base",
-
-        "magazinebasedsc": "A specially shaped container with a spring in it. Used in magazine and firearm making.",
-
-        "makeshiftrifle": "Makeshift rifle",
-
-        "makeshiftrifledsc": "An improvised bolt-action firearm, made of scrapped together tubes and gun scraps. Uses small magazines loaded with 9mm rounds. Might jam when wet or low condition. Hold in your main hand to use and see controls.",
-
-        "casing": "Casing",
-
-        "casingdsc": "Spent casing. While it's not of much use anymore, you could reuse it in crafting."
-
-        
+        "striderpeltdsc": "Um grande pedaço de pele peluda e grossa retirada de um andarilho de neve. Garante boa insulação.",
+        "funguschunk": "Pedaço de fungo",
+        "funguschunkdsc": "Um pedaço rasgado de um fungo. Serve como alimento, mesmo que você não saiba dos efeitos colaterais.",
+        "clottingmush": "Coagulação cogumelar",
+        "clottingmushdsc": "Um pequeno frasco de cataplasma que promove a coagulação. Meio inútil, mas pode ser usado para algo melhor.",
+        "bunchunk": "Cogumelo coagulativo",
+        "bunchunkdsc": "Um pedaço de fungo com propriedades que promovem a coagulação. Meio inútil, mas pode ser usado para algo melhor.",
+        "pistol": "Pistola",
+        "pistoldsc": "Uma pequena arma semi-automática. Usa pentes carregados com munição de calibre 9mm. Pode emperar se estiver molhada ou com baixa condição. Segure ela na sua mão principal para usar e ver os controles.",
+        "rifle": "Fuzil de assalto",
+        "rifledsc": "Um fuzil de assalto automático sem coronheira. Usa carregadores de fuzil com munição de calibre 5.56. Pode emperar se estiver molhado ou com baixa condição. Segure-o na sua mão principal para usar e ver os controles.",
+        "shotgun": "Espingarda",
+        "shotgundsc": "Uma espingarda de repetição sem coronheira, com um carregador de tubo. Usa cartuchos de calibre 12, carregados diretamente na arma. Pode emperar se estiver molhada ou com baixa condição. Segure ela na sua mão principal para usar e ver os controles.",
+        "9mmround": "Bala de pistola",
+        "9mmrounddsc": "Uma pequena bala de calibre 9mm. Pode ser enfiada em um pente de pistola, ou diretamente na arma se o ferrolho estiver aberto.",
+        "556round": "Bala de fuzil",
+        "556rounddsc": "Uma bala de calibre 5.56. Pode ser enfiada em um carregador de fuzil, ou diretamente na arma se o ferrolho estiver aberto.",
+        "12gauge": "Cartucho de 12",
+        "12gaugedsc": "Uma bala de calibre grosso para espingardas. Pode ser enfiada em espingardas. Não se esqueça de usar a telha da espingarda.",
+        "boxof12gauge": "Caixinha de cartucho de 12",
+        "boxof12gaugedsc": "Uma caixinha usada para guardar até 16 cartuchos de calibre 12. Use para descarregar um cartucho.",
+        "smallmagazine": "Pente de pistola",
+        "smallmagazinedsc": "Um pente universal de pistola que aceita balas de 9mm.",
+        "riflemagazine": "Pente de fuzil",
+        "riflemagazinedsc": "Um pente universal de fuzil que aceita balas de 5.56.",
+        "magazinebase": "Parte de pente",
+        "magazinebasedsc": "Um contêiner de formato estranho com uma mola. Usado para fazer pentes de armas e armas de fogo.",
+        "makeshiftrifle": "Rifle improvisado",
+        "makeshiftrifledsc": "Uma arma de ação de ferrolho improvisado, feita de tubos colados juntos e destroços de arma. Utiliza pentes carregados com balas de calibre 9mm. Pode emperar se estiver molhado ou com baixa condição. Segure-o na sua mão principal para usar e ver os controles.",
+        "casing": "Invólucro de bala",
+        "casingdsc": "Invólucro usado. Inútil, mas utilizável em criações."
     },
     "buildings": {
         "animalcorpse": "Corpo de animal",
         "animalcorpsedsc": "",
-
-        
-        "fungalibungali": "Fungali bungali",
-
-
-        "fungalibungalidsc": "A small patch of green-ish mushrooms. You might be able to harvest one of the caps if you're lucky.",
-
-
-        "mushroomplatform": "Mushroom platform",
-
-
-        "mushroomplatformdsc": "A sturdy piece of fungi you can stand on.",
-
-
-        "bouncecap": "Bouncecap",
-
-
-        "bouncecapdsc": "Wheeeeee!",
-
-
-        "glowshroom": "Glowshroom",
-
-
-        "glowshroomdsc": "Slightly radioactive and strikingly bright.",
-
-
-        "mushroomtree": "Mushroom tree",
-
-
-        "mushroomtreedsc": "Looks bioluminescent.",
-
-
-        "drillpod": "Drill pod",
-
-
-        "drillpoddsc": "Used for transporting people long distances through solid ground. While it's not in a functional state, you could get it working if you bring a piece of metal alloy. Can be used to skip 2 layers downwards.",
-
-
-        "drillpoddscfixed": "Used for transporting people long distances through solid ground.\n\nCrouch inside it to skip 2 layers downwards. Might cause some hearing loss, as the soundproofing is worn out.",
-
-
-        "drillpodbroken": "Broken drill pod",
-
-
-        "drillpodbrokendsc": "It's broken beyond repair.",
-
-        
+        "fungalibungali": "Pântani fungali",
+        "fungalibungalidsc": "Um pequeno canteiro de cogumelos esverdeados. Se tiver sorte, dá para colher um deles.",
+        "mushroomplatform": "Plataforma de cogumelo",
+        "mushroomplatformdsc": "Um duro pedaço de cogumelo em que dá para ficar de pé. Não confunda com plastcreto.",
+        "bouncecap": "Cogumelo pulante",
+        "bouncecapdsc": "Só 1 real.",
+        "glowshroom": "Brilha-gumelo",
+        "glowshroomdsc": "Meio radioativa e mais brilhante que o sol.",
+        "mushroomtree": "Árvore-gumelo",
+        "mushroomtreedsc": "Bioluminescente!",
+        "drillpod": "Cápsula cavadeira",
+        "drillpoddsc": "Usado para transportar itens e pessoas (?) por longas profundidades. Não está funcional, mas dá para arrumar com um pedaço de liga metálica. Pode pular 2 camadas.",
+        "drillpoddscfixed": "Usado para transportar itens e pessoas (?) por longas profundidades.\n\nAgache nela para pular 2 camadas (lembre-se de tirar os blocos dela). Vai causar uns danos na sua audição, já que alguém estragou o isolamento acústico.",
+        "drillpodbroken": "Cápsula cavadeira quebrada",
+        "drillpodbrokendsc": "Pilote melhor da próxima vez.",
         "frigiant": "Géliplanta",
         "frigiantdsc": "Uma refletiva planta glacial. Tem um bulbo esférico pendurando nela.",
         "snowstrider": "Andarilho de neve",
@@ -551,17 +467,12 @@
         "lifepodheaterdsc": "Ficará esquentando essa cápsula até o fim dos tempos.",
         "barbedwirefence": "Cerca farpada",
         "barbedwirefencedsc": "Não toque nas partes cutucantes.",
-        "beartrap": "Maquinário antigo",
-        "beartrapdsc": "Possui um par de mandíbulas com dentes pontudos",
+        "beartrap": "Maquinária antiga",
+        "beartrapdsc": "Possui um par de mandíbulas com dentes pontudos.",
         "bioterminal": "Bio-terminal",
         "bioterminaldsc": "Um terminal de computador com uma placa for baixo dele em que está escrito: \"Insira amostra de DNA humano para continuar...\"",
-
-        
-        "lifepodshower": "Lifepod shower",
-
-        "lifepodshowerdsc": "Provides a one-time spray of antiseptic cleaning foam.",
-
-        
+        "lifepodshower": "Chuveiro de cápsula",
+        "lifepodshowerdsc": "Fornece um spray único de espuma de limpeza antisséptica.",
         "BloodCrystal": "Cristal de sangue",
         "BloodCrystaldsc": "Parece estar molhado com um líquido amarelo, jorrando o por tudo em volta.",
         "cactus": "Cacto",
@@ -587,13 +498,8 @@
         "thornbackelderdsc": "FUDEU",
         "cavetick": "Carrapato de caverna",
         "cavetickdsc": "",
-
-        
-        "overgrowntick": "Overgrown tick",
-
-        "overgrowntickdsc": "A cave tick that had way too much food and space to grow. As aggressive as usual.",
-
-        
+        "overgrowntick": "Carrapato crescido",
+        "overgrowntickdsc": "Um carrapado que teve muito espaço e comida para crescer. Agressivo como todos os outros.",
         "DigestionCrystal": "Cristal de digestão",
         "DigestionCrystaldsc": "Visualmente e psicologicamente parece estranho.",
         "dropcapsule": "Cápsula de lançamento",
@@ -606,7 +512,7 @@
         "foodboxdsc": "Tem itens comestíveis dentro.",
         "geotree": "Geo-árvore",
         "geotreedsc": "É mole e tem estranhas folhas geométricas.",
-        "glowplant": "Planta brilhante",
+        "glowplant": "Brilha-planta",
         "glowplantdsc": "Uma planta bioluminescente verde. Parece inalterada pelo ambiente.",
         "jumppad": "Maquinaria velha",
         "jumppaddsc": "Isso tem uma placa de pressão.",
@@ -617,7 +523,7 @@
         "lifepodchest": "Baú de sobrevivência",
         "lifepodchestdsc": "Provavelmente tem equipamentos básicos.",
         "LifePodLight": "Luz",
-        "LifePodLightdsc": "Tem uma lâmpada ali - você provavelmente pode pega-la",
+        "LifePodLightdsc": "Tem uma pseudo-lâmpada nisso. Deve dar para pegar.",
         "medcrate": "Caixa medicinal",
         "medcratedsc": "Tem itens de cura e seus relacionados dentro.",
         "medicalstation": "Estação médica",
@@ -668,15 +574,9 @@
         "soundcannondsc": "Tampe seus ouvidos se ouvir ele carregando.",
         "trader": "Sobrevivente",
         "traderdsc": "Você provavelmente poderia trocar alguns de seus itens com ele.",
-
-        
-        "traderdschostile": "They don't seem pleased with your presence.",
-
+        "traderdschostile": "Parece que ele não gostou de você.",
         "traderdsccombat": "...",
-
-        "traderdscdead": "They're not breathing anymore. Thanks to you.",
-
-        
+        "traderdscdead": "Ele não está mais respirando, graças a você. Parabéns!",
         "bananaplant": "Banana-Planta",
         "bananaplantdsc": "Uma curta porém larga planta, coloquialmente chamada assim devido a sua cabeça amarela e mole. Muito escorregadia.",
         "geyser": "Gêiser",
@@ -684,32 +584,19 @@
         "oilpipe": "Cano de esgoto",
         "oilpipedsc": "Um cano enferrujado com óleo derramando dele. Você não quer olhar dentro... Vai provavelmente encher o lugar todo com óleo uma hora.",
         "plantiation": "Planta-stação",
-        "plantiationdsc": "Um planta roxa, longa, com um bulbo semitransparente crescendo em seu extremo."
-
-
-        "mushroomdropper": "Dropshroom",
-
-        "mushroomdropperdsc": "A fungus that releases its cap to spread its spores around any unfortunate passerbys.",
-
-        "mushroomdropperpayload": "Dropshroom cap",
-
-        "mushroomdropperpayloaddsc": "It's the part that falls down and hurts.",
-
-        "sidestabber": "Sidestabber",
-
-        "sidestabberdsc": "An odd animal fused with a fungus. Launches a large spike at any passing prey.",
-
-        "skullcrusher": "Skullcrusher",
-
-        "skullcrusherdsc": "Might give you a headache.",
-
+        "plantiationdsc": "Um planta roxa, longa, com um bulbo semitransparente crescendo em seu extremo.",
+        "mushroomdropper": "Queda-gumelo",
+        "mushroomdropperdsc": "Um fungo que se solta para espalhar esporos em qualquer visitante azarado.",
+        "mushroomdropperpayload": "Chapéu de queda-gumelo",
+        "mushroomdropperpayloaddsc": "É a parte do cogumelo que entra em queda e te machuca.",
+        "sidestabber": "Faqueia-lado",
+        "sidestabberdsc": "Um animal estranho fundido com um fungo. Lança um espinho enorme nas suas presas.",
+        "skullcrusher": "Esmaga-crânio",
+        "skullcrusherdsc": "Essa coisa é uma dor de cabeça.",
         "gunmine": "Minarma",
         "gunminedsc": "Coloquialmente chamada de \"Estoura dedões\".",
-
-        "sawblade": "Sawblade",
-
-        "sawbladedsc": "Brings up horrifying memories."
-        
+        "sawblade": "Serra",
+        "sawbladedsc": "Serrarma! ...Te traz memórias aterrorizantes."
     },
     "moodles": {
         "dead": "Morto",
@@ -841,21 +728,12 @@
         "hemothorax": "Hemotórax",
         "hollow": "Vazio",
         "badsleep": "Sono ruim",
-
-        
-        "laststand": "Last stand",
-
-        "dirty1": "Dirty",
-
-        "dirty2": "Very dirty",
-
-        "adrenaline": "Adrenaline",
-
-        "tachycardia": "Tachycardia",
-
-        "bradycardia": "Bradycardia",
-        
-
+        "laststand": "Resistência final",
+        "dirty1": "Sujo",
+        "dirty2": "Muito sujo",
+        "adrenaline": "Adrenalina",
+        "tachycardia": "Taquicardia",
+        "bradycardia": "Bradicardia",
         "deaddsc": "Perda de função cerebral completa, permanente e irreversível. Você deixou este mundo, diferente dos outros.",
         "braindamage4dsc": "...",
         "braindamage3dsc": "realidade  ..  parou   fazer   sentido",
@@ -983,23 +861,14 @@
         "irradiated4dsc": "Você não está gostando de falar adeus desse jeito.",
         "energizeddsc": "Sono e perda de estâmina diminuídos (<>).",
         "hemothoraxdsc": "Sangue está acumulando na cavidade pleural devido a sangramento interno. Seu peito dói... Tratamento necessário.",
-        "hollowdsc": "",
-        "badsleepdsc": "Suas costas estão te matando. Tente durmir em um canto melhor da próxima vez. Consciência diminuída."
-
-
-        "laststanddsc": "You're not going down that easily. Something deep inside you compels you to push through.",
-
-        "dirty1dsc": "Consider taking a quick bath. (<>%)",
-
-        "dirty2dsc": "While you don't particularly mind the lack of hygiene, your immune system certainly will. Take a bath. (<>%)",
-
-        "adrenalinedsc": "Pain numbed. You're on high alert.",
-
-        "tachycardiadsc": "Your heart rate feels abnormally high.",
-
-        "bradycardiadsc": "Your heart rate feels abnormally low."
-
-        
+        "hollowdsc": "Cavaleiro",
+        "badsleepdsc": "Suas costas estão te matando. Tente durmir em um canto melhor da próxima vez. Consciência diminuída.",
+        "laststanddsc": "Você não vai morrer tão fácil assim. Algo dentro de você te obriga á continuar.",
+        "dirty1dsc": "Considere tomar um banho. (<>%)",
+        "dirty2dsc": "Mesmo que não se importe de tentar ficar limpo, seu sistema imune agradeceria. VAI TOMAR BANHO! (<>%)",
+        "adrenalinedsc": "Dor adormecida. Alerta máximo.",
+        "tachycardiadsc": "Batimento cárdiaco alto.",
+        "bradycardiadsc": "Batimento cárdiaco baixo. *Isso* é ruim."
     },
     "other": {
         "layertitletutorial": "Terra\nLaboratório de treinamento",
@@ -1009,23 +878,13 @@
         "layertitle4": "Terrenos baldios",
         "layertitle5": "Profundezas ultra-vegetadas",
         "layertitle6": "Abismo glacial",
-
-        
-        "layertitle7": "Fungal pools",
-
-        "layertitle8": "Crystalline hollow",
-
-        "layertitle9": "Geothermal vents",
-
-        "layertitle10": "Where we must reach",
-
-        "layertitle11": "The ascent",
-
-        "layertitle12": "Surface",
-
-        "layertitle13": "Pathway to freedom",
-
-        
+        "layertitle7": "Píscinas fúngicas",
+        "layertitle8": "Vazio cristalino",
+        "layertitle9": "Ventilação geotérmica",
+        "layertitle10": "Onde nós devemos chegar",
+        "layertitle11": "A ascensão",
+        "layertitle12": "Superfície",
+        "layertitle13": "O caminho para a liberdade",
         "air": "Ar",
         "lightrock": "Pedra leve",
         "gravel": "Cascalho",
@@ -1056,26 +915,14 @@
         "ice": "Gelo",
         "thinice": "Gelo fino",
         "powdersnow": "Pó de neve",
-
-        
-        "heavyrock": "Heavy rock",
-
-        "fungus": "Fungus",
-
-        "mushroomcap": "Mushroom",
-
-        "mushroombody": "Mushroom",
-
-        
+        "heavyrock": "Pedra pesada",
+        "fungus": "Fungo",
+        "mushroomcap": "Cogumelo",
+        "mushroombody": "Cogumelo",
         "water": "Água",
         "waterdsc": "Água de chão um pouco suja. Meio segura de se beber, mas também meio enjoativa.",
-
-        
-        "dirtywater": "Dirty water",
-
-        "dirtywaterdsc": "Atleast it's not on your body anymore.",
-
-        
+        "dirtywater": "Água suja",
+        "dirtywaterdsc": "Pelo menos não tá mais no teu corpo.",
         "algae": "Lumineságua",
         "algaedsc": "Água com algas bioluminescentes e grossas. Deve te fazer boiar.",
         "oil": "Óleo",
