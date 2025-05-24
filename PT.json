@@ -1023,20 +1023,11 @@
         "wear": "Vestir",
         "drop": "Soltar",
         "you": "Você",
-        
-        "wet": "Wet",
-
-        "saveexit": "Save and exit",
-
-
-        "saveexitdsc": "Save your progress and take a break.\nThe run will be resumed at the start of the next layer.",
-
-
-        "savecontinue": "Continue",
-
-
-        "savecontinuedsc": "Keep going.\nYou can only save and resume the run at layer transitions. Dying or quitting mid-layer will erase your progress.",
-        
+        "wet": "Molhado",
+        "saveexit": "Salvar e sair",
+        "saveexitdsc": "Salvar progresso e fazer uma pausa.\nA tentativa será retomada no começo da próxima área.",
+        "savecontinue": "Continuar",
+        "savecontinuedsc": "Continuar tentativa.\nVocê só pode salvar e retomar a tentativa durante transições de área. Morrer ou sair do jogo durante uma área apagará o progresso.",
         "carryingtip": "Sobrecarga",
         "tradergivebuttontip": "Arraste items aqui para entregar ao negociador",
         "ripclothingtip": "Arraste itens aqui para rasgar-los e fazer bandagens improvisadas",
@@ -1148,68 +1139,30 @@
         "tut38": "Use isso para destruir coisas. Tente não minerar muito, é lento e vai te cansar rápido.",
         "tut39": "Algumas condições como a dor ou a exaustão podem demorar para irem embora. Acelere o tempo com (1-3) para fazer elas sumirem mais rápido.",
         "tut40": "Boa.",
-
-        "tut41": "You can sleep with the button in the lower right of the health panel. Don't sleep on the cold hard floor; things like rubber are much comfier.",
-
-
-        "tut42": "Procuring things on your own can be useful at times.",
-
-
-        "tut42a": "Here are 2 pieces of foliage. You'll tie them together into some rope.",
-
-
-        "tut42ab": "Open the crafting menu, drag them into the ingredients field and create.",
-
-
-        "tut42ac": "Well done. Remember, ingredient order doesn't matter.",
-
-
-        "tut42ad": "You can see other recipes by dragging an item to the see recipes box.",
-
-
-        "tut42ae": "Crafting is useful for making basic resources and refining certain items into better versions.",
-        
+        "tut41": "Você pode dormir com o botão no canto inferior direito do painel de saúde. Não durma em qualquer lugar; materiais como borracha são mais confortáveis.",
+        "tut42": "Adquirir itens por conta própria pode se tornar útil..",
+        "tut42a": "Aqui estão 2 pedaços de folhagem. Amarre-os para formar uma corda.",
+        "tut42ab": "Abra o menu de criações, arraste-as até a área de ingredientes e crie.",
+        "tut42ac": "Muito bem. Lembre-se, a ordem dos ingredientes não importa.",
+        "tut42ad": "Você pode ver outras receitas ao posicionar um item na caixa de receitas.",
+        "tut42ae": "Criações são úteis para fazer recursos básicos e refinar certos itens para versões melhores.",
         "tut42b": "Ficar em um estado ou lugar ruim por muito tempo pode te desanimar muito. Tente ficar positivo para o que der e vier. Coisas como uma boa dieta sempre ajudam.",
         "tut43": "E isso conclui o nosso último treinamento revisional. Por favor ande até o dispositivo amarelo no fim do corredor.",
         "tut44": "Mais instruções serão dadas á você quando acordar. Refira-se á página dos controles se necessário. Boa sorte.",
         "craftminimum": "Precisa de pelo menos ",
         "craftconsume": "Usará ",
-        
-        "craftprocures": "Makes ",
-
-
-        "craftsomething": "something",
-
-
-        "craftrecipes": "See recipes...",
-
-
-        "craftresultcondition": "% condition",
-
-
-        "craftconditionaffect": "Affected by first item's condition",
-
-
-        "tagdressing": "Any dressing",
-
-
-        "tagopiate": "Any opiate",
-
-
-        "tagantiseptic": "Any antiseptic",
-
-
-        "tagtool": "Any tool",
-
-
-        "tagwater": "Any water item",
-
-
-        "tagmeat": "Any meat",
-
-
-        "tagfruit": "Any fruit",
-        
+        "craftprocures": "Cria ",
+        "craftsomething": "algo",
+        "craftrecipes": "Ver receitas...",
+        "craftresultcondition": "% condição",
+        "craftconditionaffect": "Afetado pela condição do primeiro item",
+        "tagdressing": "Qualquer curativo",
+        "tagopiate": "Qualquer ópio",
+        "tagantiseptic": "Qualquer antisséptico",
+        "tagtool": "Qualquer ferramenta",
+        "tagwater": "Qualquer item d'água",
+        "tagmeat": "Qualquer carne",
+        "tagfruit": "Qualquer fruta",
         "tutorial": "Tutorial",
         "categorymedical": "Medicinal",
         "categorydrug": "Drogas",
