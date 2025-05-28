@@ -728,12 +728,13 @@
         "hemothorax": "Hemotórax",
         "hollow": "Vazio",
         "badsleep": "Sono ruim",
-        "laststand": "Resistência final",
+        "laststand": "Último suspiro",
         "dirty1": "Sujo",
         "dirty2": "Muito sujo",
         "adrenaline": "Adrenalina",
         "tachycardia": "Taquicardia",
         "bradycardia": "Bradicardia",
+
         "deaddsc": "Perda de função cerebral completa, permanente e irreversível. Você deixou este mundo, diferente dos outros.",
         "braindamage4dsc": "...",
         "braindamage3dsc": "realidade  ..  parou   fazer   sentido",
@@ -880,11 +881,11 @@
         "layertitle6": "Abismo glacial",
         "layertitle7": "Píscinas fúngicas",
         "layertitle8": "Vazio cristalino",
-        "layertitle9": "Ventilação geotérmica",
-        "layertitle10": "Onde nós devemos chegar",
+        "layertitle9": "Fendas geotérmais",
+        "layertitle10": "Onde devemos chegar",
         "layertitle11": "A ascensão",
         "layertitle12": "Superfície",
-        "layertitle13": "O caminho para a liberdade",
+        "layertitle13": "Caminho para a liberdade",
         "air": "Ar",
         "lightrock": "Pedra leve",
         "gravel": "Cascalho",
@@ -922,7 +923,7 @@
         "water": "Água",
         "waterdsc": "Água de chão um pouco suja. Meio segura de se beber, mas também meio enjoativa.",
         "dirtywater": "Água suja",
-        "dirtywaterdsc": "Pelo menos não tá mais no teu corpo.",
+        "dirtywaterdsc": "Pelo menos não tá mais no seu corpo.",
         "algae": "Lumineságua",
         "algaedsc": "Água com algas bioluminescentes e grossas. Deve te fazer boiar.",
         "oil": "Óleo",
@@ -1027,7 +1028,7 @@
         "saveexit": "Salvar e sair",
         "saveexitdsc": "Salvar progresso e fazer uma pausa.\nA tentativa será retomada no começo da próxima área.",
         "savecontinue": "Continuar",
-        "savecontinuedsc": "Continuar tentativa.\nVocê só pode salvar e retomar a tentativa durante transições de área. Morrer ou sair do jogo durante uma área apagará o progresso.",
+        "savecontinuedsc": "Continuar tentativa.\nVocê só pode salvar e retomar a tentativa durante transições de área. Morrer ou sair do jogo durante uma camada apagará o progresso.",
         "carryingtip": "Sobrecarga",
         "tradergivebuttontip": "Arraste items aqui para entregar ao negociador",
         "ripclothingtip": "Arraste itens aqui para rasgar-los e fazer bandagens improvisadas",
@@ -1140,12 +1141,12 @@
         "tut39": "Algumas condições como a dor ou a exaustão podem demorar para irem embora. Acelere o tempo com (1-3) para fazer elas sumirem mais rápido.",
         "tut40": "Boa.",
         "tut41": "Você pode dormir com o botão no canto inferior direito do painel de saúde. Não durma em qualquer lugar; materiais como borracha são mais confortáveis.",
-        "tut42": "Adquirir itens por conta própria pode se tornar útil..",
-        "tut42a": "Aqui estão 2 pedaços de folhagem. Amarre-os para formar uma corda.",
+        "tut42": "Criar itens por conta própria pode se tornar muito útil.",
+        "tut42a": "Aqui estão 2 pedaços de folhagem. Amarre-as para fazer uma corda.",
         "tut42ab": "Abra o menu de criações, arraste-as até a área de ingredientes e crie.",
         "tut42ac": "Muito bem. Lembre-se, a ordem dos ingredientes não importa.",
         "tut42ad": "Você pode ver outras receitas ao posicionar um item na caixa de receitas.",
-        "tut42ae": "Criações são úteis para fazer recursos básicos e refinar certos itens para versões melhores.",
+        "tut42ae": "Criações são úteis para fazer recursos básicos e melhorar certos itens.",
         "tut42b": "Ficar em um estado ou lugar ruim por muito tempo pode te desanimar muito. Tente ficar positivo para o que der e vier. Coisas como uma boa dieta sempre ajudam.",
         "tut43": "E isso conclui o nosso último treinamento revisional. Por favor ande até o dispositivo amarelo no fim do corredor.",
         "tut44": "Mais instruções serão dadas á você quando acordar. Refira-se á página dos controles se necessário. Boa sorte.",
@@ -1154,10 +1155,10 @@
         "craftprocures": "Cria ",
         "craftsomething": "algo",
         "craftrecipes": "Ver receitas...",
-        "craftresultcondition": "% condição",
+        "craftresultcondition": "% de condição",
         "craftconditionaffect": "Afetado pela condição do primeiro item",
         "tagdressing": "Qualquer curativo",
-        "tagopiate": "Qualquer ópio",
+        "tagopiate": "Qualquer opioide",
         "tagantiseptic": "Qualquer antisséptico",
         "tagtool": "Qualquer ferramenta",
         "tagwater": "Qualquer item d'água",
@@ -1184,7 +1185,7 @@
         "hpimmunity": "Imunidade",
         "hpimmunitydsc": "Capacidade do seu corpo de combater infecções\nImunidade baixa faz infecções progredirem mesmo quando desinfectadas",
         "hptemperature": "Temperatura",
-        "hpsickness": "Nível de doença",
+        "hpsickness": "Nível de enjoo",
         "hphappiness": "Humor",
         "hphunger": "Fome",
         "hpthirst": "Sede",
@@ -1194,7 +1195,7 @@
         "hpenergy": "Energia",
         "hpenergydsc": "Nível de sono",
         "hpheartrate": "Frequência cardíaca",
-        "hpradiation": "Nível de doença á radiação",
+        "hpradiation": "Quantidade de radiação",
         "hpselectedlimb": "Membro corporal selecionado",
         "hpskinhealth": "Saúde da pele",
         "hpmusclehealth": "Saúde múscular",
@@ -1208,9 +1209,9 @@
         "keybinds": "Teclas",
         "layer": "Camada",
         "magazinerounds": "munição",
-        "gunrack": "Puxar ferrolho/slide",
+        "gunrack": "Puxar slide/ferrolho",
         "gunmagazine": "Ejetar carregador",
-        "gunsafety": "Alterar segurança",
+        "gunsafety": "Alternar trava de segurança",
         "alertitemblocked": "Item bloqueado por parede",
         "alertitemfar": "Item muito distante",
         "alertinvalidrecipe": "Receita inválida",
@@ -1221,7 +1222,7 @@
         "resetkeybinds": "Redefinir para padrão",
         "reloadbinds": "Atualizar teclas\n(Aplicar mudanças)",
         "startlorenote": "Ano 2XXX \n<>\nA humanidade progrediu na tecnologia consideravelmente. \n<>\nUma corporação realizou pesquisas em bioengenharia, combinando DNA animal e humano. \n<>\nEssas pesquisas levaram a criação da espécie Experimento, além de suas muitas ramificações futuras. \n<>\nApós anos de testes secretos e antiéticos em laboratório, eles estabeleceram um objetivo maior. \n<>\nDescobriram um planeta cinza prosperando ecologicamente e com uma rota espacial fácil de realizar. \n<>\nLogo, milhares de espécimens, construções e variadas cargas foram enviadas. \n<>\nEmbora a maioria dessas coisas foram enviadas corretamente, uma grande quantidade foi enviada para a expansiva rede de cavernas do planeta devido a um erro de calibração. \n<>\nNeste material enviado estava incluso uma tecnologia experimental muito importante, agora posicionada no fundo do sistema subterrâneo, sem forma fácil de acesso. \n<>\nMesmo assim, foi visto pelos cientistas como uma oportunidade de realizar pesquisas comportamentais enviando milhares de espécimens para recuperar a tecnologia perdida. \n<>\nA viabilidade é minúscula, mas o embarque é barato e seu estoque vivo é abundante. \n<>\nVocê é um desses espécimens sem sorte.\nResistir não é uma opção.",
-        "jsonthing": "oi, isso só tá aqui para que eu possa copiar texto json sem ter ele me irritando sobre vírgulas. essa parte não é necessária :)     ...fodase, tambem vai ser traduzido, otario :)"
+        "jsonthing": "COISA JASON"
     },
     "character": [
         {
@@ -2706,9 +2707,9 @@
             ],
             "drillend": [
                 "...Demorou um pouco.",
-                "Tenho certeza que essa coisa não era a prova de sons.",
+                "Essa coisa não era isolada contra som.",
                 "Foi um passeio bem longo...",
-                "Meus ouvidos tão doendo agora"
+                "Meus ouvidos estão doendo agora."
             ],
             "loud": [
                 "PORRA! Isso foi alto...",
@@ -2720,7 +2721,7 @@
             "regret": [
                 "Por... Por que eu fiz isso..? M-merda...",
                 "D-Deus... Por que..?",
-                "Eu... Isso foi horrível.. Eu sou um monstro...",
+                "Eu... Isso foi horrível... Eu sou um monstro...",
                 "Mhh... Por... que? Era um de nós..."
             ],
             "tradeemeet": [
@@ -2839,32 +2840,32 @@
                 "Sai. AGORA.",
                 "FORA! CAI FORA!",
                 "Retire-se desta capsula.",
-                "Não gosto da sua companhia. Vá embora.",
+                "Não gosto da sua companhia. Vai embora.",
                 "SAI!",
                 "FORA.",
                 "CAI FORA DAQUI!",
                 "Se manda.",
-                "Não, FODE!",
-                "Não fode.",
-                "Não vou repetir."
+                "Some daqui!",
+                "Não fode comigo.",
+                "Eu não vou me repetir..."
             ],
             "tradercombat": [
                 "Fudido do caralho. Cansei dessa merda.",
-                "TE FODE!",
-                "JA CHEGA!",
+                "SOME DAQUI!!",
+                "JÁ CHEGA!",
                 "VAI SE FODER!",
-                "FORA! VAI EMBORA! AGORA! FORA!",
+                "PORRA! VAI EMBORA! AGORA! PRA FORA!",
                 "SEU ARROMBADO! SAI FORA!"
             ],
             "traderlightbreak": [
                 "Cara, que porra foi essa? Pra que fazer isso? Se afasta.",
-                "...Você realmente acha que eu não veria isso. Seu idiota. Se manda!",
-                "Ei! Que inferno! Eu preciso disso! Some daqui porra!",
+                "...Você acha mesmo que eu não veria isso? Seu idiota. Se manda!",
+                "Ei! Mas que droga! Eu precisava dela! Some daqui porra!",
                 "Ahh! LADRÃO! CAI FORA!",
                 "Cara. Tá... Então tá. Beleza... Eu... Uh... Saia, por favor."
             ],
             "swingresponse": [
-                "PERDÃO!?",
+                "DESCULPA!?",
                 "PARA!",
                 "AGH!",
                 "CHEGA!",
@@ -2915,48 +2916,48 @@
                 "Saudações.",
                 "Olá.",
                 "Prazer em conhece-lo.",
-                "Ah! Olá!",
-                "Bem-vindo, companheiro viajante.",
+                "Ah! Oláa!",
+                "Bem-vindo, companheiro nômade.",
                 "Minhas saudações a você.",
                 "Bem-vindo.",
                 "Agradável encontrar você!",
-                "Espero que esteja tudo bem.",
-                "Me sinto honrado em conhecer outro sobrevivente."
+                "Espero que tudo esteja bem.",
+                "Uma honra encontrar outro sobrevivente."
             ],
             "traderanswer": [
-                "Nossa situação parece bem precária. Contudo, tenho esperança que alguns de nós saiam com vida...",
+                "Nossa situação parece bem precária. Contudo, espero que alguns de nós saiam com vida...",
                 "...Mesmo que eu não aprecie ser acordado desta forma é bom ver mais alguém vivo aqui.",
                 "Estive descansando nesta cápsula por um tempinho. O chão emborrachado é agradável!",
                 "Não é com frequência que encontro alguém que não se assemelhe a um tapete mutilado. Bom ver você.",
                 "É ótimo ver alguém vivo por aqui!",
-                "Espero que você esteja bem. São terras difíceis estas.",
-                "Pode descansar aqui se desejar. Essa cápsula é relativamente confortável..",
+                "Espero que você esteja bem. São terras difíceis por aqui.",
+                "Pode descansar aqui se quiser. Essa cápsula é relativamente confortável.",
                 "Fico feliz em ver mais uma alma viva. Me traz esperança..."
             ],
             "traderspeaktrade": [
                 "O que você procura?",
                 "Então, o que você quer?",
                 "De qualquer forma, você está procurando alguma coisa?",
-                "Então, como eu posso lhe ajudar?",
+                "Então, como posso te ajudar?",
                 "Continuando. Como posso ser útil?",
                 "Indo direto ao ponto, você quer algo?",
                 "Bem, eu tenho umas coisas que me disponho a trocar. Interessado em alguma?"
             ],
             "traderdepressed": [
                 "...Esse seu olhar é perturbador... Você parece petrificado. NÃO tente nada estranho, por favor.",
-                "Mais um desses esquisitos... Incapaz até de falar. Não faça nada idiota.",
-                "...Que silencio. Você parece aterrorizado. Espero que encontre a ajuda que precisa. Eu não posso providenciar muito, perdão.",
-                "Olá. ...Ah, perdoe-me... Por favor seja cuidadoso."
+                "Mais um desses esquisitos... Consegue nem falar. Não faça nada idiota.",
+                "...Que silêncio. Você parece aterrorizado. Espero que encontre a ajuda que precisa. Eu não posso providenciar muito, perdão.",
+                "Olá. ...Ah, desculpa... Por favor seja cuidadoso."
             ],
             "traderhurt": [
                 "Você está ferido! Hmmh... Aguenta aí.",
-                "Céus. Você está sangrando. Me dê momento.",
-                "Oh. Sangue. Nada higiênico... Um momento."
+                "Céus. Você está sangrando. Me dê um momento.",
+                "Ah. Sangue. Nada higiênico... Um momento."
             ],
             "traderhurtanswer": [
-                "Aplique isto no ferimento. Mantenha-o sempre limpo e desinfecte se possível. ",
+                "Aplique isto no ferimento. Mantenha-o sempre limpo e desinfecte se possível.",
                 "Pegue isso. Não sangre aqui por favor, é anti-higiênico.",
-                "Remenda-se e por gentileza não sangre em mim. Eu não quero adquirir nenhuma doença."
+                "Remenda-se e por gentileza não sangre em mim. Eu não quero pegar nenhuma doença."
             ],
             "tradershow": [
                 "Muito bem. Eu tenho isso comigo.",
@@ -2991,24 +2992,24 @@
                 "Pague primeiro.",
                 "Não lhe entregarei nada sem o retorno apropriado.",
                 "Pareço fazer caridade pra você?",
-                "Você esta brincando.",
-                "Deveras insultante."
+                "Você está brincando.",
+                "Que insultante."
             ],
             "traderdispleased": [
                 "Saia.",
-                "Eu não interagir com você. Não tenho nada para você.",
-                "Mais um desses ladrões. Vá embora!",
+                "Eu não vou mexer com você. Não tenho nada aqui.",
+                "E mais um de vocês ladrões. Vá embora!",
                 "Não estou interessado.",
                 "Por favor deixe minha cápsula em paz. Eu cheguei primeiro.",
                 "Agora não. Desculpe.",
-                "Não posso lidar com você no momento."
+                "Não vou lidar com você no momento."
             ],
             "traderwarning": [
                 "Saia de uma vez.",
                 "Eu NÃO APRECIO sua presença. Retire-se.",
                 "Eu não fui claro?",
-                "FORA!",
-                "Não acha que fui sério? Fora.",
+                "FO-RA.",
+                "Não fui claro o bastance? Fora.",
                 "Vá. Embora.",
                 "Por favor. Sai.",
                 "SAIA."
@@ -3020,14 +3021,14 @@
                 "Ah, VAI SE FUDER!",
                 "CAI FORA!",
                 "Essa é MINHA CÁPSULA! FORA!",
-                "Eu NÂO vou tolerar SUA PRESENÇA aqui!"
+                "Eu não vou tolerar SUA PRESENÇA AQUI!"
             ],
             "traderlightbreak": [
                 "...Cara. Eu tenho olhos. Ladrão idiota... Saia!",
-                "Oh, seu burro! Se manda, AGORA! FORA!",
+                "Oh, seu desgraçado! Se manda, AGORA! PRA FORA!",
                 "EI! Vai se foder! Some daqui porra!",
                 "Por que caralhos você faria isso!? Se manda! Eu precisava da luz!",
-                "Por que você tá destruindo a cápsula!? Vai EMBORA! SOME!"
+                "Por que você tá destruindo a minha cápsula!? Vai EMBORA! SOME!"
             ]
         }
     ]
