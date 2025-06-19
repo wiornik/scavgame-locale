@@ -89,7 +89,7 @@
         "plasticbag": "Plastic bag",
         "plasticbagdsc": "A thin, blue plastic bag.",
         "gravbag": "Grav-Bag",
-        "gravbagdsc": "A very experimental container that generates negative gravity in order to reduce the weight of whatever's in it. Has explosive tendencies when its battery nears empty.",
+        "gravbagdsc": "A very experimental container that generates negative gravity in order to reduce the weight of whatever's in it. Has explosive tendencies when its battery nears empty. Use to remove battery.",
         "legpouch": "Leg pouch",
         "legpouchdsc": "A leather pouch with straps made to go around the thigh. It's like a pocket pocket!",
         "purse": "Purse",
@@ -271,7 +271,7 @@
         "cactusflesh": "Cactus flesh",
         "cactusfleshdsc": "Sweet, high in water content and prickly. Tasty and hydrating, but it hurts to eat.",
         "neuralbooster": "Neural booster",
-        "neuralboosterdsc": "An advanced mix of drugs that alters the structure and function of your brain, slightly increasing your mobility permanently.",
+        "neuralboosterdsc": "An advanced mix of drugs that alters the structure and function of your brain, slightly increasing your mobility permanently. You might not want to use it more than once.",
         "watch": "Electronic watch",
         "watchdsc": "Periodically tells you useful info (bleeding time, hidden infections, weight changes, etc). When used, displays run time and temperature. Having a pocket buddy is comforting!",
         "tutorialradio": "Training radio",
@@ -314,6 +314,8 @@
         "latexglovesdsc": "A pair of simple latex gloves. Offers minor isolation from the elements.",
         "fannypack": "Fanny pack",
         "fannypackdsc": "A small bag made to be put on your belly.",
+        "bandolier": "Bandolier",
+        "bandolierdsc": "A pocketed belt that goes over your shoulder, made to hold ammunition. Can hold firearm rounds.",
         "bellyarmor": "Belly armor",
         "bellyarmordsc": "A big piece of metal, made to be strapped on your abdomen. Provides great protection, and some isolation.",
         "belt": "Belt",
@@ -416,6 +418,12 @@
         "clottingmushdsc": "A small vial of a clot promoting poultice. While not particularly useful on its own, it could be refined further...",
         "bunchunk": "Bunchunk",
         "bunchunkdsc": "A piece of fungus with clot-promoting properties. While not particularly useful on its own, it could be refined further...",
+        "smallbattery": "Small battery",
+        "smallbatterydsc": "A small battery that can be inserted into various electronic devices. Stores half as much as a medium battery.",
+        "mediumbattery": "Medium battery",
+        "mediumbatterydsc": "A generic battery that can be inserted into various electronic devices. Stores twice as much as a small battery, but a third as much as a large one.",
+        "largebattery": "Large battery",
+        "largebatterydsc": "A large industrial battery that can be inserted into certain electornic devices. Stores three times as much as a medium battery.",
         "pistol": "Pistol",
         "pistoldsc": "A basic, semi-automatic handgun. Uses small magazines loaded with 9mm rounds. Might jam when wet or low condition. Hold in your main hand to use and see controls.",
         "rifle": "Rifle",
@@ -577,9 +585,7 @@
         "soundcannon": "Sound cannon",
         "soundcannondsc": "You should probably cover your ears if you hear it charging.",
         "trader": "Survivor",
-        "traderdsc": "You could probably trade with them.",
-        "traderdschostile": "They don't seem pleased with your presence.",
-        "traderdsccombat": "...",
+        "traderdsc": "Another unlucky victim. At least they're still breathing.\nRight-click at close range to open the trading screen.", 
         "traderdscdead": "They're not breathing anymore. Thanks to you.",
         "bananaplant": "Banana-plant",
         "bananaplantdsc": "A short, wide plant, colloquially called the \"Banana Plant\" due to its mushy, yellow top. Very slippery to step on.",
@@ -612,8 +618,8 @@
         "thoraxdestroyed": "Lung failure",
         "oxygen1": "Hypoxemic",
         "oxygen2": "Very hypoxemic",
-        "oxygen3": "Hypoxic",
-        "oxygen4": "Asphyxiating",
+        "oxygen3": "Asphyxiating",
+        "oxygen4": "Cardiac arrest",
         "pain1": "Discomfort",
         "pain2": "Pain",
         "pain3": "Severe pain",
@@ -753,7 +759,7 @@
         "oxygen1dsc": "Lowered blood oxygen. Slightly confused, with rubbery skin. Something's wrong...",
         "oxygen2dsc": "Not enough oxygen is circulating around the body. Feeling light-headed and numb in the extremities. Something is very wrong.",
         "oxygen3dsc": "Consciousness lost. Tissues deprived of oxygen. Brain damage imminent.",
-        "oxygen4dsc": "Heart stopped. Brain dying from oxygen deprivation. Your entire body is rapidly shutting down.",
+        "oxygen4dsc": "Heart stopped. Brain dying from oxygen deprivation. Your entire body is rapidly shutting down; Death imminent.",
         "pain1dsc": "Feeling mild pain.",
         "pain2dsc": "Hurting a decent bit. Unhappiness rising slowly.",
         "pain3dsc": "Half-conscious, mind fogged by intense pain. Unhappiness rising.",
@@ -855,7 +861,7 @@
         "happy2dsc": "Looking forward to what's around the corner.",
         "happy3dsc": "You've found peace in this strange land.",
         "happy4dsc": "You're at the top of the world, shaping the way forward at your will. Nothing can stop you!",
-        "impairedspeechdsc": "Something is making speaking difficult...",
+        "impairedspeechdsc": "Something is making speaking difficult... You might have trouble communicating with others.",
         "deaf2dsc": "You can't hear those high frequencies as well as before. Let your ears rest for a while.",
         "deaf3dsc": "Everything sounds very muffled and echo-y. You feel irritated. This may take a bit.",
         "deaf4dsc": "You can barely hear anything. You feel very irritated. Your ears will take a good while to improve.",
@@ -1236,6 +1242,41 @@
         "reloadbinds": "Reload binds\n(Check for changes)",
         "learnedrecipe": "Learned recipe for r1.",
         "learnedrecipefail": "There's a recipe for r1, but you already knew it...",
+        "hasbattery": "Has battery (<>)\n<sprite index=17 tint=1>Use tool to remove",
+        "nobattery": "No battery (Max. <>)",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "wantstrade": "Wants to trade:",
+        "indifferent": "Indifferent:",
+        "wantskeep": "Prefers to keep:",
+        "wantstradetip": "Lowered prices and higher rep gain",
+        "indifferenttip": "Normal prices and rep gain",
+        "wantskeeptip": "Increased prices and no rep gain",
+        "costs": "<sprite index=9>Costs ",
+        "weighs": "<sprite index=0>Weighs ",
+        "purchase": "Purchase",
+        "trade": "Give to trader",
+        "reputation": "<sprite index=18>Reputation: ",
+        "reputationtip": "Reputation",
+        "reputationtipdsc": "Affects item prices and the survivor's behaviour towards you. Affected by your general state and interactions with the survivor.",
+        "valuegiventip": "Value given",
+        "valuegiventipdsc": "How much the survivor owes you. This is your currency when trading items.",
+        "traderpurchase": "Purchase item",
+        "tradingblocked": "Trading blocked",
+        "valuegiven": "<sprite index=9>Value given: ",
+        "theirinventory": "Their inventory",
+        "yourinventory": "Your inventory",
+        "haggle": "Haggle",
+        "haggledsc": "Try to negotiate lower prices. Might upset the trader if done wrong.",
+        "hug": "Hug",
+        "hugdsc": "Give them a hug. You might scare them if they're unsure about you.",
+        "threaten": "Threaten",
+        "threatendsc": "Threaten them to get a free item or two. Might backfire significantly.",
+        "rest": "Rest",
+        "restdsc": "Take a nap with the trader to build trust and have comfier sleep. Usual conditions for sleeping apply.",
+        "exit": "Exit",
+        "free": "<color=\"orange\">FREE!",
         "startlorenote": "Year 2XXX \n<>\nHumanity has technologically progressed to a significant extent. \n<>\nOne corporation began to put research into bio-engineering, combining animal and human DNA. \n<>\nThis lead to their creation of the Experiment species, along with dozens of later offshoots. \n<>\nAfter years of unethical private testing in labs, they set their sights on something bigger. \n<>\nThey knew of a gray planet with thriving flora, fauna and an easy space travel path. \n<>\nSoon, thousands of specimens, buildings and miscellaneous cargo were sent. \n<>\nWhile most was shipped correctly, a large amount of cargo was mistakenly sent to the planet's expansive cave network due to a calibration error. \n<>\nThis includes a mistakenly sent piece of important experimental technology, which now sat deep in the underground systems, without an easy way to get it back. \n<>\nThis, however, was seen as an opportunity by the scientists to do more behavioural research by sending thousands of specimens down to retrieve the lost tech. \n<>\nThe chance of it working were low, but shipment is cheap and their breathing fodder is plenty. \n<>\nYou are one unlucky specimen.\nResistance is not an option.",
         "jsonthing": "hi, this is here so i can copy json text without it annoying me about commas. this entry is not needed :)"
     },
@@ -2765,44 +2806,67 @@
                 "Hay!",
                 "Hello!"
             ],
-            "tradermeet": [
+            "tradermeetnormal": [
                 "Hey!",
                 "Hello!",
                 "Oh! Someone finally came over...",
-                "Heya.",
+                "Oh! Heya.",
                 "Hey! Glad to see someone alive.",
                 "Hey, buddy.",
                 "Welcome!"
             ],
-            "tradeeanswer": [
-                "Nice pod.",
-                "Sorry for breaking in.",
-                "...Yup.",
-                "Good to see a living soul down here.",
-                "I'm guessing we're in the same situation.",
-                "...So.",
-                "...hi.",
-                "Glad to see ya."
+            "tradermeetgood": [
+                "Ah! Hi!!",
+                "Hello! How are ya?"
             ],
-            "traderanswer": [
-                "I'm currently settled over here, I'll figure out where to go later...",
-                "I'm resting here as of now.",
-                "I'm taking a break in this pod. I wonder why we're all here...",
-                "*yawn*",
-                "Hmmm...",
-                "Pretty comfy in here, huh?",
-                "I'm worried about our current predicament... This place has a pretty high casualty rate.",
-                "I hope you're enjoying your stay, haha...",
-                "It's safe in here. You should rest too."
+            "tradermeetgreat": [
+                "Aah! Hello!! Hi!"
             ],
-            "traderspeaktrade": [
-                "...Either way, I have some stuff on me if you want to trade.",
-                "...I hope you're doing well. I have a few things on me if you'd like to trade.",
-                "Well, I'm running a bit of a shop in here. Ya want anythin'?",
-                "...So, I have a few valuables in here with me. Throw me some goods and I'll give you some back!",
-                "Anyway, do you want anything?",
-                "Well, while you're here, do you want anything?",
-                "...Hmm. I could trade some goods. Are you interested in anything in particular?"
+            "tradermeetpoor": [
+                "...Hey.",
+                "...Hm. Hello."
+            ],
+            "tradermeetbad": [
+                "Hheeyy...I dislike your presence..?",
+                "H... Hello... Uhh..."
+            ],
+            "traderhugsuccess": [
+                "Awww... Thank you.",
+                "Ahhh... Thank you, buddy.",
+                "Mmmh... Aww, thanks!",
+                "Ah! Mmhh... Thank you...",
+                "Aw! You're so nice!",
+                "...Thank you, I needed that."
+            ],
+            "traderhugfail": [
+                "AHHH! Don't touch me out of nowhere...",
+                "Hey! No touchy.",
+                "Aghh! Hey! No touchies!",
+                "I'll pass...",
+                "No thanks.",
+                "Wh- Hey! Get your paws off of me.",
+                "Hey! Don't touch me! I don't trust you."
+            ],
+            "traderhagglesuccess": [
+                "...Okay!",
+                "Mmmmhmmm... Got it.",
+                "I'll think about it.",
+                "I'll consider...",
+                "Y-yeah... Sure...",
+                "Makes sense to me!",
+                "Uh huh.",
+                "Hmm... Okay."
+            ],
+            "traderhagglefail": [
+                "You didn't sound very convincing there.",
+                "...No, thanks.",
+                "Nuh uh.",
+                "Not interested.",
+                "What? Why would I do that..?",
+                "Meeehhh... Another time.",
+                "Meh.",
+                "...Nhh...",
+                "...Ugh. Sorry."
             ],
             "traderdepressed": [
                 "...Uh... ...Are you okay? You look a little... Disgruntled...?",
@@ -2811,28 +2875,6 @@
                 "...You look terrified. Are you okay? Hello...?",
                 "Hey! How are yooouuuu......you don't look so well there, buddy... Uhm...",
                 "Hey! ...What's with that piercing look? Uhm..."
-            ],
-            "traderhurt": [
-                "Oh, oh, you don't look so well. Are you okay? Do you need help?",
-                "Ahh! Step back, you're going to bleed all over me...",
-                "...Oh. Oh, oh you do not look well. What happened?",
-                "...Do you need help with that...?"
-            ],
-            "tradeehurt": [
-                "Help me, please.",
-                "You got some meds..?",
-                "Bandage, please.",
-                "I'm bleeding, I need some assistance... ...Please."
-            ],
-            "traderhurtanswer": [
-                "...Uhm, best I can do is a rag. I hope you'll be okay.",
-                "...Heres some dressing. You can rest here. I hope you're okay!"
-            ],
-            "tradershow": [
-                "Here's what I got. Hand me over some goods and you can take 'em.",
-                "I've these. Drop items here and I'll take them.",
-                "Here. Throw me your stuff and I'll give you one of these.",
-                "Give me some stuff and take your pick."
             ],
             "tradergiveitem": [
                 "Thanks!",
@@ -2856,37 +2898,33 @@
                 "Hand over a few more things first.",
                 "Pay first!"
             ],
-            "traderdispleased": [
-                "Leave.",
-                "I have nothing for you. Please leave.",
-                "Go away. I don't want to deal with you.",
-                "Hey! You. Get away!",
-                "I'd prefer to not take my chances.",
-                "Not interested.",
-                "I'm going through this alone.",
-                "Please leave."
-            ],
             "traderwarning": [
-                "LEAVE.",
-                "Leave. NOW.",
-                "OUT! GET OUT!",
+                "Leave.",
+                "Leave. Now.",
+                "Out! Get out!",
                 "Leave this pod.",
                 "I don't like you being here. Leave.",
-                "LEAVE!",
-                "OUT.",
-                "GET OUT OF HERE!",
+                "Leave!",
+                "Out.",
+                "Get out of here!",
                 "Get lost.",
                 "Fuck off!",
-                "Fuck off.",
-                "I'm not going to repeat myself."
+                "Fuck off."
             ],
             "tradercombat": [
-                "Fucker. Fucker. I'm done with your shit.",
+                "I'm done with your shit.",
                 "Fuck OFF!",
                 "I'M DONE WITH YOU!",
                 "FUCK YOU!",
                 "OUT! GET OUT! NOW! OUT!",
-                "YOU FUCK! GET OUT!"
+                "GET OUT!"
+            ],
+            "traderthreatensuccess": [
+                "Okay, okay, jeez... Take whatever, just don't hurt me...",
+                "Asshole... Fine. Go ahead. Please leave after.",
+                "Nggh... Fuck you... Take what you want and leave!",
+                "Please don't hurt me! Take something and... Please leave...",
+                "...Okay. Take something and do not come back. Spare the threats."
             ],
             "traderlightbreak": [
                 "Dude, what the fuck? Why would you do that? Fuck off.",
@@ -2894,6 +2932,14 @@
                 "Hey! What the hell! I needed that! Get the fuck out!",
                 "Ahh! You THIEF! Get the hell out!",
                 "Dude. Okay... Okay then. Okay... I... Uh... Please leave."
+            ],
+            "traderwakegreet": [
+                "Good mornin'.",
+                "Hi! You're up now.",
+                "Morning, sleepyhead.",
+                "How didya rest?",
+                "Hope you slept well.",
+                "Wakey wakey!"
             ],
             "swingresponse": [
                 "I'M SORRY!",
@@ -2943,7 +2989,7 @@
             ]
         },
         {
-            "tradermeet": [
+            "tradermeetnormal": [
                 "Greetings.",
                 "Hello.",
                 "My pleasure to meet you.",
@@ -2952,51 +2998,37 @@
                 "Greetings to you.",
                 "Welcome.",
                 "Nice to meet you!",
-                "I hope all is well.",
-                "I'm honored to see another survivor."
+                "I hope all is well."
             ],
-            "traderanswer": [
-                "Our situation seems pretty dire. Though, I am hopeful some can get out of it alive...",
-                "...While I don't particularly appreciate the rude awakening, it is nice to see someone alive out here.",
-                "I've been resting in this pod for a short bit. The rubber flooring is nice to rest on!",
-                "It's not often I see someone that doesn't resemble a mangled floor carpet. Good to see you.",
-                "Good to see someone alive out here!",
-                "I hope you're well. It's tough out here.",
-                "Rest with me if you wish. This pod is pretty comfortable.",
-                "I'm happy to see a living soul here. It gives me some hope..."
+            "tradermeetgood": [
+                "I'm honored to see another survivor.",
+                "Oh! Hello! How are you doing, friend?",
+                "Greetings, dear. How are you doing?"
             ],
-            "traderspeaktrade": [
-                "What are you looking for?",
-                "So, what do you want?",
-                "Anyway, are you looking for something?",
-                "So, how may I help you?",
-                "Either way. How can I be of service?",
-                "Lets cut to the chase; Do you want anything?",
-                "Well, I have some things on me I'd be willing to give. Are you interested in anything?"
+            "tradermeetgreat": [
+                "Ah! Greetings. You look very chipper!",
+                "Ah, how happy I am to see someone like you!"
             ],
-            "traderdepressed": [
-                "...The look on your face is disturbing... You look petrified. Do NOT try doing anything weird, please.",
-                "Another one of you freaks... Won't even utter a word. Don't do anything stupid.",
-                "...How silent. You look terrified. I hope you get the help you need. I can't provide much, sorry.",
-                "Hello. ...Oh. I'm sorry... Please be careful."
+            "tradermeetpoor": [
+                "...Hello.",
+                "Greetings. Please refrain from touching me.",
+                "Hello, fellow survivor.",
+                "Greetings. Please use the door next time.",
+                "Welcome.",
+                "Greetings."
             ],
-            "traderhurt": [
-                "You're wounded! Hmmh... Hold on.",
-                "Shucks. You're bleeding. Give me a moment.",
-                "Oh. Blood. That's not hygienic... One moment."
+            "tradermeetbad": [
+                "...I am not impressed.",
+                "Ough. Hello...",
+                "...You confound me. Greetings."
             ],
-            "traderhurtanswer": [
-                "Apply this to the wound. Make sure to keep it clean, disinfect it if possible.",
-                "Take this. Please don't bleed in here, it's unhygienic.",
-                "Patch yourself up and please don't bleed on me. I don't want to get some kind of disease."
-            ],
-            "tradershow": [
-                "Very well. I have these on me.",
-                "This is my stock.",
-                "This is all I have on me.",
-                "I'm willing to trade these.",
-                "Here.",
-                "If any of these interest you, I'm willing to trade."
+            "traderwakegreet": [
+                "Good morning.",
+                "Hey, you're finally awake.",
+                "Greetings, you've awoken.",
+                "Guess who's awake!",
+                "Sleepyhead. Welcome back!",
+                "You were sleeping like a puppy, haha..."
             ],
             "tradergiveitem": [
                 "Thank you.",
@@ -3006,6 +3038,26 @@
                 "Useful.",
                 "My pleasure.",
                 "I'll make good use of this."
+            ],
+            "traderhagglesuccess": [
+                "Fine.",
+                "I will make an exception for you.",
+                "Ah, you seem nice.",
+                "You make a good point.",
+                "I accept your request.",
+                "I hear you, buddy. Sure.",
+                "I have to agree.",
+                "Affirmative"
+            ],
+            "traderhagglefail": [
+                "How about no?",
+                "I'm not a damn charity.",
+                "I only accept facts and logic, not uncoordinated pleas.",
+                "No.",
+                "That was the worst argument I've ever heard.",
+                "I have to deny your appeal",
+                "Negative.",
+                "No exceptions, sorry."
             ],
             "traderbuy": [
                 "No refunds.",
@@ -3026,24 +3078,25 @@
                 "You're joking.",
                 "How insulting."
             ],
-            "traderdispleased": [
-                "Leave.",
-                "I do not want to interact with you. I have nothing to give you.",
-                "And another one of you thieves. Get out!",
-                "I am not interested.",
-                "Please leave my pod in peace. I got here first.",
-                "Not now. Sorry.",
-                "I'm not dealing with you right now."
+            "traderthreatensuccess": [
+                "It is not in my interests to get hurt. Take whatever and leave.",
+                "Fine. Take your pick and please exit my pod.",
+                "I hope misfortune awaits you. Fine. Take it and leave.",
+                "You are a horrible person, you know that?",
+                "So this is how you solve issues. Mhm. Fine.",
+                "Did it really have to come to this? You know better... Ugh. Fine.",
+                "A robbery was not something present on my bucket list. But, fine. Just don't hurt me."
             ],
             "traderwarning": [
                 "Leave at once.",
                 "I do NOT appreciate your presence. Leave.",
-                "Did I not make myself clear?",
                 "OUT.",
                 "Do you not think I'm serious? Out.",
                 "Get. Out.",
                 "Please. Leave.",
-                "LEAVE."
+                "Leave.",
+                "I'm not dealing with you right now.",
+                "Please leave my pod in peace. I got here first."
             ],
             "tradercombat": [
                 "I didn't want it to come to this.",
@@ -3054,8 +3107,23 @@
                 "This is MY POD! OUT!",
                 "I'm NOT tolerating another moment of YOUR presence!"
             ],
+            "traderhugsuccess": [
+                "Ahh... I'll... I'll allow it.",
+                "How affectionate...",
+                "Awww. You really needed that...",
+                "Aww, what a nice person you are.",
+                "Mmmhh...",
+                "What a display of affection..."
+            ],
+            "traderhugfail": [
+                "NO TOUCHIES!",
+                "Refrain.",
+                "Cease. Do not embrace me.",
+                "No. Stop. Do not touch me",
+                "Ew! Get your hands off of me."
+            ],
             "traderlightbreak": [
-                "...Dude. I have eyes. Fucking thief... Leave!",
+                "...Dude. I have eyes. Thief... Leave!",
                 "Oh, you idiot! Leave, now! OUT!",
                 "EY! Fuck you! Get the fuck out!",
                 "Why the fuck would you do that!? Get out! I needed that light!",
