@@ -89,7 +89,7 @@
         "plasticbag": "Sacola de plástico",
         "plasticbagdsc": "Uma sacola fina e azul de plástico. Não é reciclável.",
         "gravbag": "Mochila gravitacional",
-        "gravbagdsc": "Um contêiner muito experimental que utiliza antigravidade para reduzir o seu peso total. Possui tendências explosivas quando está com pouca energia.",
+        "gravbagdsc": "Um contêiner muito experimental que utiliza antigravidade para reduzir o seu peso total. Possui tendências explosivas quando está com pouca energia. Use para remover a bateria.",
         "legpouch": "Bolso de perna",
         "legpouchdsc": "Uma pequena bolsa de couro com correias para ir envolta da sua coxa.",
         "purse": "Bolsa",
@@ -163,7 +163,7 @@
         "fleshchunk": "Pedaço de carne grande",
         "fleshchunkdsc": "Um gigantesco pedaço de carne. Deve ter vindo de algo parecido. Te enche muito e tem bastante caloria.",
         "candybar": "Barra doce",
-        "candybardsc": "Uma barra de... Ok, não falaram *que* doce era. O bom gosto fica na boca por bastance tempo, mas não enche muito. Comer muito deve te deixar mal.",
+        "candybardsc": "Uma barra de... Ok, não falaram *que* doce era. O bom gosto fica na boca por bastante tempo, mas não enche muito. Comer muito deve te deixar mal.",
         "chocolatebar": "Barra de chocolate",
         "chocolatebardsc": "Uma barra de chocolate fora do pacotinho. Gostoso mas você não vai digerir isso bem. Espera, isso não é simplesmente veneno?",
         "waterbottle": "Garrafa d'água",
@@ -271,7 +271,7 @@
         "cactusflesh": "Cacto-carne",
         "cactusfleshdsc": "Alto em água, sabores doces e espinhos. Gostoso e hidratante, mas comer isso vai doer.",
         "neuralbooster": "Impulsionador neural",
-        "neuralboosterdsc": "Uma mistura avançada de drogas que alteram a estrutura e função do seu cérebro, aumentando sua mobilidade um pouco para sempre.",
+        "neuralboosterdsc": "Uma mistura avançada de drogas que alteram a estrutura e função do seu cérebro, aumentando sua mobilidade um pouco para sempre. Melhor não usar mais do que uma vez.",
         "watch": "Relógio eletrônico",
         "watchdsc": "Periodicamente te da informação útil (tempo de sangramento, infecções escondidas, mudanças no peso, etc). Quando usado, te fala a temperatura e o tempo que passou aqui embaixo. Ter um amigo de bolso é comfortante!",
         "tutorialradio": "Rádio de treinamento",
@@ -298,6 +298,10 @@
         "headlampdsc": "Uma pequena lanterna feita para ser amarrada na sua cabeça. Perde bateria com o tempo.",
         "dustmask": "Máscara contra poeira",
         "dustmaskdsc": "Uma máscara um pouco forte que cobre a sua boca. Oferece um pouco de proteção para o seu crânio.",
+        "scarf": "Cachecol",
+        "scarfdsc": "Vermelho, quentinho e felpudo, providência um pouco de insulamento contra o frio. Faz você se sentir como um mercenário...",
+        "blueprint": "Diagrama",
+        "blueprintdsc": "Possui o passo-a-passo para a criação de algum objeto. Tem um tipo de chip eletrônico preso nisto... Use para aprender uma receita.",
         "safetyglasses": "Óculos de proteção",
         "safetyglassesdsc": "Um par forte de óculos de plástico. Oferece minúscula proteção para a sua cabeça.",
         "autozoomgoggles": "Óculos de zoom automático",
@@ -310,6 +314,8 @@
         "latexglovesdsc": "Um par simplês de luvas feitas de um certo tipo de borracha. Oferece um pouco de insulação.",
         "fannypack": "Pochete",
         "fannypackdsc": "Uma pequenina mochila feita para ser colocada na sua barriga.",
+        "bandolier": "Bandoleira",
+        "bandolierdsc": "Uma faixa que passa por cima do ombro, com bolsos feitos para guardar munição. Ela serve justo pra isso.",
         "bellyarmor": "Armadura abdominal",
         "bellyarmordsc": "Um grande pedaço de metal feito para ser amarrado na sua barriga. Oferece ótima proteção e um pouco de insulação.",
         "belt": "Cinta",
@@ -412,6 +418,12 @@
         "clottingmushdsc": "Um pequeno frasco de cataplasma que promove a coagulação. Meio inútil, mas pode ser usado para algo melhor.",
         "bunchunk": "Cogumelo coagulativo",
         "bunchunkdsc": "Um pedaço de fungo com propriedades que promovem a coagulação. Meio inútil, mas pode ser usado para algo melhor.",
+        "smallbattery": "Bateria pequena",
+        "smallbatterydsc": "Uma pequena bateria que pode ser enfiada em varios dispositivos elétricos, armazenando metade da energia de uma bateria média.",
+        "mediumbattery": "Bateria média",
+        "mediumbatterydsc": "Uma bateria comum que pode ser enfiada em varios dispositivos elétricos, armazenando o duplo da energia de uma bateria pequena e um terço de uma média.",
+        "largebattery": "Bateria grande",
+        "largebatterydsc": "Uma bateria gigantesca que pode ser enfiada em alguns dispositivos elétricos, armazenando o triplo da energia de uma bateria média. Isso seria umas 6 baterias pequenas.",
         "pistol": "Pistola",
         "pistoldsc": "Uma pequena arma semi-automática. Usa pentes carregados com munição de calibre 9mm. Pode emperar se estiver molhada ou com baixa condição. Segure ela na sua mão principal para usar e ver os controles.",
         "rifle": "Fuzil de assalto",
@@ -573,9 +585,7 @@
         "soundcannon": "Canhão sonoro",
         "soundcannondsc": "Tampe seus ouvidos se ouvir ele carregando.",
         "trader": "Sobrevivente",
-        "traderdsc": "Você provavelmente poderia trocar alguns de seus itens com ele.",
-        "traderdschostile": "Parece que ele não gostou de você.",
-        "traderdsccombat": "...",
+        "traderdsc": "Outra vítima azarada. Pelo menos essa respira.\nAperte o clique direito de perto para abrir o menu de trocas.", 
         "traderdscdead": "Ele não está mais respirando, graças a você. Parabéns!",
         "bananaplant": "Banana-Planta",
         "bananaplantdsc": "Uma curta porém larga planta, coloquialmente chamada assim devido a sua cabeça amarela e mole. Muito escorregadia.",
@@ -607,9 +617,9 @@
         "cantbreathe": "Parada respiratória",
         "thoraxdestroyed": "Falência pulmonar",
         "oxygen1": "Hipoxemia",
-        "oxygen2": "Hipoxemia séria",
-        "oxygen3": "Hipóxico",
-        "oxygen4": "Asfixiando",
+        "oxygen2": "Hipóxico",
+        "oxygen3": "Asfixiando",
+        "oxygen4": "Parada cardíaca",
         "pain1": "Desconforto",
         "pain2": "Dor",
         "pain3": "Dor severa",
@@ -734,6 +744,10 @@
         "adrenaline": "Adrenalina",
         "tachycardia": "Taquicardia",
         "bradycardia": "Bradicardia",
+        "rnrs": "Distúrbio por rápida regeneração neuronal",
+        "rippedjaw": "Desfigurado",
+        "rippedeye": "Parcialmente cego",
+        "rippedeyes": "Cego",
 
         "deaddsc": "Perda de função cerebral completa, permanente e irreversível. Você deixou este mundo, diferente dos outros.",
         "braindamage4dsc": "...",
@@ -745,7 +759,7 @@
         "oxygen1dsc": "Niveis de oxigênio reduzidos. Levemente confuso, pele emborrachada. Há algo errado...",
         "oxygen2dsc": "Sem oxigênio suficiente circulando pelo corpo. Sentindo a cabeça leve e dormente nas extremidades. Há algo muito errado.",
         "oxygen3dsc": "Consciência perdida. Tecidos privados de oxigênio. Dano cerebral iminente.",
-        "oxygen4dsc": "Coração parou. Cérebro morrendo pela falta de oxigênio. Seu corpo inteiro está rapidamente desligando.",
+        "oxygen4dsc": "Coração parou. Cérebro morrendo pela falta de oxigênio. Corpo inteiro rapidamente desligando; A morte te espera.",
         "pain1dsc": "Sentindo dores leves.",
         "pain2dsc": "Com dores médias. Tristeza aumentando lentamente.",
         "pain3dsc": "Parcialmente consciente, mente quase completamente tomada pela dor. Tristeza aumentando.",
@@ -847,7 +861,7 @@
         "happy2dsc": "Com um olhar positivo para o que vem a frente.",
         "happy3dsc": "Você encontrou solitude nessas terras estranhas.",
         "happy4dsc": "Você está no alge do mundo, formando o que vem a frente na forma que você deseja. NADA pode te parar!",
-        "impairedspeechdsc": "Algo está dificultando sua capacidade de falar...",
+        "impairedspeechdsc": "Algo está dificultando sua capacidade de falar... Comunicar sua situação pros outros vai ser difícil.",
         "deaf2dsc": "Você não consegue ouvir essas altas frequências o tão bem como podia. Deixe seus ouvidos descansarem um pouco.",
         "deaf3dsc": "Tudo soa abafado e ecoante. Você se sente irritado. Sarar disso vai demorar.",
         "deaf4dsc": "Você mal consegue ouvir qualquer coisa. Você se sente muito irritado. Seus ouvidos vão demorar MUITO para sarar.",
@@ -869,7 +883,11 @@
         "dirty2dsc": "Mesmo que não se importe de tentar ficar limpo, seu sistema imune agradeceria. VAI TOMAR BANHO! (<>%)",
         "adrenalinedsc": "Dor adormecida. Alerta máximo.",
         "tachycardiadsc": "Batimento cárdiaco alto.",
-        "bradycardiadsc": "Batimento cárdiaco baixo. *Isso* é ruim."
+        "bradycardiadsc": "Batimento cárdiaco baixo. *Isso* é ruim.",
+        "rnrsdsc": "Choque neural causado pela rápida regeneração de tecidos cerebrais. Embora você se ajustará em breve, talvez seja melhor NÃO repetir a dose. (<>)",
+        "rippedjawdsc": "Sua mandíbula foi arrancada devido aos traumas severos sofridos na cabeça. Comer e falar é difícil. Você se sente horrivelmente marcado por essa experiência. ",
+        "rippedeyedsc": "Um de seus olhos foi arrancado, dividindo seu campo de visão. Você se sente marcado pela experiência. Não perca o outro.",
+        "rippedeyesdsc": "Ambos seus olhos foram perdidos. A única forma navegar será com seu tato e audição. Ao menos não é mais necessário uma fonte de luz..."
     },
     "other": {
         "layertitletutorial": "Terra\nLaboratório de treinamento",
@@ -881,7 +899,7 @@
         "layertitle6": "Abismo glacial",
         "layertitle7": "Píscinas fúngicas",
         "layertitle8": "Vazio cristalino",
-        "layertitle9": "Fendas geotérmais",
+        "layertitle9": "Fendas geotérmicas",
         "layertitle10": "Onde devemos chegar",
         "layertitle11": "A ascensão",
         "layertitle12": "Superfície",
@@ -1157,6 +1175,7 @@
         "craftrecipes": "Ver receitas...",
         "craftresultcondition": "% de condição",
         "craftconditionaffect": "Afetado pela condição do primeiro item",
+        "craftamount": "Faz ",
         "tagdressing": "Qualquer curativo",
         "tagopiate": "Qualquer opioide",
         "tagantiseptic": "Qualquer antisséptico",
@@ -1221,13 +1240,50 @@
         "alerttoounhappy": "Incapaz de usar medicamentos não-opióides quando miserável",
         "resetkeybinds": "Redefinir para padrão",
         "reloadbinds": "Atualizar teclas\n(Aplicar mudanças)",
+        "learnedrecipe": "Aprendeu receita para r1.",
+        "learnedrecipefail": "Há uma receita para r1, mas você ja conhece...",
+        "hasbattery": "Com bateria (<>)\n<sprite index=17 tint=1>Use ferramenta para remover",
+        "nobattery": "Sem bateria (Max. <>)",
+        "small": "Pequena",
+        "medium": "Média",
+        "large": "Grande",
+        "wantstrade": "Prefere trocar:",
+        "indifferent": "Indiferente:",
+        "wantskeep": "Prefere manter:",
+        "wantstradetip": "Preços diminuídos e mais reputação",
+        "indifferenttip": "Preços e mudanças na reputação normais",
+        "wantskeeptip": "Preços aumentados e sem aumento de reputação",
+        "costs": "<sprite index=9>Custa ",
+        "weighs": "<sprite index=0>Pesa ",
+        "purchase": "Comprar",
+        "trade": "Oferecer ao sobrevivente",
+        "reputation": "<sprite index=18>Reputação: ",
+        "reputationtip": "Reputação",
+        "reputationtipdsc": "Afeta preços de itens e o comportamento do sobrevivente com você. Afetado por seu estado geral e por interagir com o sobrevivente.",
+        "valuegiventip": "Valor oferecido",
+        "valuegiventipdsc": "É o quanto que o sobrevivente tem que te pagar de volta.",
+        "traderpurchase": "Comprar item",
+        "tradingblocked": "Negociação bloqueada",
+        "valuegiven": "<sprite index=9>Valor oferecido: ",
+        "theirinventory": "Inventário inimigo",
+        "yourinventory": "Seu inventário",
+        "haggle": "Pechinchar",
+        "haggledsc": "...Para tentar negociar preços menores. Só não seja irritante.",
+        "hug": "Abraçar",
+        "hugdsc": "...Para melhorar essa horrível primeira impressão. Ou só assustar eles de vez.",
+        "threaten": "Ameaçar",
+        "threatendsc": "...Para pegar um ou dois itens de graça. Pode dar MUITA merda.",
+        "rest": "Descansar",
+        "restdsc": "...Para construir afeto com o sobrevivente e dormir melhor. Condições regulares para dormir aplicadas.",
+        "exit": "Sair",
+        "free": "<color=\"orange\">GRÁTIS!",
         "startlorenote": "Ano 2XXX \n<>\nA humanidade progrediu na tecnologia consideravelmente. \n<>\nUma corporação realizou pesquisas em bioengenharia, combinando DNA animal e humano. \n<>\nEssas pesquisas levaram a criação da espécie Experimento, além de suas muitas ramificações futuras. \n<>\nApós anos de testes secretos e antiéticos em laboratório, eles estabeleceram um objetivo maior. \n<>\nDescobriram um planeta cinza prosperando ecologicamente e com uma rota espacial fácil de realizar. \n<>\nLogo, milhares de espécimens, construções e variadas cargas foram enviadas. \n<>\nEmbora a maioria dessas coisas foram enviadas corretamente, uma grande quantidade foi enviada para a expansiva rede de cavernas do planeta devido a um erro de calibração. \n<>\nNeste material enviado estava incluso uma tecnologia experimental muito importante, agora posicionada no fundo do sistema subterrâneo, sem forma fácil de acesso. \n<>\nMesmo assim, foi visto pelos cientistas como uma oportunidade de realizar pesquisas comportamentais enviando milhares de espécimens para recuperar a tecnologia perdida. \n<>\nA viabilidade é minúscula, mas o embarque é barato e seu estoque vivo é abundante. \n<>\nVocê é um desses espécimens sem sorte.\nResistir não é uma opção.",
         "jsonthing": "COISA JASON"
     },
     "character": [
         {
              "wallnotes": [
-                "Cara- Esse lugar é... Estranho. É assustador. Tem essas estranhas aranhas pretas que, de vez em quando, me mordem sem eu notar... Odeio elas. Elas costumam deixar marcas infectadas em mim... E dói, mas essa coloração estranha na minha perna normalmente some quando eu esfrego uma dessas frutas brilhantes que crescem por aqui na ferida. As coisas estão indo mal, mas pelo menos a natureza tenta ajudar...",
+                "Cara- Esse lugar é... Estranho. E assustador. Tem essas estranhas aranhas pretas que, de vez em quando, me mordem sem eu notar... Odeio elas. Elas costumam deixar marcas infectadas em mim... E dói, mas essa coloração estranha na minha perna normalmente some quando eu esfrego uma dessas frutas brilhantes que crescem por aqui na ferida. As coisas estão indo mal, mas pelo menos a natureza tenta ajudar...",
                 "A quantidade de gente morta aqui é assustadora... Eles enviaram tanta gente aqui pra baixo! Eu nem lembro como parei aqui... Lembro de ter sido perfurado por algum tipo de dardo ou seringa... E dái eu só acordei dentro de uma daquelas cápsulas, prestes a ser lançado daquele lugar em direção a seja lá o que for esse... Planeta cinza...",
                 "Não é só eu. Quase todos enviados pra cá conseguem verificar a própria saúde diretamente da mente... É uma sensação... Artificial..? Sei que ninguém tinha essa visão antes. Talvez tenha sido daqueles chips que eles \"\"secretamente\"\" colocaram em nós.",
                 "Acabo de ver alguém, bem longe, passando por uma daquelas armadilhas de espinho... Parece ter morrido na hora... Meu deus... Me sinto horrorizado. Eu não quero morrer aqui... Se você está lendo isso, cuidado onde pisa, sempre, em todos os momentos, não importa onde esteja. Não podemos morrer todos aqui.",
@@ -2613,6 +2669,22 @@
                 "Porra- Pera... <limb>... Awh...",
                 "<limb>... tão... dolorido/a..."
             ],
+            "hit": [
+                "Agh!",
+                "Gack!",
+                "Merda!",
+                "Augh!",
+                "Ghagh!",
+                "Ugh!",
+                "Ngghh!",
+                "Ow!",
+                "Ghhaaíí!",
+                "Argh!",
+                "Nffgh...",
+                "Aaawgh!",
+                "Ngghhh...",
+                "Ough!"
+            ],
             "bigpain": [
                 "AII!!!",
                 "AAGHH!!!",
@@ -2641,26 +2713,26 @@
                 "CACETEE!!!"
             ],
             "scream": [
-                "Ah!!",
-                "Ahhh!",
-                "Droga!",
-                "Aaaaa!",
-                "Gnah!",
-                "Bosta!",
-                "Aa-aaaah!",
-                "Uoooh!",
-                "Uah!",
-                "Oooooh!",
-                "Ueee!",
-                "Hâaa!",
-                "Haaaaa-!",
-                "F--hhaahh!?",
-                "Uha-aaa?!",
-                "Eeeii!",
-                "Aahhg!",
-                "Aachh!",
-                "Aah!",
-                "Aaa!"
+                "AAAAH!!",
+                "AAAAHHH!",
+                "DROGAAAAA!",
+                "AAAAAAAA!",
+                "AAGHHAH!",
+                "MERDA!",
+                "WAAAAHHH!",
+                "WOOAAAH!",
+                "WAAAAHH!",
+                "OOOOOHHH!",
+                "WHEEEAAAA!",
+                "OHH! AHHH!",
+                "OHHHHMEEMEEER!",
+                "UUAAAAAHHH!?",
+                "OOQUEEE?!",
+                "EEEEEIII!",
+                "AAHHHHJG!",
+                "AAAAACK!",
+                "AAH!",
+                "AAAAAAAAAAHHH!"
             ],
             "terrified": [
                 "AAAHHHHH!",
@@ -2734,44 +2806,67 @@
                 "Saudações!",
                 "Oláa!"
             ],
-            "tradermeet": [
+            "tradermeetnormal": [
                 "Opá!",
                 "Olá!",
                 "Ah! Alguém finalmente apareceu...",
-                "Eai.",
+                "Ah! Eae.",
                 "Ei, é bom ver alguém vivo.",
                 "Eai, camarada.",
                 "Bem vindo!"
             ],
-            "tradeeanswer": [
-                "Cápsula legal.",
-                "Desculpa por não bater na porta.",
-                "...Éeh.",
-                "É bom ver uma alma viva aqui embaixo.",
-                "Aposto que estamos na mesma situação.",
-                "...Então.",
-                "......Oi.",
-                "Bom te ver."
+            "tradermeetgood": [
+                "Ah! Oii!!",
+                "Oláa! Como 'cê tá?"
             ],
-            "traderanswer": [
-                "Eu tô empacado aqui, depois eu vejo onde eu vou...",
-                "Eu estou descansando aqui por enquanto.",
-                "Eu tô dando uma pausa nessa cápsula. Me pergunto por que estamos todos aqui...",
-                "*bocejo*",
-                "Hmmm...",
-                "É confortável justo aqui, né?",
-                "Eu tô preocupado com nossa situação... Esse lugar tem uma taxa de morte bem alta.",
-                "Espero que esteja aproveitando sua estadia aqui, haha...",
-                "É seguro aqui. Você deveria descançar também."
+            "tradermeetgreat": [
+                "Aah! Oláaa!! Oi!"
             ],
-            "traderspeaktrade": [
-                "...De qualquer jeito, eu tenho umas coisas comigo se quiser negociar.",
-                "...Eu espero que você esteja indo bem. Eu tenho umas coisas comigo caso você queira fazer umas trocas.",
-                "Bem, eu tô com um mercadinho aqui, vai querer alguma coisa?",
-                "...Então, eu tenho algumas riquezas aqui comigo. Me dê umas coisas boas que eu te dou umas de volta!",
-                "Então, você quer alguma coisa?",
-                "Bem, enquanto você está aqui, vai querer alguma coisa?",
-                "...Hhmmm. Eu poderia trocar algumas coisas. Você está interessado em algo?"
+            "tradermeetpoor": [
+                "...Eai.",
+                "...Hmm. Olá."
+            ],
+            "tradermeetbad": [
+                "Eeeiii... Você tá meio feio ai...",
+                "Hgh... Olá... Humm..."
+            ],
+            "traderhugsuccess": [
+                "Awww... Obrigado.",
+                "Ahhh... Obrigado, cara.",
+                "Mmmh... Aww, 'brigado!",
+                "Ah! Mmhh... Obrigado...",
+                "Aw! Você é tão gentil!",
+                "...Obrigado, eu precisava disso."
+            ],
+            "traderhugfail": [
+                "AHHH! Não me toque do meio do nada...",
+                "EEI! Sem toquinho.",
+                "Aghh! EI! Sem toquinhos!",
+                "Acho que não...",
+                "Não obrigada.",
+                "Uh- Ei! Tira suas patas de mim.",
+                "Ei! Não toca ne'mim! Eu nem te conheço."
+            ],
+            "traderhagglesuccess": [
+                "...Tá!",
+                "Mmmmhhh... Entendi.",
+                "Vou pensar nisso.",
+                "Vou considerar...",
+                "É-éeh... Tá certo...",
+                "Faz sentido!",
+                "Aham.",
+                "Hmm... Ok."
+            ],
+            "traderhagglefail": [
+                "Você não parecia muito convincente ai.",
+                "...Não, obrigada.",
+                "Nuh uh.",
+                "Não tô interessado.",
+                "O que? Por que eu faria isso..?",
+                "Meeehhh... Talvez outra hora.",
+                "Meh.",
+                "...Nhh...",
+                "...Ugh. Foi mal, mas não."
             ],
             "traderdepressed": [
                 "...Uhh... ...Você tá bem? Você parece meio... Magoado..?",
@@ -2780,28 +2875,6 @@
                 "...Você parece aterrorizado. Você tá bem? Alô..?",
                 "Opá! Como você táaaah...... você não parece tá legal ai, cara... uhh...",
                 "Ah!    ...P-Por que tá com esse olhar penetrante ai pra mim? Humm..."
-            ],
-            "traderhurt": [
-                "Áah..! Ahh, você não parece tá legal. Você... vai ficar bem? Precisa de algo?",
-                "Áahh! Fica longe, você vai sangra tudo em mim...",
-                "...Ah. Hum, ah você não parece bom. O que aconteceu?",
-                "...Precisa de ajuda com isso..?"
-            ],
-            "tradeehurt": [
-                "Me ajuda, por favor.",
-                "Você tem curativos..?",
-                "Bandagem, por favor.",
-                "Eu tô sangrando, preciso de ajuda... ...Por favor."
-            ],
-            "traderhurtanswer": [
-                "...Uhm, o melhor que tenho é um pano velho. Espero que você fique bem.",
-                "...Pegue um curativo. Você pode descansar aqui. Desejo melhoras!"
-            ],
-            "tradershow": [
-                "Isso é o que eu tenho. Me dê algo de valor e você pode pegar.",
-                "Tenho isso. Solte os itens que você quiser me entregar.",
-                "Aqui. Passa pra mim o que você não quer mais e escolha algo.",
-                "Me entregue algo seu e escolha alguma coisa."
             ],
             "tradergiveitem": [
                 "Obrigado!",
@@ -2825,37 +2898,34 @@
                 "Entregue mais algumas coisas primeiro.",
                 "Pague primeiro!"
             ],
-            "traderdispleased": [
-                "Saia.",
-                "Eu não tenho nada para você. Por favor vai embora.",
-                "Vá embora. Não quero fazer trocas com você.",
-                "Ei você! Vai embora!",
-                "Não quero arriscar com você.",
-                "Não tô interessado.",
-                "Eu vou através disso sozinho.",
-                "Por favor saia."
-            ],
             "traderwarning": [
-                "SAIA.",
-                "Sai. AGORA.",
-                "FORA! CAI FORA!",
+                "Vai embora.",
+                "Sai daqui. Agora.",
+                "Fora! Cai fora!",
                 "Retire-se desta capsula.",
                 "Não gosto da sua companhia. Vai embora.",
-                "SAI!",
-                "FORA.",
-                "CAI FORA DAQUI!",
+                "Sai daqui!",
+                "SAIA.",
+                "Cai fora daqui!",
                 "Se manda.",
                 "Some daqui!",
                 "Não fode comigo.",
                 "Eu não vou me repetir..."
             ],
             "tradercombat": [
-                "Fudido do caralho. Cansei dessa merda.",
+                "Cansei dessa sua merda.",
                 "SOME DAQUI!!",
                 "JÁ CHEGA!",
                 "VAI SE FODER!",
                 "PORRA! VAI EMBORA! AGORA! PRA FORA!",
                 "SEU ARROMBADO! SAI FORA!"
+            ],
+            "traderthreatensuccess": [
+                "Tá bom, tá, nossa... Pega tanto faz, só não me machuca...",
+                "Cuzão... Tá. Vá em frente. E depois suma daqui.",
+                "Nggh... Vai se foder... Pega o que quiser e saia!",
+                "Por favor não me machuca! Pega alguma coisa e... Por favor saia...",
+                "...Tá. Pega alguma coisa e não volte. Guarde as ameaças."
             ],
             "traderlightbreak": [
                 "Cara, que porra foi essa? Pra que fazer isso? Se afasta.",
@@ -2863,6 +2933,14 @@
                 "Ei! Mas que droga! Eu precisava dela! Some daqui porra!",
                 "Ahh! LADRÃO! CAI FORA!",
                 "Cara. Tá... Então tá. Beleza... Eu... Uh... Saia, por favor."
+            ],
+            "traderwakegreet": [
+                "Bom dia.",
+                "Oi! Você acordou.",
+                "Bom dia, dorminhoco.",
+                "Eai? Como você tá?",
+                "Espero que tenha dormido bem.",
+                "Acorda acorda!"
             ],
             "swingresponse": [
                 "DESCULPA!?",
@@ -2881,7 +2959,7 @@
                 "Sinto paladar de metal.",
                 "Eu ingeri tal metálico?",
                 "Não sabia que metais tinham cheiro.",
-                "Metais na minha boca...                      237? É você?",
+                "Metais na minha boca...                      241? É você?",
                 "Aço...?                    A liga metálica formada essencialmente por ferro e carbono, com percentagens do carbono variando entre 0,008 e 2,11%? Distinguindo-se do ferro fundido, que também é uma liga de ferro e carbono, mas com teor de carbono acima de 2,11%?                                 ...Aquele aço?",
                 "O    que           tá  acontecendo                            co",
                 "Isso isso      tá                                errado    .",
@@ -2908,11 +2986,11 @@
                 "Isso gosto vomitar. Grandemente incorreto...              Estaria maléfico..?",
                 "Gghh...... Hh-h...... Ágah...                                                              H",
                 "O que foi ISSSSSSSSSOOOOOOOOOOOOOOOOOOOO!!                ?",
-                "Eu tô...               Choro de medo 2013"
+                "Eu tô...                                                                                 Cinco noites nas Vítimas: Desconhecido"
             ]
         },
         {
-            "tradermeet": [
+            "tradermeetnormal": [
                 "Saudações.",
                 "Olá.",
                 "Prazer em conhece-lo.",
@@ -2921,51 +2999,37 @@
                 "Minhas saudações a você.",
                 "Bem-vindo.",
                 "Agradável encontrar você!",
-                "Espero que tudo esteja bem.",
-                "Uma honra encontrar outro sobrevivente."
+                "Espero que tudo esteja bem."
             ],
-            "traderanswer": [
-                "Nossa situação parece bem precária. Contudo, espero que alguns de nós saiam com vida...",
-                "...Mesmo que eu não aprecie ser acordado desta forma é bom ver mais alguém vivo aqui.",
-                "Estive descansando nesta cápsula por um tempinho. O chão emborrachado é agradável!",
-                "Não é com frequência que encontro alguém que não se assemelhe a um tapete mutilado. Bom ver você.",
-                "É ótimo ver alguém vivo por aqui!",
-                "Espero que você esteja bem. São terras difíceis por aqui.",
-                "Pode descansar aqui se quiser. Essa cápsula é relativamente confortável.",
-                "Fico feliz em ver mais uma alma viva. Me traz esperança..."
+            "tradermeetgood": [
+                "Uma honra encontrar outro sobrevivente.",
+                "Ah! Olá! Como voce está, amigo?",
+                "Saudações, meu caro. Como você está?"
             ],
-            "traderspeaktrade": [
-                "O que você procura?",
-                "Então, o que você quer?",
-                "De qualquer forma, você está procurando alguma coisa?",
-                "Então, como posso te ajudar?",
-                "Continuando. Como posso ser útil?",
-                "Indo direto ao ponto, você quer algo?",
-                "Bem, eu tenho umas coisas que me disponho a trocar. Interessado em alguma?"
+            "tradermeetgreat": [
+                "Ah! Saudações. Você parece muito animado!",
+                "Ah, o quão feliz estou em ver alguém como você!"
             ],
-            "traderdepressed": [
-                "...Esse seu olhar é perturbador... Você parece petrificado. NÃO tente nada estranho, por favor.",
-                "Mais um desses esquisitos... Consegue nem falar. Não faça nada idiota.",
-                "...Que silêncio. Você parece aterrorizado. Espero que encontre a ajuda que precisa. Eu não posso providenciar muito, perdão.",
-                "Olá. ...Ah, desculpa... Por favor seja cuidadoso."
+            "tradermeetpoor": [
+                "...Olá.",
+                "Saudações. Por favor não toque em mim.",
+                "...Olá, caro sobrevivente.",
+                "Saudações. Por favor use a porta da próxima vez.",
+                "...Bem-vindo.",
+                "...Saudações."
             ],
-            "traderhurt": [
-                "Você está ferido! Hmmh... Aguenta aí.",
-                "Céus. Você está sangrando. Me dê um momento.",
-                "Ah. Sangue. Nada higiênico... Um momento."
+            "tradermeetbad": [
+                "...Não estou impressionado.",
+                "Ugh... Olá.",
+                "...Você me perturba... Saudações."
             ],
-            "traderhurtanswer": [
-                "Aplique isto no ferimento. Mantenha-o sempre limpo e desinfecte se possível.",
-                "Pegue isso. Não sangre aqui por favor, é anti-higiênico.",
-                "Remenda-se e por gentileza não sangre em mim. Eu não quero pegar nenhuma doença."
-            ],
-            "tradershow": [
-                "Muito bem. Eu tenho isso comigo.",
-                "Esse é o meu estoque.",
-                "Aqui está tudo que tenho.",
-                "Estou disposto a trocar estes.",
-                "Aqui.",
-                "Se qualquer um destes lhe interessar eu estou disposto a trocar."
+            "traderwakegreet": [
+                "Bom dia.",
+                "Ei, Você finalmente acordou.",
+                "Saudações, você acordou.",
+                "Adivinha quem acordou!",
+                "Dorminhoco. Bem vindo de volta!",
+                "Você estava dormindo como um cachorrinho, haha..."
             ],
             "tradergiveitem": [
                 "Obrigado.",
@@ -2976,10 +3040,30 @@
                 "É um prazer.",
                 "Farei bom uso disto."
             ],
+            "traderhagglesuccess": [
+                "Tá bom.",
+                "Farei uma exceção para você.",
+                "Ah, você parece gentil.",
+                "Bom argumento.",
+                "Eu aceito seu pedido.",
+                "Eu te ouço meu caro. Tá certo.",
+                "Eu tenho que concordar.",
+                "Afirmativo."
+            ],
+            "traderhagglefail": [
+                "Que tál não?",
+                "Eu não faço caridade.",
+                "Eu aceito fatos e lógica, não pedidos descoordenados.",
+                "Não.",
+                "Esse foi o pior argumento que eu já ouvi.",
+                "Tenho que negar seu apelo.",
+                "Negativo.",
+                "Sem exceções, desculpa."
+            ],
             "traderbuy": [
                 "Sem reembolsos.",
                 "Aqui está.",
-                "Não quebre.",
+                "Não se quebre.",
                 "Boa sorte com isto.",
                 "Espero que você saiba usar isto.",
                 "Espero que seja útil para você.",
@@ -2995,24 +3079,25 @@
                 "Você está brincando.",
                 "Que insultante."
             ],
-            "traderdispleased": [
-                "Saia.",
-                "Eu não vou mexer com você. Não tenho nada aqui.",
-                "E mais um de vocês ladrões. Vá embora!",
-                "Não estou interessado.",
-                "Por favor deixe minha cápsula em paz. Eu cheguei primeiro.",
-                "Agora não. Desculpe.",
-                "Não vou lidar com você no momento."
+            "traderthreatensuccess": [
+                "Não é meu interesse ser machucado. Pegue tanto faz e saia.",
+                "Tá bom. Faça sua escolha e por favor saia da minha cápsula.",
+                "Eu espero que desgraças acabem com você. Pegue minhas coisas e saia.",
+                "Sabia que você é uma pessoa horrível?",
+                "Então é assim que você resolve problemas. Ahham. Tá bom.",
+                "Precisava mesmo acabar assim? Você é melhor do que isso... Agh. Tá bom.",
+                "Um assalto não era algo que eu esperava na minha cova. Mas, tá bom. Só não me machuque."
             ],
             "traderwarning": [
                 "Saia de uma vez.",
                 "Eu NÃO APRECIO sua presença. Retire-se.",
-                "Eu não fui claro?",
                 "FO-RA.",
-                "Não fui claro o bastance? Fora.",
+                "Não fui claro o bastante? Fora.",
                 "Vá. Embora.",
                 "Por favor. Sai.",
-                "SAIA."
+                "Retire-se.",
+                "Não vou lidar com você agora.",
+                "Por favor deixa minha cápsula em paz. Eu cheguei aqui primeiro."
             ],
             "tradercombat": [
                 "Eu não queria chegar nisso.",
@@ -3022,6 +3107,21 @@
                 "CAI FORA!",
                 "Essa é MINHA CÁPSULA! FORA!",
                 "Eu não vou tolerar SUA PRESENÇA AQUI!"
+            ],
+            "traderhugsuccess": [
+                "Ahh... Eu... Eu deixarei.",
+                "Mas que carinhoso...",
+                "Awww. Você realmente precisava disso...",
+                "Aww, que pessoa legal que você é.",
+                "Mmmhh...",
+                "Que exibição de carinho..."
+            ],
+            "traderhugfail": [
+                "SEM TOQUINHOS!",
+                "Afaste-se.",
+                "Pare. Não me abrace.",
+                "Não. Para. Não me toque.",
+                "Eca! Tira suas mãos de mim."
             ],
             "traderlightbreak": [
                 "...Cara. Eu tenho olhos. Ladrão idiota... Saia!",
