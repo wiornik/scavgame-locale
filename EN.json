@@ -2623,14 +2623,6 @@
                 "I'm so shaky and lightheaded... I-I need more opioids...",
                 "Need more... D-drugs..."
             ],
-            "opiateaddiction": [
-                "I want more drugs...",
-                "I could... Go for another shot...?",
-                "I'd gladly chug some painkillers...",
-                "I think I'm addicted...",
-                "Another shot...? Please?",
-                "I need to relax..."
-            ],
             "cantBreathe": [
                 "I can't breathe!",
                 "I... can't breathe...",
@@ -2700,7 +2692,7 @@
                 "Fuck- Wait... My <limb>... Awh...",
                 "My <limb> is so sore..."
             ],
-            "hit": [
+            "hitgroundhard": [
                 "Agh!",
                 "Gack!",
                 "Fuck!",
@@ -2743,7 +2735,7 @@
                 "STOP!!!",
                 "DAMN IT!!!"
             ],
-            "scream": [
+            "fallscream": [
                 "AAAAH!!",
                 "AAAAHHH!",
                 "CRAAAP!",
@@ -2765,7 +2757,7 @@
                 "AAH!",
                 "AAAAAAAAAAHHH!"
             ],
-            "terrified": [
+            "hitbycreature": [
                 "AAAHHHHH!",
                 "AAAAAAAAHHHHH!",
                 "AHHH!! FUCK!!!",
@@ -2847,7 +2839,7 @@
                 "CRAP! ... Ouuchhh... That was so loud...",
                 "NO!!! Fuck me, man... Aghhh, that was loud..."
             ],
-            "regret": [
+            "murderregret": [
                 "Why... Why did I do that..? F-fuck...",
                 "Gh... God... Why..?",
                 "I... That was horrible.. I'm a monster...",
