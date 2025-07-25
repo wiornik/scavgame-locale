@@ -1,8 +1,6 @@
 {
     "name": "English",
-    "replaceAllFonts": false,
-    "replaceSpecialFonts": false,
-    "outdated": false,
+    "gameVer": 4,
     "main": {
         "bandage": "Dressing",
         "bandagedsc": "A roll of dressing with a bandage, used to slow down bleeding, stabilize fractures and aid skin healing. Has no effect on muscle health.",
@@ -89,7 +87,7 @@
         "plasticbag": "Plastic bag",
         "plasticbagdsc": "A thin, blue plastic bag.",
         "gravbag": "Grav-Bag",
-        "gravbagdsc": "A very experimental container that generates negative gravity in order to reduce the weight of whatever's in it. Has explosive tendencies when its battery nears empty. Use to remove battery.",
+        "gravbagdsc": "A very experimental container that generates negative gravity in order to reduce the weight of whatever's in it. Has explosive tendencies when its battery nears empty.",
         "legpouch": "Leg pouch",
         "legpouchdsc": "A leather pouch with straps made to go around the thigh. It's like a pocket pocket!",
         "purse": "Purse",
@@ -518,6 +516,10 @@
         "dropcapsuledsc": "An artificial warmth emanates from it.",
         "chipcapsule": "Chip capsule",
         "chipcapsuledsc": "",
+        "lifepodbuttonheat": "Heat toggle",
+        "lifepodbuttonheatdsc": "A red, cheap looking button. This one toggles the lifepod heater and A/C. It's currently set to <>.",
+        "lifepodbuttonshower": "Shower toggle",
+        "lifepodbuttonshowerdsc": "A red, cheap looking button. This one activates the lifepod's cleaning and disinfecting gas shower.",
         "EmissiveCrystal": "Emissive Crystal",
         "EmissiveCrystaldsc": "A rather bright light emanates from it.",
         "foodbox": "Food box",
@@ -551,7 +553,7 @@
         "sandrose": "Sand rose",
         "sandrosedsc": "An oddly beautiful plant with a few large, oblong shapes growing on it.",
         "scrapeater": "Scrap-eater",
-        "scrapeaterdsc": "It has a label on it that reads \"Insert scrap to open\", with a small monitor next to it displaying \"<>%\".",
+        "scrapeaterdsc": "It has a label on it that reads \"Insert scrap to open\", with a small monitor next to it displaying <color=#ffffff>\"<>%\".",
         "shuttledoor": "Shuttle door",
         "shuttledoordsc": "A big piece of metal to keep outside things outside and inside things, inside.",
         "shuttleelevator": "Shuttle elevator",
@@ -585,7 +587,7 @@
         "soundcannon": "Sound cannon",
         "soundcannondsc": "You should probably cover your ears if you hear it charging.",
         "trader": "Survivor",
-        "traderdsc": "Another unlucky victim. At least they're still breathing.\nRight-click at close range to open the trading screen.", 
+        "traderdsc": "Another unlucky victim. At least they're still breathing.",
         "traderdscdead": "They're not breathing anymore. Thanks to you.",
         "bananaplant": "Banana-plant",
         "bananaplantdsc": "A short, wide plant, colloquially called the \"Banana Plant\" due to its mushy, yellow top. Very slippery to step on.",
@@ -606,7 +608,9 @@
         "gunmine": "Gunmine",
         "gunminedsc": "Colloquially called the \"Toe popper\".",
         "sawblade": "Sawblade",
-        "sawbladedsc": "Brings up horrifying memories."
+        "sawbladedsc": "Brings up horrifying memories.",
+        "LoreNote": "Written note",
+        "LoreNotedsc": "Left behind by another survivor."
     },
     "moodles": {
         "dead": "Deceased",
@@ -748,6 +752,9 @@
         "rippedjaw": "Disfigured",
         "rippedeye": "Half-blind",
         "rippedeyes": "Blind",
+        "lowimmunity": "Immunocompromosed",
+        "highimmunity": "Immunocompetent",
+        "amputation": "Amputation",
 
         "deaddsc": "Permanent, irreversible, and complete loss of brain function. You have left this world behind, alike the rest.",
         "braindamage4dsc": "...",
@@ -887,7 +894,10 @@
         "rnrsdsc": "Neural shock caused by a sudden and rapid regeneration of brain tissue. While you'll adjust after some time, you might not want to take another dose for now. (<>)",
         "rippedjawdsc": "Your lower jaw has been ripped off due severe trauma to the head. Eating and talking is much harder. You are horribly scarred by the experience.",
         "rippedeyedsc": "One of your eyes has been ripped out, halving your field of view. You are somewhat scarred by the experience. Don't lose the remaining one.",
-        "rippedeyesdsc": "Both of your eyes have been ripped out. You can only get by using feel and sound. At least you no longer need a light source..."
+        "rippedeyesdsc": "Both of your eyes have been ripped out. You can only get by using feel and sound. At least you no longer need a light source...",
+        "lowimmunitydsc": "Your immune system is severely weakened, be it due to dirtyness, hunger, thirst or more. Infections are much more dangerous. Take better care of yourself.",
+        "highimmunitydsc": "Your immune system is working at high capacity, likely due to antibiotics. Infections are much less dangerous, and might even regress on their own if near 200%.",
+        "amputationdsc": "One of your extremities has been dismembered. Traumatizing. Obviously, any use of the lobbed off limb is permanently gone."
     },
     "other": {
         "layertitletutorial": "Earth\nTraining lab",
@@ -1042,6 +1052,9 @@
         "wear": "Wear",
         "drop": "Drop",
         "you": "You",
+        "damagereduction": "Damage reduction: ",
+        "bodyinsulation": "Body insulation: ",
+        "youdescription": "<sprite index=20>Inventory",
         "wet": "Wet",
         "saveexit": "Save and exit",
         "saveexitdsc": "Save your progress and take a break.\nThe run will be resumed at the start of the next layer.",
@@ -1096,7 +1109,6 @@
         "speed1": "Normal",
         "speed2": "Fast",
         "speed3": "Very fast",
-        "traded": "Traded",
         "shifttoexpand": "Hold Shift to expand",
         "napinfo": "Can't sleep if in pain/sick/not tired",
         "napinfo2": "Sleep quality is determined by the ground you sleep on",
@@ -1104,6 +1116,7 @@
         "sleepquality2": "<color=\"grey\">Okay</color>",
         "sleepquality1": "<color=\"orange\">Mediocre</color>",
         "sleepquality0": "<color=\"red\">Bad</color>",
+        "togglehealthmode": "Toggle wound/armor view",
         "tutexp1": "Another training session.",
         "tutexp2": "Mhm...",
         "tutexp3": "The things they're trying to hammer into us are concerning...",
@@ -1227,6 +1240,11 @@
         "hpopiate": "Opiate amount",
         "keybinds": "Keybinds",
         "layer": "Layer",
+        "toggleheatmode": "Toggle heat mode",
+        "activateshower": "Activate shower",
+        "heaterhot": "hot",
+        "heatercold": "cold",
+        "heateroff": "off",
         "magazinerounds": "rounds",
         "gunrack": "Rack slide",
         "gunmagazine": "Eject magazine",
@@ -1240,6 +1258,12 @@
         "alerttoounhappy": "Cannot use non-opioid medicines when miserable",
         "resetkeybinds": "Reset to default",
         "reloadbinds": "Reload binds\n(Check for changes)",
+        "insertsample": "Insert a sample",
+        "tradeinteract": "Trade",
+        "read": "Read",
+        "repairmetalalloy": "Repair using metal alloy",
+        "insertscrap": "Insert scrap",
+        "open": "Open",
         "learnedrecipe": "Learned recipe for r1.",
         "learnedrecipefail": "There's a recipe for r1, but you already knew it...",
         "hasbattery": "Has battery (<>)\n<sprite index=17 tint=1>Use tool to remove",
@@ -1263,7 +1287,7 @@
         "valuegiventip": "Value given",
         "valuegiventipdsc": "How much the survivor owes you. This is your currency when trading items.",
         "traderpurchase": "Purchase item",
-        "tradingblocked": "Trading blocked",
+        "tradingblocked": "Bought too recently",
         "valuegiven": "<sprite index=9>Value given: ",
         "theirinventory": "Their inventory",
         "yourinventory": "Your inventory",
@@ -1277,38 +1301,45 @@
         "restdsc": "Take a nap with the trader to build trust and have comfier sleep. Usual conditions for sleeping apply.",
         "exit": "Exit",
         "free": "<color=\"orange\">FREE!",
+        "deceased": "Deceased",
+        "statusreport": "Status report",
+        "firmware": "Firmware",
+        "depth": "Depth",
+        "caloriesconsumed": "Calories consumed",
+        "mentalstate": "Mental state",
+        "timetaken": "Time taken",
+        "missionstatus": "Mission status",
+        "missionstatusfailure": "Failure",
+        "casualties": "Casualties",
+        "unknown": "Unknown",
+        "moodrange-10": "Suicidal",
+        "moodrange-9": "Completely hopeless",
+        "moodrange-8": "Utterly miserable",
+        "moodrange-7": "Horrified",
+        "moodrange-6": "Terrified",
+        "moodrange-5": "Depressed",
+        "moodrange-4": "Dejected",
+        "moodrange-3": "Upset",
+        "moodrange-2": "Scared",
+        "moodrange-1": "Troubled",
+        "moodrange0": "Steady",
+        "moodrange1": "Composed",
+        "moodrange2": "Content",
+        "moodrange3": "Satisfied",
+        "moodrange4": "Upbeat",
+        "moodrange5": "Excited",
+        "moodrange6": "Happy",
+        "moodrange7": "Delighted",
+        "moodrange8": "Overjoyed",
+        "moodrange9": "Gleeful",
+        "moodrange10": "Ecstatic",
+        "moodrangewiped": "Hollow",
+        "moodrangeyethopeful": ", yet hopeful...",
         "startlorenote": "Year 2XXX \n<>\nHumanity has technologically progressed to a significant extent. \n<>\nOne corporation began to put research into bio-engineering, combining animal and human DNA. \n<>\nThis lead to their creation of the Experiment species, along with dozens of later offshoots. \n<>\nAfter years of unethical private testing in labs, they set their sights on something bigger. \n<>\nThey knew of a gray planet with thriving flora, fauna and an easy space travel path. \n<>\nSoon, thousands of specimens, buildings and miscellaneous cargo were sent. \n<>\nWhile most was shipped correctly, a large amount of cargo was mistakenly sent to the planet's expansive cave network due to a calibration error. \n<>\nThis includes a mistakenly sent piece of important experimental technology, which now sat deep in the underground systems, without an easy way to get it back. \n<>\nThis, however, was seen as an opportunity by the scientists to do more behavioural research by sending thousands of specimens down to retrieve the lost tech. \n<>\nThe chance of it working were low, but shipment is cheap and their breathing fodder is plenty. \n<>\nYou are one unlucky specimen.\nResistance is not an option.",
         "jsonthing": "hi, this is here so i can copy json text without it annoying me about commas. this entry is not needed :)"
     },
     "character": [
         {
-            "wallnotes": [
-                "Man- This place is... Odd. And scary. There's these weird black spiders that sometimes sneak up on me and bite me when I'm not looking... Hate 'em. They tend to leave these nasty, often infected gashes in me... It hurts, but the odd coloring on my leg tends to go away after I rub some of those glowy fruits that grow here, on the wound. Things suck, but at least we're surrounded by nature's antibiotics..",
-                "The amount of corpses here is horrifying...- They sent so many of us down here! I don't even remember how I got here... I know I was stabbed with some kind of dart, or syringe... Next thing I know, I wake up in one of those lifepods, about to launch from our lab and soon to fly towards whatever this gray little planet is...",
-                "It's not just me. Almost everyone sent down here apparently is able to see their health status in their own mind, too... It feels... Artificial..? I know none of us had this kind of vision before. I wonder if it's from one of those chips that they secretly pumped into us.",
-                "I just saw someone, in the distance, walk into one of those gray spike traps... They died on the spot... God... I'm horrified. I don't want to die here... If you're reading this, please watch your step, always, at all times, anywhere you go. We can't afford to all die down here.",
-                "I figured it out! If I take a bit of that red blood that I would sometimes find in the white boxes lying around, and I splash it on one of those terminals, the door next to it will open! This blood is weirdly similar to the blood our captors have, back up in our home... I wonder if it's theirs?",
-                "abandon all hope",
-                "Note to self: Apparently, my metabolism is NOT made for this kind of survival scenario. I keep losing weight... I look like a stick by now! I really should keep myself full more often... And so should you, random reader! Good luck out there.",
-                "I decided to do a little taste test with the blood bags I keep finding around... The weird red ones taste... Metallic..? And the ones with our blood taste artificial... Like, chemicals. Both made me pretty sick, but I guess I could use them as a last resort if I'm parched..?",
-                "Why are we even here? We're held in an overcrowded lab all our lives, having our captors do weird tests on us, just for them to... Send random people here? To their deaths..? I don't want to die down here... I miss my friends from up there...",
-                "The amount of random scattered buildings, crates and pods is... Odd, to say the least. Why are they sending so much random trash here? Why are they sending US here too..? I know we're sent to retrieve a \"critical piece of cargo\", but... Why is it down here anyway? This is a completely different planet than our lab back home!",
-                "The air here is cold... So much colder than the white plated labs we have back at home. It's pretty nice, actually! I don't like the heat. Better here than up there!",
-                "I fell down really far... My leg is completely mangled, I think it's broken... Walking is really hard, I have to be careful with my movements as to not immediately collapse from agony... I don't know how much longer I can take this.",
-                "I met up with someone here, and decided that we'll try to just go to the surface and escape this wretched cave... The moment they walked through one of those holes and went outside... They started behaving really odd... They collapsed and eventually lost their pulse... Something is out there. Something is preventing us from leaving. Is it our captors? Forcing us to stay here..?",
-                "(There is a poorly made drawing of what looks like to be one of your captors, wearing a white lab suit and a tazer in hand. Their face is scratched out with a big X. The weapon brings back horrible memories.)",
-                "This place can get pretty cold at times, especially if I get wet... I have to constantly occupy myself with physical work to stay warm. It's a harsh existence...",
-                "Fuck... Be careful around the pools here, especially if they're deep... Swimming can be pretty exhausting, I almost drowned in one of these water reservoirs after getting knocked into it by the current. Spilling them can be useful, just need to be more careful.",
-                "I fucking love fentanyl, man. My life was so shit before I got here... Stuck in those stingy white labs... Once I got was sent here and provided with some of these opiates, everything has been soooooo much better... I just... Wish I could find more...",
-                "I need to stop getting stuck in places without a light on me. Even those glowy plants do the job... My eyes aren't nearly good enough to light up the area around me. My now missing left hand learned the hard way. I don't know how I'm still alive.",
-                "Everything hurts.",
-                "I overheard a little bit from a conversation between our captors... Apparently the cargo we're retrieving is some kind of \"advanced energy source\". Something about... Storing a large amount of power, and being able to distribute it... Wirelessly? I'm not sure what any of that even means... Maybe one of you will know more.",
-                "No no no no no. Help. Help me. Please. If someone comes across this... I'm hit... I can't stop the bleeding... I'm scared, I'm so weak. Please...",
-                "I can do it. I can finally do it. I have waited my entire life for this, but the time has finally come. I have everything I need to do it. I... I'm equipping my Green Aura.",
-                "The distribution of races here seems very disproportional. The experiments are everywhere, but other species like me seem to be much lesser in numbers... Quite odd. I dislike the amount of casualties here. More of us need to be helped.",
-                "An amalgamation of a \"Human, Fox and a rat\"... What does that mean? What even are all of those? I overheard us being called that by our captors... How much is there that's kept from us? The thought scares me... I've never really considered the possibility of there being anything outside where we were raised. And now I'm here... I wish I could wrap my head around... All of this.",
-                "What the fuck are you guys doing??? Why are you sending out so many of our fucking necessary supplies to this dry ass ball of gravel? This planet that, as far as I know, has no fucking oceans or anything on it??? We NEEDED those fucking snorkels... Our clients have been waiting for so long for those things... What is our management doing??? I fucking hate this job. I'm filing a report. If you send the fax machine too, I'm going to Track You Down.\n\n(There is a miniature fax machine attached to the paper)"
-            ],
             "seeGravel": [
                 "We're here...",
                 "Okay... Let's do this.",
@@ -2774,6 +2805,32 @@
                 "Way too moist in here!",
                 "Get this water off of my skin."
             ],
+            "dirty": [
+                "Ugh... I'm so dirty!",
+                "I really need a bath.",
+                "I'm covered in bog.",
+                "I'm all covered in dirt.",
+                "Eugh... My fur is all dirty.",
+                "I think I need a shower.",
+                "It might just be me, but I think I'm starting to smell.",
+                "All this dirt on me... I feel like an animal.",
+                "This is not very hygienic...",
+                "Can't I take a quick bath?",
+                "I should clean myself.",
+                "I need to clean off all this dirt.",
+                "Way too dirty.",
+                "Really should wash all the dirt off...",
+                "Lets not get THIS unclean...",
+                "Time for a bath!",
+                "I'm pretty sure those lifepods have showers in them... I really could use one.",
+                "How'd I get so dirty?",
+                "Gosh, I am COVERED in gunk!",
+                "My fur is so yucky!",
+                "Guh! I'm completely covered in filth.",
+                "There's soot in my fur.",
+                "I feel filthy. I really need a bath, or something...",
+                "Could do with a shower!"
+            ],
             "watchlike": [
                 "I like this watch-thing. It's comfy."
             ],
@@ -2817,18 +2874,14 @@
             ],
             "tradermeetgood": [
                 "Ah! Hi!!",
-                "Hello! How are ya?"
-            ],
-            "tradermeetgreat": [
+                "Hello! How are ya?",
                 "Aah! Hello!! Hi!"
-            ],
-            "tradermeetpoor": [
-                "...Hey.",
-                "...Hm. Hello."
             ],
             "tradermeetbad": [
                 "Hheeyy...I dislike your presence..?",
-                "H... Hello... Uhh..."
+                "H... Hello... Uhh...",
+                "...Hey.",
+                "...Hm. Hello."
             ],
             "traderhugsuccess": [
                 "Awww... Thank you.",
@@ -2941,6 +2994,22 @@
                 "Hope you slept well.",
                 "Wakey wakey!"
             ],
+            "traderseegun": [
+                "...Woah there! Put that gun away, man... Anyway.",
+                "Hey! What's with the gun? Put that away, please. ...So.",
+                "I hope you're not using that gun, haha.",
+                "Ey, I don't have a gun, so put yours away, bud."
+            ],
+            "tradermeetimpairedspeech": [
+                "...Huh? What? Is there something in your mouth? I can't understand you...",
+                "Mmmff mff mmmmfff mhfff! That's what you sound like.",
+                "I get that this is a bad scenario we're in, but you can atleast put in some effort into speaking clearly..."
+            ],
+            "traderseehurt": [
+                "Since you're hurt, I'll let ya grab a bandage for free if you can find one around here...",
+                "Aww, you're hurt. If you can find a bandage on me, you can take it! I don't remember if I have one...",
+                "Ohh, you don't seem to be doing well... Tell ya what, you can grab a bandage for free if you see one."
+            ],
             "swingresponse": [
                 "I'M SORRY!",
                 "STOP IT!",
@@ -3003,24 +3072,20 @@
             "tradermeetgood": [
                 "I'm honored to see another survivor.",
                 "Oh! Hello! How are you doing, friend?",
-                "Greetings, dear. How are you doing?"
-            ],
-            "tradermeetgreat": [
+                "Greetings, dear. How are you doing?",
                 "Ah! Greetings. You look very chipper!",
                 "Ah, how happy I am to see someone like you!"
             ],
-            "tradermeetpoor": [
+            "tradermeetbad": [
+                "...I am not impressed.",
+                "Ough. Hello...",
+                "...You confound me. Greetings.",
                 "...Hello.",
                 "Greetings. Please refrain from touching me.",
                 "Hello, fellow survivor.",
                 "Greetings. Please use the door next time.",
                 "Welcome.",
                 "Greetings."
-            ],
-            "tradermeetbad": [
-                "...I am not impressed.",
-                "Ough. Hello...",
-                "...You confound me. Greetings."
             ],
             "traderwakegreet": [
                 "Good morning.",
@@ -3047,7 +3112,7 @@
                 "I accept your request.",
                 "I hear you, buddy. Sure.",
                 "I have to agree.",
-                "Affirmative"
+                "Affirmative..."
             ],
             "traderhagglefail": [
                 "How about no?",
@@ -3055,7 +3120,7 @@
                 "I only accept facts and logic, not uncoordinated pleas.",
                 "No.",
                 "That was the worst argument I've ever heard.",
-                "I have to deny your appeal",
+                "I have to deny your appeal.",
                 "Negative.",
                 "No exceptions, sorry."
             ],
@@ -3119,8 +3184,24 @@
                 "NO TOUCHIES!",
                 "Refrain.",
                 "Cease. Do not embrace me.",
-                "No. Stop. Do not touch me",
+                "No. Stop. Do not touch me.",
                 "Ew! Get your hands off of me."
+            ],
+            "traderseegun": [
+                "Before we talk, please remove that gun from your person. Anyway...",
+                "I hope this isn't a robbery. If not, put the gun away... Either way...",
+                "Get that gun away from me, this isn't an active shootout. Anyway...",
+                "Are you TRYING to make yourself a threat to me or do you just think the gun looks cool..?"
+            ],
+            "tradermeetimpairedspeech": [
+                "What are you saying..? I can't understand you.",
+                "Your speech is extremely muffled. Just letting you know.",
+                "I can barely make out what you're saying to me."
+            ],
+            "traderseehurt": [
+                "You appear to be injured and bleeding... You can take a bandage if you wish.",
+                "Ew! Please don't bleed all over my floor. Grab a bandage and treat yourself if you see one, mine are free.",
+                "That doesn't look good... You may take a bandage for free if you can find one on me."
             ],
             "traderlightbreak": [
                 "...Dude. I have eyes. Thief... Leave!",
@@ -3130,5 +3211,137 @@
                 "Why are you destroying my pod!? Get OUT! LEAVE!"
             ]
         }
+    ],
+    "notes": [
+        [
+            {
+                "Item1": "this is horrifying. there's so many corpses... im scared. why did they send so many of us here? i dont understand. i really dont understand. they knocked me out cold with some kind of dart and forced me into a pod to be sent here. i hate this planet.",
+                "Item2": ""
+            },
+            {
+                "Item1": "I inquired others around the ability to see our physical status in our minds, and it turns out this is something shared by almost everyone else here. Quite interesting - this is not something we've ever been able to do back in our homes. Have we been implanted with something? There are no visible attachments on any of us. I have also noted that very few people here do not share this experience, seemingly lacking whatever lets us do this. Odd.",
+                "Item2": "Sprites/noteDrawings/puppet"
+            },
+            {
+                "Item1": "i keep losing weight. i need to eat more to stay in shape. all this running around makes you consume calories really fast. i guess i need to be full more often.",
+                "Item2": "Sprites/noteDrawings/underweight"
+            },
+            {
+                "Item1": "this is horrible. this is fucking horrible. i cant do it anymore. this is a death mission. abandon all hope. there is no point to this",
+                "Item2": "Sprites/noteDrawings/x"
+            },
+            {
+                "Item1": "i dont get why we're here. what for? i know im supposed to retrieve some kind of battery cell or something. im assuming others have the same mission. arent there more efficient ways of doing this? logically? why send us here. i miss my friends. i dont want to die.",
+                "Item2": "Sprites/noteDrawings/alone"
+            },
+            {
+                "Item1": "i fell down. bad. my leg is mangled. this is really bad. trying to move at all is a pain. i need some painkillers for this.",
+                "Item2": "Sprites/noteDrawings/brokenleg"
+            },
+            {
+                "Item1": "i overheard our captors calling us a mutated amalgamation of a \"human, fox and rat\", whatever any of that means. how much is there being kept from us? information wise? the thought scares me. ive never considered anything being outside of where we were raised. and now im here. i cant wrap my head around all of this.\n(On the paper is what looks to be a self-portrait.)",
+                "Item2": "Sprites/noteDrawings/experiment"
+            },
+            {
+                "Item1": "I have found drawing to be a decent escape to the situation I have found myself in. It seems all of us are struggling with our mental states, one way or another. It is nice to get a distraction from the harsh reality at times.",
+                "Item2": ""
+            },
+            {
+                "Item1": "planet is good .  eat a lot of good flesh .  dune happy\n(You can make out what looks like a very poorly made self-portrait.)",
+                "Item2": "Sprites/noteDrawings/dune"
+            },
+            {
+                "Item1": "The distribution of species here seems very disproportional. The Experiments are everywhere, yet other species like ours seem to be much lesser in numbers. Odd... Either way, I dislike the amount of casualties here. More of us need to be helped.",
+                "Item2": "Sprites/noteDrawings/milky"
+            }
+        ],
+        [
+            {
+                "Item1": "ugh, this place sucks. i keep being bitten by random spiders i cant see in time. i think theyre venomous, as they leave nasty looking infected wounds in me... the glowplant fruit do help with those though",
+                "Item2": "Sprites/noteDrawings/spider"
+            },
+            {
+                "Item1": "the red blinking lights in the dark are spike traps. watch out for them. please. please. someone just walked into one in the distance, i just heard a yelp and silence after. stay safe",
+                "Item2": ""
+            },
+            {
+                "Item1": "its cold here. so cold. much colder than our previous home. honestly, i like it. bathing in the pools feels nice, its refreshing. im liking this vacation",
+                "Item2": "Sprites/noteDrawings/pool"
+            },
+            {
+                "Item1": "i met up with someone, we agreed to try to go out to the surface through one of those holes to the outside. my friend stepped out first, and immediately they started stumbling in shock. they seemed to be in a lot of pain. they vomited a bunch, then collapsed and stopped breathing soon after. their skin started blistering too, especially around the head and neck. something is preventing us from leaving. im scared.",
+                "Item2": "Sprites/noteDrawings/radiation"
+            },
+            {
+                "Item1": "Getting wet seems to be rather dangerous if you're not careful. The temperature here is much lower than at our home, and it seems being drenched for too long can get us in a hypothermic state. Try doing some physical exercise if you need to warm up quickly, I've discovered that helps.",
+                "Item2": ""
+            },
+            {
+                "Item1": "i really need to stop losing my lights. anything does the job, even those weird glowy plant things. i keep leaving forgetting about them, then tripping up and getting hurt by accident. not good.",
+                "Item2": "Sprites/noteDrawings/glowplant"
+            }
+        ],
+        [
+            {
+                "Item1": "apparently those boxes with the weird computers next to them can be opened if you spill some red blood on them. it has to specifically be red blood, otherwise it wont work. it has some crates inside, you can open them and take stuff with you. useful.",
+                "Item2": "Sprites/noteDrawings/bloodbag"
+            },
+            {
+                "Item1": "Investigating the chemical composition of the different colored blood bags I have found here, it seems they are considerably different in their composition. The red blood is completely different than ours and the blood that the creatures here possess. It seems to be somewhat metallic in composition for whatever reason, how odd. Better not use that on ourselves.",
+                "Item2": ""
+            },
+            {
+                "Item1": "(There is a poorly made drawing of what looks to be one of your captors. They are holding what you can make out as a tazer. Their face is scratched out with a big X. The weapon brings back horrible memories.)",
+                "Item2": "Sprites/noteDrawings/scientist"
+            },
+            {
+                "Item1": "i almost drowned just a moment ago. ive never swam before, and its very exhausting. its hard to keep myself above the surface when im tired. i imagine sinking forever to be pretty painful... be careful.",
+                "Item2": "Sprites/noteDrawings/drown"
+            },
+            {
+                "Item1": "overhearing a little bit from our captors, apparently the cargo we are supposed to get is some kind \"advanced energy source\". something about storing a large amount of power and distributing it \"wirelessy\". i do not know what most of that means, but maybe it will be useful to know. stay safe",
+                "Item2": ""
+            },
+            {
+                "Item1": "Recently found a drill of sorts, but it's missing a few parts. I can't seem to figure out what it needs, aside from the covering panel for all the mechanisms... Could prove helpful if I was to get it to a working state.",
+                "Item2": ""
+            }
+        ],
+        [
+            {
+                "Item1": "ugh. its so hot in here. really need to space out my movements and be careful as to not fall numb from the heat. ive found that taking dives in the water pools here helps... maybe even the brown ones if desperate.",
+                "Item2": ""
+            }
+        ],
+        [
+            {
+                "Item1": "There seems to be a high amount of radioactive waste in this area. While that does make it difficult to navigate, we should keep in mind that we can take brief doses of ionizing radiation without too much issue, as long as the exposure doesn't last too long. We're already riddled with cancer due to presumably being unnatural, thus the effect on our entire lifespan is negligible.",
+                "Item2": ""
+            }
+        ],
+        [
+            {
+                "Item1": "dune see big monster. motivated to kill      dune chase monster and kill and eat . great food . great hunter of beast !",
+                "Item2": ""
+            }
+        ],
+        [
+            {
+                "Item1": "way too cold in here. have to try my best to not get wet at all, or ill be in big trouble. lucky us, there are a lot of those weird sporey plants that give off some heat, along with those weird machines. run between those when possible, i guess. better not get stuck in the freezing cold.",
+                "Item2": "Sprites/noteDrawings/xaloris"
+            }
+        ],
+        [
+            {
+                "Item1": "It's odd how it rains here. I've never actually seen real rain before... It's rather pretty, even if unsanitary. I still wonder how it is possible for there to be such a higher water concentration down here. Perhaps, the water from the above ice cap is dripping down to here?",
+                "Item2": ""
+            }
+        ],
+        [
+            {
+                "Item1": "",
+                "Item2": ""
+            }
+        ]
     ]
 }
