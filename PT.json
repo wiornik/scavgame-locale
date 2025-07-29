@@ -519,7 +519,7 @@
         "lifepodbuttonheat": "Interruptor do aquecedor",
         "lifepodbuttonheatdsc": "Um botão vermelho de aparência barata. Parece ligar o aquecedor ou ar condicionado da cápsula. Está no modo <>.",
         "lifepodbuttonshower": "Interruptor do chuveiro",
-        "lifepodbuttonshowerdsc": "Um botão vermelho de aparência barata. Este ativa o sistema de limpeza e desinfecção com espuma da cápsula .",
+        "lifepodbuttonshowerdsc": "Um botão vermelho de aparência barata. Este ativa o sistema de limpeza e desinfecção com espuma da cápsula.",
         "EmissiveCrystal": "Cristal emissivo",
         "EmissiveCrystaldsc": "Uma luz meio forte é emitida disso.",
         "foodbox": "Caixa de comida",
@@ -754,7 +754,7 @@
         "rippedeyes": "Cego",
         "lowimmunity": "Imunocomprometido",
         "highimmunity": "Imunocompetente",
-        "amputation": "Amputação",
+        "amputation": "Amputado",
 
         "deaddsc": "Perda de função cerebral completa, permanente e irreversível. Você deixou este mundo, diferente dos outros.",
         "braindamage4dsc": "...",
@@ -894,10 +894,10 @@
         "rnrsdsc": "Choque neural causado pela rápida regeneração de tecidos cerebrais. Embora você se ajustará em breve, talvez seja melhor NÃO repetir a dose. (<>)",
         "rippedjawdsc": "Sua mandíbula foi arrancada devido aos traumas severos sofridos na cabeça. Comer e falar é difícil. Você se sente horrivelmente marcado por essa experiência. ",
         "rippedeyedsc": "Um de seus olhos foi arrancado, dividindo seu campo de visão. Você se sente marcado pela experiência. Não perca o outro.",
-        "rippedeyesdsc": "Ambos seus olhos foram perdidos. A única forma navegar será com seu tato e audição. Ao menos não é mais necessário uma fonte de luz...",
-        "lowimmunitydsc": "Seu sistema imunológico está severamente enfraquecido, seja pela sujeira, fome, sede ou outro motivo. Infecções são muito mais perigosas. Cuide-se melhor.",
-        "highimmunitydsc": "Seu sistema imunológico está com toda a potência, provavelmente devido aos antibióticos. Infecções são muito menos perigosas e podem até regredir por conta própria se próximo aos 200%.",
-        "amputationdsc": "Uma de suas extremidades foi desmembrada. Traumatizante. Obviamente, qualquer ação com o membro cortado se foi permanentemente."
+        "rippedeyesdsc": "Seus dois olhos foram perdidos. A única forma de navegar será com o seu tato e audição. Pelo menos não precisará mais de uma fonte de luz...",
+        "lowimmunitydsc": "Seu sistema imunológico está severamente enfraquecido, seja pela sujeira, fome, sede, ou outro motivo. Infecções são muito mais perigosas. Cuide-se melhor.",
+        "highimmunitydsc": "Seu sistema imunológico está com toda a potência, provavelmente devido aos antibióticos. Infecções são muito menos perigosas e podem até regredir por conta própria se sua imunidade estiver próxima dos 200%.",
+        "amputationdsc": "Um dos seus braços foi cortado. Qualquer ação com ele também se foi. Traumatizante!"
     },
     "other": {
         "layertitletutorial": "Terra\nLaboratório de treinamento",
@@ -1240,7 +1240,7 @@
         "hpopiate": "Quantidade de opioides",
         "keybinds": "Teclas",
         "layer": "Camada",
-        "toggleheatmode": "Alterar modo de ar",
+        "toggleheatmode": "Trocar modo de ar",
         "activateshower": "Ativar chuveiro",
         "heaterhot": "quente",
         "heatercold": "frio",
@@ -1259,7 +1259,7 @@
         "resetkeybinds": "Redefinir para padrão",
         "reloadbinds": "Atualizar teclas\n(Aplicar mudanças)",
         "insertsample": "Inserir amostra",
-        "tradeinteract": "Trocar",
+        "tradeinteract": "Negociar",
         "read": "Ler",
         "repairmetalalloy": "Reparar com liga metálica",
         "insertscrap": "Inserir sucata",
@@ -1309,15 +1309,11 @@
         "mentalstate": "Estado mental",
         "timetaken": "Tempo perdido",
         "missionstatus": "Estado da missão",
-        "missionstatusfailure": "Fracassada",
-    
-        "casualties": "Casualties",
-
-
-        "unknown": "Unknown",
-
+        "missionstatusfailure": "Fracasso total",
+        "casualties": "Vítimas",
+        "unknown": "Desconhecidas",
         "moodrange-10": "Suicida",
-        "moodrange-9": "Completamente sem esperança",
+        "moodrange-9": "Infinito desespero",
         "moodrange-8": "Profundamente miserável",
         "moodrange-7": "Horrorizado",
         "moodrange-6": "Aterrorizado",
@@ -1344,33 +1340,6 @@
     },
     "character": [
         {
-             "wallnotes": [
-                "Cara- Esse lugar é... Estranho. E assustador. Tem essas estranhas aranhas pretas que, de vez em quando, me mordem sem eu notar... Odeio elas. Elas costumam deixar marcas infectadas em mim... E dói, mas essa coloração estranha na minha perna normalmente some quando eu esfrego uma dessas frutas brilhantes que crescem por aqui na ferida. As coisas estão indo mal, mas pelo menos a natureza tenta ajudar...",
-                "A quantidade de gente morta aqui é assustadora... Eles enviaram tanta gente aqui pra baixo! Eu nem lembro como parei aqui... Lembro de ter sido perfurado por algum tipo de dardo ou seringa... E dái eu só acordei dentro de uma daquelas cápsulas, prestes a ser lançado daquele lugar em direção a seja lá o que for esse... Planeta cinza...",
-                "Não é só eu. Quase todos enviados pra cá conseguem verificar a própria saúde diretamente da mente... É uma sensação... Artificial..? Sei que ninguém tinha essa visão antes. Talvez tenha sido daqueles chips que eles \"\"secretamente\"\" colocaram em nós.",
-                "Acabo de ver alguém, bem longe, passando por uma daquelas armadilhas de espinho... Parece ter morrido na hora... Meu deus... Me sinto horrorizado. Eu não quero morrer aqui... Se você está lendo isso, cuidado onde pisa, sempre, em todos os momentos, não importa onde esteja. Não podemos morrer todos aqui.",
-                "EUREKA! Se eu pegar aquele sangue vermelho que as vezes tem dentro das caixas brancas que estão por aqui, e derramar em um daqueles terminais, a porta deles abre! Acho que esse sangue é o mesmo dos nossos captores, lá em casa... Estranho...",
-                "abandone toda esperança",
-                "Nota pra mim: Aparentemente, Meu metabolismo não foi nem um pouco feito para cenários de sobrevivência. Não paro de perder peso... eu tô parecendo um palito! Eu realmente deveria tentar ganhar uns quilos... E você também, leitor aleatório! Boa sorte por ai.",
-                "Decidi testar o sabor dessas bolsas de sangue que fico achando... As vermelhas tem um gosto... Metálico? E aquelas com nosso sangue tem um sabor... Artificial..? Tipo produtos químicos. As duas me fizeram passar mal maaaass, eu acho que poderia usar elas como um último recurso. Aagh... Só pensar nisso me faz passar mal...",
-                "Por que estamos aqui? Só pra sofrer? Nós ficamos num laboratório entupido de gente todas as nossas vidas, com nossos captores fazendo testes estranhos em nós, só pra eles... Mandarem gente aleatória pra cá..? Para as suas mortes..? Mas eu não quero morrer aqui... Sinto saudades dos meus amigos lá de cima...",
-                "A quantidade de construções, caixas e cápsulas aleatórias é... Estranho. Por que tem tanto lixo aqui? Meio que parece meu quarto... E por que estão mandando NÓS aqui? Eu sei que é pra pegar um \"pedaço importante de carga\", mas... Por que aqui de qualquer jeito? Isso é um planeta completamente diferente daquele laboratório lá em casa!",
-                "O ar aqui é frio... Tão mais frio do que os laboratórios banhados de branco lá em casa. É meio legal, até! Não gostava do calor. Melhor aqui do que lá emcima!",
-                "Eu cai muita altura... Minha perna tá completamente destruída, acho que tá quebrada... Andar é muito difícil, tenho que tomar cuidado do jeito que ando pra não cair em colapso por causa de tanta dor... Eu não sei o quanto mais eu consigo.",
-                "Eu encontrei alguém lá emcima, e decidimos que nós íamos só tentar voltar pra superfície e escapar essa droga de caverna... Quando andaram por um dos buracos abertos pra sair daqui... Ele só... Morreu. Sem pulso. Tem algo lá fora. Algo que não nos deixa sair daqui. Talvez sejam nossos captores... Nos forçando a ficar aqui...",
-                "(A nota contém um desenho muito malfeito do que parece ser um de seus captores com um jaleco de laboratório e um taser na mão. Sua cara está com um enorme X e a arma te traz memórias terríveis. Dá pra ver que alguém nunca desenhou na vida.)",
-                "Pode ficar bem frio por aqui, especialmente se eu estiver molhado... Preciso ficar me mexendo para ficar quente. É uma vida difícil...",
-                "Caralho... Cuidado com as piscinas daqui, principalmente se forem fundas... Nadar é muito exaustivo... Quase me afoguei em um desses poços d'água depois de ter sido levado pela corrente... Eu deveria tentar derramar essas piscinas fazendo um buraco... Só preciso ter cuidado...",
-                "EU AMO FENTANIL! Minha vida era tão merda antes de ir parar aqui... Preso naquela merda de laboratório sem cor... Quando fui enviado pra cá junto dessas belezinhas tudo ficou tãaao melhor... Eu só queria... Poder achar mais...",
-                "Eu preciso parar de ficar preso em lugares sem luz. Fico esquecendo de medir a distância usando essas fontes de luz... Até essas plantinhas brilhantes já servem... Meus olhos não chegam nem perto de iluminar os meus arredores. Minha mão esquerda aprendeu tudo isso do jeito difícil. Não tenho ideia de como ainda estou vivo.",
-                "TUDO DÓI",
-                "Eu ouvi uma conversa entre nossos captores... Aparentemente a carga de que nós estamos atrás é algum tipo de \"fonte de energia avançada\". Algo que pode... Guardar uma grande quantidade de energia e distribui-la sem nenhuma conexão... Não faço ideia do que qualquer disso significa... Talvez vocês saibam mais sobre isso?",
-                "Não não não. Socorro. Me ajude. Se alguém passar por isto... Eu fui ferido... Não consigo parar o sangramento... Eu tô com medo, me sinto tão fraco. Por favor--\n\n(O resto da nota é ilegível com toda a *tinta* amarela.)",
-                "Eu consigo. Eu posso finalmente fazer isso. Eu esperei minha vida toda por isso, mas o momento finalmente chegou. Eu tenho tudo que preciso para fazer isso. Eu... Eu estou equipando minha Aura Verde.",
-                "A distribuição de espécies por aqui parece meio desproporcional. Os experimentos estão no lugar todo, mas outros como eu são muito mais raros... Estranho. Eu não gosto de todas essas mortes por aqui. A gente precisa de ajuda.",
-                "Uma amalgamação de \"Humano, Raposa e Rato\"... O que que isso significa? O que são essas coisas? Eu ouvi nossos captores se referindo aos experimentos desse jeito... Quantos segredos existem que eles escondem de nós? Esse pensamento me assusta mas... (rabisco) -- Eu nunca havia considerado a chance de ter qualquer outra coisa fora do lugar em que crescemos. E agora eu tô aqui. Eu só queria entender... Tudo isso...",
-                "Que porra vocês tão fazendo??? Mas pra que merda vocês estão enviando tantos suprimentos de que a jente precisa pra essa enorme bosta de bola de cascalho??? Esse planeta que, até onde eu sei, não tem oceanos ou qualquer outra coisa útil??? NÓS PRECISAVAMOS DOS SNORKELS... A clientela já estava esperando há séculos por aquelas coisas... O que que a chefia tá fazendo??? Eu odeio essa porra de trabalho. Estou reportando vocês. Se enviarem a maquina de fax também, eu caço cada um de vocês.\n\n(Tem uma miniatura de maquina de fax anexada ao papel)"
-            ],
             "seeGravel": [
                 "Chegamos...",
                 "Ok... Vamos fazer isso.",
@@ -2839,19 +2808,19 @@
                 "Toda essa terra em mim... Me sinto um animal.",
                 "Isso não é muito higiênico...",
                 "Será que consigo tomar um banho rápido?",
-                "Eu deveria me lavar.",
+                "Eu deveria me limpar.",
                 "Eu preciso me livrar dessa sujeira.",
                 "Sujo demais.",
                 "Eu deveria mesmo lavar toda essa terra de mim...",
                 "Que tal NÃO ficar imundo dessa forma...",
                 "Hora do banho!",
-                "Tenho quase certeza que aquelas cápsulas possuem chuveiros... Poderia usar um.",
+                "Tenho quase certeza que todas aquelas cápsulas tem chuveiros... Poderia usar um.",
                 "Como que eu me sujei tanto?",
-                "Deus, eu to, COBERTO, de lama!",
-                "Meu pelo ta nojento!",
+                "Deus, eu tô, COBERTO, de lama!",
+                "Meu pelo tá nojento!",
                 "Ugh! Tô sujo dos pés à cabeça.",
                 "Meu pelo ta muito encardido.",
-                "Me sinto podre. Realmente preciso de um banho, ou de algo parecido...",
+                "Me sinto podre. Realmente preciso de um banho, ou algo assim...",
                 "Adoraria um chuveiro!"
             ],
             "watchlike": [
@@ -3019,51 +2988,20 @@
                 "Acorda acorda!"
             ],
             "traderseegun": [
-
-
-
-                "...Woah there! Put that gun away, man... Anyway.",
-
-
-                "Hey! What's with the gun? Put that away, please. ...So.",
-
-
-                "I hope you're not using that gun, haha.",
-
-
-                "Ey, I don't have a gun, so put yours away, bud."
-
-
+                "...Ei peraí! Larga essa arma cara... Ugh, enfim.",
+                "Ei! Por que 'cê tá armado!? Guarda essa coisa, por favor... Então...",
+                "Espero que você não use essa arma ai, ha-ha.",
+                "Ei, Eu não tenho uma arma, então guarda essa'í, cara."
             ],
-
-
             "tradermeetimpairedspeech": [
-
-
-                "...Huh? What? Is there something in your mouth? I can't understand you...",
-
-
-                "Mmmff mff mmmmfff mhfff! That's what you sound like.",
-
-
-                "I get that this is a bad scenario we're in, but you can atleast put in some effort into speaking clearly..."
-
-
+                "...Ãhn? O que? Algo de errado com sua boca? Eu não tô te entendendo...",
+                "Mmmffhh mffh, mmmmfffhh mhfffhhh! *Isso* é o que você tá falando.",
+                "Eu sei que estamos no inferno, mas você poderia pelo menos tentar falar direito..."
             ],
-
-
             "traderseehurt": [
-
-
-                "Since you're hurt, I'll let ya grab a bandage for free if you can find one around here...",
-
-
-                "Aww, you're hurt. If you can find a bandage on me, you can take it! I don't remember if I have one...",
-
-
-                "Ohh, you don't seem to be doing well... Tell ya what, you can grab a bandage for free if you see one."
-
-
+                "Você pode pegar uma bandagem de graça de mim, com todo esse machucado... Se eu tiver...",
+                "Úiii, que rombo. Se achar uma bandagem comigo, pode levar! Eu num lembro se eu tenho uma...",
+                "Aahhh, você não parece estar muito bem... Quer saber, pode pegar uma bandagem de graça se você achar."
             ],
             "swingresponse": [
                 "DESCULPA!?",
@@ -3137,7 +3075,7 @@
                 "...Você me perturba... Saudações.",
                 "...Olá.",
                 "Saudações. Por favor não toque em mim.",
-                "...Olá, caro sobrevivente.",
+                "...Olá, queridíssimo sobrevivente.",
                 "Saudações. Por favor use a porta da próxima vez.",
                 "...Bem-vindo.",
                 "...Saudações."
@@ -3182,7 +3120,7 @@
             "traderbuy": [
                 "Sem reembolsos.",
                 "Aqui está.",
-                "Não se quebre.",
+                "Não se empobreça.",
                 "Boa sorte com isto.",
                 "Espero que você saiba usar isto.",
                 "Espero que seja útil para você.",
@@ -3243,51 +3181,20 @@
                 "Eca! Tira suas mãos de mim."
             ],
             "traderseegun": [
-
-
-
-                "Before we talk, please remove that gun from your person. Anyway...",
-
-
-                "I hope this isn't a robbery. If not, put the gun away... Either way...",
-
-
-                "Get that gun away from me, this isn't an active shootout. Anyway...",
-
-
-                "Are you TRYING to make yourself a threat to me or do you just think the gun looks cool..?"
-
-
+                "Antes de conversarmos, por favor, tire essa arma de você. Enfim...",
+                "Eu espero que isso não seja um assalto. Se não for, guarde a arma... Bem, de qualquer jeito...",
+                "Tire essa arma de perto de mim, isso aqui não é um tiroteio. Enfim...",
+                "Você está TENTANDO se tornar uma ameaça ou só acha que a arma é legal..?"
             ],
-
-
             "tradermeetimpairedspeech": [
-
-
-                "What are you saying..? I can't understand you.",
-
-
-                "Your speech is extremely muffled. Just letting you know.",
-
-
-                "I can barely make out what you're saying to me."
-
-
+                "O que você está falando? Não consigo te entender.",
+                "Sua voz está muito abafada. Só queria te avisar.",
+                "Mal consigo entender o que você está falando."
             ],
-
-
             "traderseehurt": [
-
-
-                "You appear to be injured and bleeding... You can take a bandage if you wish.",
-
-
-                "Ew! Please don't bleed all over my floor. Grab a bandage and treat yourself if you see one, mine are free.",
-
-
-                "That doesn't look good... You may take a bandage for free if you can find one on me."
-
-
+                "Você parece estar machucado e sangrando... Você pode pegar uma bandagem se eu tiver.",
+                "Eca! Por favor não sangre na minha cápsula. Pegue uma bandagem e se trate. Se eu tiver uma, serão de graça.",
+                "Isso não parece muito bom... Pode pegar uma bandagem de graça se achar uma comigo."
             ],
             "traderlightbreak": [
                 "...Cara. Eu tenho olhos. Ladrão idiota... Saia!",
@@ -3301,131 +3208,131 @@
     "notes": [
         [
             {
-                "Item1": "this is horrifying. there's so many corpses... im scared. why did they send so many of us here? i dont understand. i really dont understand. they knocked me out cold with some kind of dart and forced me into a pod to be sent here. i hate this planet.",
+                "Item1": "isso é aterrorizante. tem tantos corpos... eu to com medo. porque mandaram tantos de nois pra ca? eu nao entendo. eu realmente nao entendo. me botarao pra dormir com um tipo de dardo e me forçarao numa capsula pra ser mandado aqui. eu odeio esse planeta.",
                 "Item2": ""
             },
             {
-                "Item1": "I inquired others around the ability to see our physical status in our minds, and it turns out this is something shared by almost everyone else here. Quite interesting - this is not something we've ever been able to do back in our homes. Have we been implanted with something? There are no visible attachments on any of us. I have also noted that very few people here do not share this experience, seemingly lacking whatever lets us do this. Odd.",
+                "Item1": "Perguntei a outras pessoas sobre a capacidade de ver nosso estado físico em nossas mentes, e descobri que isso é algo compartilhado por quase todos aqui. Bastante interessante - nunca fomos capazes de fazer isso em nossas casas. Teremos sido implantados com algo? Não há anexos visíveis em nenhum de nós. Também notei que poucas pessoas aqui não compartilham essa experiência, parecendo não ter o que quer que nos permita fazer isso. Estranho.",
                 "Item2": "Sprites/noteDrawings/puppet"
             },
             {
-                "Item1": "i keep losing weight. i need to eat more to stay in shape. all this running around makes you consume calories really fast. i guess i need to be full more often.",
+                "Item1": "eu fico perdendo peso. eu preciso comer mais para ficar em forma. toda essa pularia te faz perder peso muito rapido. acho que é so comer mais mesmo.",
                 "Item2": "Sprites/noteDrawings/underweight"
             },
             {
-                "Item1": "this is horrible. this is fucking horrible. i cant do it anymore. this is a death mission. abandon all hope. there is no point to this",
+                "Item1": "isso é horrivel. isso é horrivel pra caralho. eu nao consigo mais. isso é uma missao suicida. abandone toda a esperança. nao tem porque mais viver",
                 "Item2": "Sprites/noteDrawings/x"
             },
             {
-                "Item1": "i dont get why we're here. what for? i know im supposed to retrieve some kind of battery cell or something. im assuming others have the same mission. arent there more efficient ways of doing this? logically? why send us here. i miss my friends. i dont want to die.",
+                "Item1": "eu nao entendo porque estamos aqui. e para que? eu sei que é pra eu pegar um tipo de bateria ou algo assim. assumo que outra gente tem a mesma missao. nao tem jeito melhor de fazer isso? logicamente? por que mandar nois pra ca??? sinto falta dos meus amigos. eu nao quero morrer.",
                 "Item2": "Sprites/noteDrawings/alone"
             },
             {
-                "Item1": "i fell down. bad. my leg is mangled. this is really bad. trying to move at all is a pain. i need some painkillers for this.",
+                "Item1": "eu cai. MUITO. minha perna ta arruinada. isso é muito ruim. tentar me mexer doi muito. eu preciso de analgesicos pra isso.",
                 "Item2": "Sprites/noteDrawings/brokenleg"
             },
             {
-                "Item1": "i overheard our captors calling us a mutated amalgamation of a \"human, fox and rat\", whatever any of that means. how much is there being kept from us? information wise? the thought scares me. ive never considered anything being outside of where we were raised. and now im here. i cant wrap my head around all of this.\n(On the paper is what looks to be a self-portrait.)",
+                "Item1": "eu ouvi nossos captores nos chamando de uma amalgamaçao mutacionada... de \"humano, raposa e rato\", seja la o que essas coisas forem. quanto que ta sendo escondido de nos? tipo, informaçao geral? pensar nisso me assusta. nunca achei que teria muita coisa pra fora de onde nascemos. e agora eu to aqui. eu nao consigo entender tudo isso.\n(No papel está o que parece ser um autorretrato.)",
                 "Item2": "Sprites/noteDrawings/experiment"
             },
             {
-                "Item1": "I have found drawing to be a decent escape to the situation I have found myself in. It seems all of us are struggling with our mental states, one way or another. It is nice to get a distraction from the harsh reality at times.",
+                "Item1": "Descobri que desenhar é uma boa forma de fujir da situação em que me encontro. Parece que todos nós estamos lidando com dificuldades mentais, de uma forma ou de outra. É bom ter uma distração da dura realidade de vez em quando.",
                 "Item2": ""
             },
             {
-                "Item1": "planet is good .  eat a lot of good flesh .  dune happy\n(You can make out what looks like a very poorly made self-portrait.)",
+                "Item1": "planeta é bom .  comer muita carne boa .  duno feliz\n(Você vê no papel um autorretrato muito malfeito.)",
                 "Item2": "Sprites/noteDrawings/dune"
             },
             {
-                "Item1": "The distribution of species here seems very disproportional. The Experiments are everywhere, yet other species like ours seem to be much lesser in numbers. Odd... Either way, I dislike the amount of casualties here. More of us need to be helped.",
+                "Item1": "A distribuição de espécies aqui parece ser muito disproporcional. Os Experimentos estão em todo lugar, e espécies como a nossa parecem estar em números muito menores. Estranho... De qualquer jeito, Eu não gosto da quantidade de vítimas (: desconhecidas) aqui. Mais de nós precisamos ser ajudados.",
                 "Item2": "Sprites/noteDrawings/milky"
             }
         ],
         [
             {
-                "Item1": "ugh, this place sucks. i keep being bitten by random spiders i cant see in time. i think theyre venomous, as they leave nasty looking infected wounds in me... the glowplant fruit do help with those though",
+                "Item1": "ugh, esse lugar é uma merda. eu fico sendo mordido por essas aranhas que eu nao consigo ver. acho que sao venenosas, já que deixao essas feridas nojentas e infectadas em mim... pelo menos as brilha-plantas ajudam contra isso",
                 "Item2": "Sprites/noteDrawings/spider"
             },
             {
-                "Item1": "the red blinking lights in the dark are spike traps. watch out for them. please. please. someone just walked into one in the distance, i just heard a yelp and silence after. stay safe",
+                "Item1": "as luzes vermelhas que piscam sao armadilhas de espinho. cuidado com elas. por favor. por favor. eu vi de longe alguem andando em uma, e eu só ouvi um grito e silencio depois. fiquem seguros",
                 "Item2": ""
             },
             {
-                "Item1": "its cold here. so cold. much colder than our previous home. honestly, i like it. bathing in the pools feels nice, its refreshing. im liking this vacation",
+                "Item1": "é frio aqui. tao frio. muito mais frio do que na nossa ultima casa. honestamente, to gostando. me banhar nas piscinas é legal, e refrescante. to gostando dessas ferias",
                 "Item2": "Sprites/noteDrawings/pool"
             },
             {
-                "Item1": "i met up with someone, we agreed to try to go out to the surface through one of those holes to the outside. my friend stepped out first, and immediately they started stumbling in shock. they seemed to be in a lot of pain. they vomited a bunch, then collapsed and stopped breathing soon after. their skin started blistering too, especially around the head and neck. something is preventing us from leaving. im scared.",
+                "Item1": "eu encontrei com alguem, e concordamos em tentar sair daqui pela superficie atraves de um desses buracos. meu amigo botou o pé pra fora e começaram a entrar em choque. pareciam estar com muita dor. vomitaram muita coisa, e ai cairam e pararam de respirar logo depois. na pele dele começou a crescer bolhas também, mais perto da cabeça e pescoço. alguma coisa nao deixa a gente sair daqui. eu to com medo.",
                 "Item2": "Sprites/noteDrawings/radiation"
             },
             {
-                "Item1": "Getting wet seems to be rather dangerous if you're not careful. The temperature here is much lower than at our home, and it seems being drenched for too long can get us in a hypothermic state. Try doing some physical exercise if you need to warm up quickly, I've discovered that helps.",
+                "Item1": "Ficar molhado parece ser bem perigoso se você não tomar cuidado. A temperatura aqui é bem mais baixa do que na nossa casa, e parece que ficar encharcado por muito tempo pode nos levar a um estado de hipotermia. Tente fazer algum exercício físico se precisar se aquecer rápido - descobri que isso ajuda.",
                 "Item2": ""
             },
             {
-                "Item1": "i really need to stop losing my lights. anything does the job, even those weird glowy plant things. i keep leaving forgetting about them, then tripping up and getting hurt by accident. not good.",
+                "Item1": "eu preciso mesmo parar de perder minhas luzes. qualquer coisa serve, ate essas plantas brilhantes estranhas. eu fico deixando e esquecendo delas, e ai tropeçando e machucando sem querer. isso nao é bom.",
                 "Item2": "Sprites/noteDrawings/glowplant"
             }
         ],
         [
             {
-                "Item1": "apparently those boxes with the weird computers next to them can be opened if you spill some red blood on them. it has to specifically be red blood, otherwise it wont work. it has some crates inside, you can open them and take stuff with you. useful.",
+                "Item1": "aparenta que essas caixas com os computadores estranhos nelas podem ser abertas se voce derramar aquele sangue vermelho nelas. tem que ser justo o sangue vermelho, senao nao funciona. tem umas caixas dentro delas, voce pode abrir elas e pegar as coisas dentro delas. legal. e util.",
                 "Item2": "Sprites/noteDrawings/bloodbag"
             },
             {
-                "Item1": "Investigating the chemical composition of the different colored blood bags I have found here, it seems they are considerably different in their composition. The red blood is completely different than ours and the blood that the creatures here possess. It seems to be somewhat metallic in composition for whatever reason, how odd. Better not use that on ourselves.",
+                "Item1": "Investigando a composição química das bolsas de sangue de cores diferentes que encontrei aqui, parece que elas são consideravelmente distintas em sua composição. O sangue vermelho é completamente diferente do nosso e do sangue que as criaturas daqui possuem. Ele parece ter uma composição um tanto metálica, por algum motivo - que estranho. Melhor não usarmos isso em nós mesmos. Não irei comentar no caso de se eu acabei bebendo o sangue.",
                 "Item2": ""
             },
             {
-                "Item1": "(There is a poorly made drawing of what looks to be one of your captors. They are holding what you can make out as a tazer. Their face is scratched out with a big X. The weapon brings back horrible memories.)",
+                "Item1": "(Tem um desenho malfeito do que parece ser um dos seus captores. Estão segurando o que parece ser um taser, e sua cara está rabiscada com um X absolutamente ENORME. A arma traz memórias terríveis.)\n(Parece que alguém não sabe desenhar rostos.)",
                 "Item2": "Sprites/noteDrawings/scientist"
             },
             {
-                "Item1": "i almost drowned just a moment ago. ive never swam before, and its very exhausting. its hard to keep myself above the surface when im tired. i imagine sinking forever to be pretty painful... be careful.",
+                "Item1": "eu quase afoguei um momento atras. eu nunca nadei antes, e é muito exaustante. é dificil de ficar na superficie da agua quando to cansado. eu imagino afundar e afundar pra todo o sempre a ser muito doloroso... sejam cuidadosos.",
                 "Item2": "Sprites/noteDrawings/drown"
             },
             {
-                "Item1": "overhearing a little bit from our captors, apparently the cargo we are supposed to get is some kind \"advanced energy source\". something about storing a large amount of power and distributing it \"wirelessy\". i do not know what most of that means, but maybe it will be useful to know. stay safe",
+                "Item1": "ouvindo um pouquinho dos nossos captores, aparentemente o cargo que a gente tem que pegar é algum tipo de \"fonte de energia avançada\". algo sobre guardar muita energia e a distribuindo \"sem-fio\". eu nao sei o que a maioria disso significa, mas talvez sera bom saber. fiquem seguros",
                 "Item2": ""
             },
             {
-                "Item1": "Recently found a drill of sorts, but it's missing a few parts. I can't seem to figure out what it needs, aside from the covering panel for all the mechanisms... Could prove helpful if I was to get it to a working state.",
+                "Item1": "Recentemente achei um tipo de furadeira, mas está faltando algumas partes. Eu não estou conseguindo entender qual o problema aparenta ser, além do painél que cobre o resto dos mecanismos... Poderia ser útil se eu conseguisse botar ela num estado consertado.",
                 "Item2": ""
             }
         ],
         [
             {
-                "Item1": "ugh. its so hot in here. really need to space out my movements and be careful as to not fall numb from the heat. ive found that taking dives in the water pools here helps... maybe even the brown ones if desperate.",
+                "Item1": "ugh. é tao quente aqui. preciso mesmo espacear meus movimentos e ser cuidadoso pra nao acabar caindo duro do calor. descobri que mergulhar nas piscinas da'agua ajuda... talvez ate as marrons se eu estiver desesperado.",
                 "Item2": ""
             }
         ],
         [
             {
-                "Item1": "There seems to be a high amount of radioactive waste in this area. While that does make it difficult to navigate, we should keep in mind that we can take brief doses of ionizing radiation without too much issue, as long as the exposure doesn't last too long. We're already riddled with cancer due to presumably being unnatural, thus the effect on our entire lifespan is negligible.",
+                "Item1": "Parece haver uma grande quantidade de resíduos radioativos nesta área. Embora isso torne difícil nossa exploração, devemos lembrar que podemos receber pequenas doses de radiação ionizante sem muitos problemas, desde que a exposição não dure muito tempo. Já estamos cheios de câncer, supostamente por sermos artificiais, pois então esse efeito na nossa expectativa de vida, como um todo, é negligenciável.",
                 "Item2": ""
             }
         ],
         [
             {
-                "Item1": "dune see big monster. motivated to kill      dune chase monster and kill and eat . great food . great hunter of beast !",
+                "Item1": "duno ver grande monstro. motivado a matar      duno perseguir monstro e matar e comer . otima comida . grandioso caçador de besta !",
                 "Item2": ""
             }
         ],
         [
             {
-                "Item1": "way too cold in here. have to try my best to not get wet at all, or ill be in big trouble. lucky us, there are a lot of those weird sporey plants that give off some heat, along with those weird machines. run between those when possible, i guess. better not get stuck in the freezing cold.",
+                "Item1": "muito frio aqui. tenho que tentar o meu melhor pra nao ficar molhado, senao estarei em encrenca. sortudo eu, tem um monte dessas plantas de esporo que aquecem um pouco, alem dessas maquinas estranhas. corra nessas quando puder, digo eu. melhor nao ser pego morto no frio.",
                 "Item2": "Sprites/noteDrawings/xaloris"
             }
         ],
         [
             {
-                "Item1": "It's odd how it rains here. I've never actually seen real rain before... It's rather pretty, even if unsanitary. I still wonder how it is possible for there to be such a higher water concentration down here. Perhaps, the water from the above ice cap is dripping down to here?",
+                "Item1": "É estranho como chove aqui. Eu nunca tinha visto chuva de verdade antes... É até bonita, mesmo sendo meio suja. Ainda me pergunto como é possível haver uma concentração tão alta de água aqui embaixo. Talvez a água da calota de gelo acima esteja pingando até aqui?",
                 "Item2": ""
             }
         ],
         [
             {
-                "Item1": "",
+                "Item1": "<Tem uma nota aqui, deixada por um tradutor da versão original do jogo. Ler isso vai ser como engolir um cacto com todos os espinhos.>\n                    \nAHAAHAHAHAHHAAH NOTA VAZIA OTARIOOOOOO TOMOU NO C:U HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA",
                 "Item2": ""
             }
         ]
