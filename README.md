@@ -12,7 +12,7 @@ Localization files for the "Scavenge Game" by Orsoniks.
 | [Español (ES)](/ES.json)   | [Derkala](https://github.com/Derkala)                                                                               |
 | [German (DE)](/DE.json)   | [Zorobis](https://github.com/Zorobis)                                                                                |
 | [اَلْعَرَبِيَّةُ (AR)](/AR.json)   | [Enderwolf](https://github.com/Enderw0lf)    |
-| [简体中文 (ZH)](/ZH.json)   | [影月炎YUN](https://github.com/YUN2474)                                                                              |
+| [简体中文 (ZH)](/ZH.json)   | [影月炎YUN](https://github.com/YUN2474), [月曦MONXI](https://github.com/martha-mana), [戈伦](https://github.com/ALPHA371)                                                                            |
 | [한국어 (KO)](/KO.json)     | [DrawinDarwin](https://github.com/DrawinDarwin), [Kedr2806](https://github.com/Kedr2806)                            |
 
 # Maintainers
