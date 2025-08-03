@@ -10,7 +10,7 @@ Localization files for the "Scavenge Game" by Orsoniks.
 | [Português (PT)](/PT.json) | [a-cake](https://github.com/a-cake), [a-cake2](https://github.com/a-cake2), [woforu](https://github.com/woforu)     |
 | [Polski (PL)](/PL.json)   | [Fracix](https://github.com/Fracix)                                                                             |
 | [Español (ES)](/ES.json)   | [Derkala](https://github.com/Derkala)                                                                               |
-| [German (DE)](/DE.json)   | [Zorobis](https://github.com/Zorobis)                                                                                |
+| [Deutsch (DE)](/DE.json)   | [Zorobis](https://github.com/Zorobis)                                                                                |
 | [اَلْعَرَبِيَّةُ (AR)](/AR.json)   | [Enderwolf](https://github.com/Enderw0lf)    |
 | [简体中文 (ZH)](/ZH.json)   | [影月炎YUN](https://github.com/YUN2474), [月曦MONXI](https://github.com/martha-mana), [戈伦](https://github.com/ALPHA371)                                                                            |
 | [한국어 (KO)](/KO.json)     | [DrawinDarwin](https://github.com/DrawinDarwin), [Kedr2806](https://github.com/Kedr2806)                            |
