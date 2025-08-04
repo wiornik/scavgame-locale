@@ -301,7 +301,7 @@
     "scarf": "Bufanda",
     "scarfdsc": "Roja, cálida y suavesita, proporciona aislamiento de los elementos. Te hace sentir como un mercenario...",
     "blueprint": "Plano",
-    "blueprintdsc": "Tiene la receta de algun objeto escrito en el. Contiene algún tipo de chip electrónico conectado.... Usalo para aprender la receta.",
+    "blueprintdsc": "Tiene la receta de algun objeto escrito en el. Contiene algún tipo de chip electrónico conectado... Usalo para aprender la receta.",
     "safetyglasses": "Gafas de seguridad",
     "safetyglassesdsc": "Unas gafas de plástico resistentes. Ofrece protección menor para la cabeza.",
     "autozoomgoggles": "Gafas con auto-zoom",
@@ -464,7 +464,7 @@
     "mushroomtreedsc": "Parece bioluminiscente.",
     "drillpod": "Modulo de perforacion",
     "drillpoddsc": "Ultilizado para transportar personas largas distancias por tierra firme. Aunque no está en estado funcional, se puede poner en funcionamiento con un trozo de aleación metálica. Puede usarse para saltar dos capas hacia abajo.",
-    "drillpoddscfixed": "Used for transporting people long distances through solid ground.\n\nCrouch inside it to skip 2 layers downwards. Might cause some hearing loss, as the soundproofing is worn out.",
+    "drillpoddscfixed": "Utilizado para transportar personas largas distancias por tierra firme.\n\nAgachate dentro de el para saltar 2 capas hacia abajo. Puede causar algo de perdida de audicion, ya que la insonorización se ha desgastado.",
     "drillpodbroken": "Modulo de perforacion roto",
     "drillpodbrokendsc": "Esta roto, no se puede reparar...",
     "frigiant": "Frigiant",
@@ -484,7 +484,7 @@
     "bioterminal": "Bioterminal",
     "bioterminaldsc": "Una terminal de ordenador con una placa debajo y una escritura que dice \"Inserte una muestra de ADN humano para continuar...\"",
     "lifepodshower": "Ducha de cápsula salvavidas",
-    "lifepodshowerdsc": "Proporciona un rociamiento único de espuma antiséptica limpiadora..",
+    "lifepodshowerdsc": "Proporciona un rociamiento único de espuma antiséptica limpiadora.",
     "BloodCrystal": "Cristal de sangre",
     "BloodCrystaldsc": "Parece estar húmedo con un líquido amarillo que se libera en todo lo que lo rodea.",
     "cactus": "Cactus",
@@ -1061,7 +1061,7 @@
     "saveexit": "Guardar y salir",
     "saveexitdsc": "Guarda tu progreso y toma un descanso.\nLa partida continuara al inicio de la siguiente capa.",
     "savecontinue": "Continuar",
-    "savecontinuedsc": "Continua.\nSolo puedes guardar y continuar la partida en transiciones de capa. Morir o salir a mitad de partida borrará tu prograso.",
+    "savecontinuedsc": "Continua.\nSolo puedes guardar y continuar la partida en transiciones de capa. Morir o salir a mitad de partida borrará tu progreso.",
     "carryingtip": "Carga",
     "tradergivebuttontip": "Arrastra los artículos aquí para dárselos al comerciante.",
     "ripclothingtip": "Arrastra objetos aqui para rasgar",
@@ -2572,7 +2572,7 @@
         "Estoy hormigueando...",
         "Me encanta esta... ¿Sensación?...",
         "Quiero más de esto...",
-        "Quiero más de lo que sea que esto..."
+        "Quiero más de lo que sea esto..."
       ],
       "opiatedsad": [
         "Eso es... mucho mejor.",
@@ -2825,7 +2825,7 @@
           "Vendria bien una ducha!"
        ],
       "watchlike": [
-        "Me gusta cosita de reloj. Esta cómoda."
+        "Me gusta esta cosita de reloj. Esta cómoda."
       ],
       "drillend": [
         "...Se tomo su tiempo.",
@@ -2925,7 +2925,7 @@
       "tradergiveitem": [
           "Gracias!",
           "Uno mas a la cuenta.",
-          "Gracias!",
+          "Se agradece!",
           "Estare nesesitando eso.",
           "Aye! Gracias!",
           "Bien!"
