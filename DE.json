@@ -1,8 +1,6 @@
 {
     "name": "Deutsch",
-    "replaceAllFonts": false,
-    "replaceSpecialFonts": false,
-    "outdated": false,
+    "gameVer": 4,
     "main": {
         "bandage": "Verband",
         "bandagedsc": "Eine Verbandrolle mit Binde. Dient zur Verlangsamung von Blutungen, Stabilisierung von Frakturen und Unterstützung der Hautheilung. Hat keinen Einfluss auf die Muskelgesundheit.",
@@ -271,7 +269,7 @@
         "cactusflesh": "Kaktusfleisch",
         "cactusfleshdsc": "Süß, wasserreich und stachelig. Lecker und hydratisierend, aber es tut weh, es zu essen.",
         "neuralbooster": "Neuronaler Booster",
-        "neuralboosterdsc": "Eine fortschrittliche Mischung von Medikamenten welche die Struktur und Funktion deines Gehirns verändert, sodass deine Mobilität dauerhaft leicht erhöht wird.",
+        "neuralboosterdsc": "Eine fortschrittliche Mischung von Medikamenten welche die Struktur und Funktion deines Gehirns verändert, sodass deine Mobilität dauerhaft leicht erhöht wird. Vielleicht solltest du ihn nicht mehr als einmal verwenden.",
         "watch": "Elektronische Armbanduhr",
         "watchdsc": "Gibt dir regelmäßig nützliche Informationen (Blutungsdauer, versteckte Infektionen, Gewichtsveränderungen usw.). Bei Verwendung werden Spieldauer und Temperatur angezeigt. Eine Kumpel-Uhr für unterwegs lässt deine Sorgen verfliegen!",
         "tutorialradio": "Trainingsfunkgerät",
@@ -298,6 +296,10 @@
         "headlampdsc": "Eine kleine Taschenlampe zum Befestigen an deiner Stirn. Verliert mit der Zeit an Batterie.",
         "dustmask": "Staubmaske",
         "dustmaskdsc": "Eine leicht robuste Maske, die deinen Mund bedeckt. Bietet geringfügigen Kopfschutz.",
+        "scarf": "Schal",
+        "scarfdsc": "Rot, warm und flauschig, bietet etwas Isolierung vor den Elementen. Damit fühlst du dich wie ein Söldner...",
+        "blueprint": "Blaupause",
+        "blueprintdsc": "Darauf steht das Rezept für einen Gegenstand. Daran ist eine Art elektronischer Chip angeheftet... Benutzen um das Rezept zu lernen.",
         "safetyglasses": "Schutzbrille",
         "safetyglassesdsc": "Eine robuste Brille aus Plastik. Bietet geringfügigen Kopfschutz.",
         "autozoomgoggles": "Auto-Zoom-Brille",
@@ -310,6 +312,8 @@
         "latexglovesdsc": "Ein Paar einfache Latexhandschuhe. Bietet eine geringfügige Isolation vor den Elementen.",
         "fannypack": "Gürteltasche",
         "fannypackdsc": "Eine kleine Tasche, die man sich um den Bauch legen kann.",
+        "bandolier": "Bandelier",
+        "bandolierdsc": "Ein Taschengürtel der über deine Schulter getragen wird und für die Aufbewahrung von Munition gemacht ist. Kann Schusswaffenpatronen halten.",
         "bellyarmor": "Bauchpanzerung",
         "bellyarmordsc": "Ein großes Stück Metall, das auf den Bauch geschnallt wird. Bietet hervorragenden Schutz und eine mäßige Isolierung vor den Elementen.",
         "belt": "Gürtel",
@@ -412,6 +416,12 @@
         "clottingmushdsc": "Eine kleine Phiole mit einem gerinnungsfördernden Breiumschlag. An sich nicht besonders nützlich, aber man könnte ihn weiter verfeinern...",
         "bunchunk": "Bunstück",
         "bunchunkdsc": "Ein Stück eines Pilzes mit gerinnungsfördernden Eigenschaften. An sich nicht besonders nützlich, aber es könnte weiter verfeinert werden...",
+         "smallbattery": "Kleine Batterie",
+        "smallbatterydsc": "Eine kleine Batterie, die in diverse elektronische Geräte eingesetzt werden kann. Sie speichert halb so viel wie eine mittlere Batterie.",
+        "mediumbattery": "Mittlere Batterie",
+        "mediumbatterydsc": "Eine generische Batterie, die in diverse elektronische Geräte eingesetzt werden kann. Sie speichert doppelt so viel wie eine kleine Batterie, aber nur ein Drittel so viel wie eine große.",
+        "largebattery": "Große Batterie",
+        "largebatterydsc": "Eine große industrielle Batterie die in bestimmte elektronische Geräte eingesetzt werden kann. Speichert dreimal so viel wie eine mittlere Batterie.",
         "pistol": "Pistole",
         "pistoldsc": "Eine simple, halbautomatische Handfeuerwaffe. Verwendet kleine Magazine die mit 9mm Munition geladen sind. Nässe oder ein schlechter Zustand kann Ladehemmung verursachen. Zum benutzen und einsehen der Funktionen in der Haupthand halten.",
         "rifle": "Gewehr",
@@ -506,6 +516,10 @@
         "dropcapsuledsc": "Eine künstliche Wärme geht von ihr aus.",
         "chipcapsule": "Chip-Kapsel",
         "chipcapsuledsc": "",
+        "lifepodbuttonheat": "Thermostat",
+        "lifepodbuttonheatdsc": "Ein roter, billig aussehender Knopf. Er steuert die Heizung und Klimaanlage der Rettungskapsel. Er ist derzeit auf <> eingestellt.",
+        "lifepodbuttonshower": "Duschensteuerung",
+        "lifepodbuttonshowerdsc": "Ein roter, billig aussehender Knopf. Dieser aktiviert die Reinigungs- und Desinfektionsgasdusche der Rettungskapsel.",
         "EmissiveCrystal": "Emittierender Kristall",
         "EmissiveCrystaldsc": "Ein ziemlich helles Licht geht von ihm aus.",
         "foodbox": "Lebensmittelbox",
@@ -539,7 +553,7 @@
         "sandrose": "Sandrose",
         "sandrosedsc": "Eine seltsam schöne Pflanze, auf der einige große, längliche Formen wachsen.",
         "scrapeater": "Schrott-Fresser",
-        "scrapeaterdsc": "Hat ein Etikett mit der Aufschrift \"Zum Öffnen Schrott einlegen\", mit einem kleinen Monitor daneben der \"<>%\" anzeigt.",
+        "scrapeaterdsc": "Hat ein Etikett mit der Aufschrift \"Zum Öffnen Schrott einlegen\", mit einem kleinen Monitor daneben der <color=#ffffff>\"<>%\" anzeigt.",
         "shuttledoor": "Shuttle-Tür",
         "shuttledoordsc": "Ein großes Stück Metall, um Dinge von draußen draußen zu halten und Dinge drinnen drinnen zu halten.",
         "shuttleelevator": "Shuttle-Aufzug",
@@ -573,9 +587,7 @@
         "soundcannon": "Schallkanone",
         "soundcannondsc": "Du solltest dir wahrscheinlich die Ohren zuhalten, wenn du den Ladevorgang hörst.",
         "trader": "Überlebender",
-        "traderdsc": "Du könntest wahrscheinlich mit ihm handeln.",
-        "traderdschostile": "Er scheint nicht über deine Anwesenheit erfreut zu sein.",
-        "traderdsccombat": "...",
+        "traderdsc": "Ein weiteres unglückliches Opfer. Wenigstens atmet er noch.",
         "traderdscdead": "Er atmet nicht mehr. Dank dir.",
         "bananaplant": "Bananenpflanze",
         "bananaplantdsc": "Eine niedrige, breite Pflanze, die wegen ihrer breiigen, gelben Spitze umgangssprachlich \"Bananenpflanze\" genannt wird. Sehr rutschig beim Drauftreten.",
@@ -596,7 +608,9 @@
         "gunmine": "Gewehrmine",
         "gunminedsc": "Umgangssprachlich auch \"Zehen-sprenger\" genannt.",
         "sawblade": "Sägeblatt",
-        "sawbladedsc": "Weckt grausame Erinnerungen."
+        "sawbladedsc": "Weckt grausame Erinnerungen.",
+        "LoreNote": "Geschriebene Notiz",
+        "LoreNotedsc": "Zurückgelassen von einem anderen Überlebenden."
     },
     "moodles": {
         "dead": "Tod",
@@ -608,8 +622,8 @@
         "thoraxdestroyed": "Lungenversagen",
         "oxygen1": "Hypoxämisch",
         "oxygen2": "Sehr Hypoxämisch",
-        "oxygen3": "Hypoxisch",
-        "oxygen4": "Ersticken",
+        "oxygen3": "Ersticken",
+        "oxygen4": "Herz-Kreislauf-Stillstand",
         "pain1": "Unbehagen",
         "pain2": "Schmerzen",
         "pain3": "Starke Schmerzen",
@@ -728,13 +742,20 @@
         "hemothorax": "Hämatothorax",
         "hollow": "Leere",
         "badsleep": "Schlecht geschlafen",
-        "laststand": "Last stand",
+        "laststand": "Eiserner Wille",
         "dirty1": "Dreckig",
         "dirty2": "Sehr dreckig",
         "adrenaline": "Adrenalin",
         "tachycardia": "Tachykardie",
-        "bradycardia": "BRadykardie",
-        
+        "bradycardia": "Bradykardie",
+        "rnrs": "Rapide Neuronen-Regenerations Krankheit",
+        "rippedjaw": "Verstümmelt",
+        "rippedeye": "Halbblind",
+        "rippedeyes": "Blind",
+        "lowimmunity": "Immungeschwächt",
+        "highimmunity": "Immunkompetent",
+        "amputation": "Amputiert",
+
         "deaddsc": "Permanenter, irreversibler und vollständiger Verlust der Gehirnfunktion. Du hast diese Welt hinter dir gelassen, genau wie der Rest auch.",
         "braindamage4dsc": "...",
         "braindamage3dsc": "Die Realität  ..  ergibt   keinen   Sinn",
@@ -745,7 +766,7 @@
         "oxygen1dsc": "Niedriger Sauerstoffgehalt im Blut. Leicht verwirrt, mit gummiartiger Haut. Irgendwas stimmt nicht...",
         "oxygen2dsc": "Im Körper zirkuliert nicht genügend Sauerstoff. Benommenheit und Taubheitsgefühl in den Extremitäten. Irgendetwas stimmt ganz und gar nicht.",
         "oxygen3dsc": "Bewusstseinsverlust. Sauerstoffmangel im Gewebe. Hirnschäden stehen kurz bevor.",
-        "oxygen4dsc": "Herzstillstand. Das Gehirn stirbt aufgrund von Sauerstoffmangel. Dein ganzer Körper schaltet sich rapide ab.",
+        "oxygen4dsc": "Herzstillstand. Das Gehirn stirbt aufgrund von Sauerstoffmangel. Dein ganzer Körper schaltet sich rapide ab; Tod unmittelbar bevorstehend.",
         "pain1dsc": "Du spürst leichte Schmerzen.",
         "pain2dsc": "Es tut sehr weh. Unzufriedenheit steigt langsam.",
         "pain3dsc": "Nur bei halbem Bewusstsein, Verstand ist durch starke Schmerzen benebelt. Unzufriedenheit steigt.",
@@ -847,15 +868,15 @@
         "happy2dsc": "Freust dich auf das, was hinter der nächsten Ecke liegt.",
         "happy3dsc": "Du hast in diesem fremden Land deinen Frieden gefunden.",
         "happy4dsc": "Du stehst an der Spitze der Welt und formst den Weg nach vorne nach deinem Willen. Nichts kann dich aufhalten!",
-        "impairedspeechdsc": "Irgendetwas macht das Sprechen schwierig...",
+        "impairedspeechdsc": "Irgendetwas macht das Sprechen schwierig... Du hast wahrscheinlich Schwierigkeiten mit anderen zu kommunizieren.",
         "deaf2dsc": "Du kannst hohe Frequenzen nicht mehr so gut hören wie zuvor. Lass deine Ohren eine Weile ruhen.",
         "deaf3dsc": "Alles klingt sehr dumpf und hallig. Du fühlst dich irritiert. Das könnte etwas dauern.",
         "deaf4dsc": "Du hörst kaum noch etwas. Du fühlst dich sehr irritiert. Es wird eine Weile dauern, bis deine Ohren wieder besser werden.",
         "autopumpdsc": "Sauerstoff- und Bewusstseinslevel werden durch lebenserhaltende Maschinerie auf einem stabilen Niveau gehalten (<>).",
-        "encumbered1dsc": "Trägst etwas zu viel fürs eigene Wohl. <> Belastung.",
-        "encumbered2dsc": "Trägst zu viel. Ausdauer und Beweglichkeit verringert. <> Belastung.",
-        "encumbered3dsc": "Trägst viel zu viel. Ausdauer und Beweglichkeit stark verringert. <> Belastung.",
-        "encumbered4dsc": "Kannst dich praktisch nicht bewegen. Trägst VIEL, viel zu viel. <> Belastung.",
+        "encumbered1dsc": "Trägst etwas zu viel fürs eigene Wohl. <> Traglast.",
+        "encumbered2dsc": "Trägst zu viel. Ausdauer und Beweglichkeit verringert. <> Traglast.",
+        "encumbered3dsc": "Trägst viel zu viel. Ausdauer und Beweglichkeit stark verringert. <> Traglast.",
+        "encumbered4dsc": "Kannst dich praktisch nicht bewegen. Trägst VIEL, viel zu viel. <> Traglast.",
         "irradiated1dsc": "Fühlst dich seltsam irritiert und unwohl.",
         "irradiated2dsc": "Fieberhaft und Übelkeit. Deine Haut fühlt sich heiß und schmerzhaft an. Irgendetwas stimmt ganz und gar nicht. Es ist angsteinflößend.",
         "irradiated3dsc": "Schrecklich krank und Schmerzen am ganzen Körper. Atmen und Denken fallen extrem schwer. Du fühlst dich abscheulich.",
@@ -869,7 +890,14 @@
         "dirty2dsc": "Der Mangel an Hygiene stört dich zwar nicht unbedingt, dein Immunsystem aber schon. Nimm ein Bad. (<>%)",
         "adrenalinedsc": "Schmerz unterdrückt. Du bist in höchster Alarmbereitschaft.",
         "tachycardiadsc": "Deine Herzschlagfrequenz fühlt sich abnormal hoch an.",
-        "bradycardiadsc": "Deine Herzschlagfrequenz fühlt sich abnormal niedrig an."
+        "bradycardiadsc": "Deine Herzschlagfrequenz fühlt sich abnormal niedrig an.",
+        "rnrsdsc": "Neuronaler Schock, der durch eine plötzliche und schnelle Regeneration des Gehirngewebes verursacht wird. Zwar wirst du dich nach einiger Zeit erholen, aber du solltest vorerst keine weitere Dosis nehmen. (<>)",
+        "rippedjawdsc": "Dein Unterkiefer wurde aufgrund eines schweren Schädeltraumas abgerissen. Essen und sprechen ist viel schwieriger. Die Erfahrung hat dich fürchterlich gezeichnet.",
+        "rippedeyedsc": "Eines deiner Augen wurde herausgerissen, wodurch sich dein Sichtfeld halbiert hat. Die Erfahrung hat dich etwas entstellt. Verlier nicht auch noch das verbleibende.",
+        "rippedeyesdsc": "Beide deiner Augen wurden herausgerissen. Du kannst dich nur durch fühlen und hören orientieren. Wenigstens brauchst du keine Lichtquelle mehr...",
+        "lowimmunitydsc": "Dein Immunsystem ist stark geschwächt, sei es durch Unsauberkeit, Hunger, Durst oder sonstiges. Infektionen sind viel gefährlicher. Kümmere dich mehr um dich selbst.",
+        "highimmunitydsc": "Dein Immunsystem arbeitet auf Hochtouren, wahrscheinlich aufgrund Antibiotika. Infektionen sind viel weniger gefährlich und können sich bei fast 200% sogar von selbst zurückbilden .",
+        "amputationdsc": "Eine deiner Extremitäten wurde abgetrennt. Traumatisierend. Logischerweise ist die Nutzung des abgehackten Gliedes für immer verloren."
     },
     "other": {
         "layertitletutorial": "Erde\nTrainingslabor",
@@ -964,7 +992,7 @@
         "experiment": "Experiment",
         "clicktocontinue": "Klicke um fortzufahren...",
         "mainhand": "Haupthand",
-        "secondaryhand": "Sekundärhand",
+        "secondaryhand": "Sekundär- hand",
         "mouth": "Mund",
         "upperback": "Oberer Rücken",
         "middleback": "Mittlerer Rücken",
@@ -1007,7 +1035,7 @@
         "hours": " Stunden",
         "minutes": " Minuten",
         "seconds": " Sekunden",
-        "containerencumberance": "Belastungsreduzierung",
+        "containerencumberance": "Traglastreduzierung",
         "weight": "Gewicht",
         "carrying": "Transportiere",
         "itemusable": "Benutzbar in ",
@@ -1024,12 +1052,15 @@
         "wear": "Tragen",
         "drop": "Fallen lassen",
         "you": "Du",
+        "damagereduction": "Schadensreduktion: ",
+        "bodyinsulation": "Körperisolierung: ",
+        "youdescription": "<sprite index=20>Inventar",
         "wet": "Nass",
         "saveexit": "Speichern und beenden",
         "saveexitdsc": "Speichere deinen Fortschritt und mach eine Pause.\nDas Spiel wird am Anfangspunkt der nächsten Ebene fortgesetzt.",
         "savecontinue": "Fortfahren",
-        "savecontinuedsc": "Mach weiter.\nDu kannst das Spiel nur beim wechseln einer Ebene speichern und fortsetzen. Sterben oder mitten in der Ebene aufhören löscht deinen fortschritt.",
-        "carryingtip": "Belastung",
+        "savecontinuedsc": "Mach weiter.\nDu kannst das Spiel nur beim wechseln einer Ebene speichern und später fortsetzen. Sterben oder mitten in der Ebene aufhören löscht deinen fortschritt.",
+        "carryingtip": "Traglast",
         "tradergivebuttontip": "Ziehe Gegenstände hierher, um sie dem Händler zu geben",
         "ripclothingtip": "Ziehe Gegenstände hierher, um sie in Fetzen zu zerreißen",
         "ripclothing": "Kleidung zerreißen",
@@ -1073,19 +1104,19 @@
         "createbuttondsc": "Shift + C zum schnell-craften",
         "clearbutton": "Komponenten leeren",
         "recipesbox": "Crafting Rezepte",
-        "recipesboxdsc": "Ziehe einen Gegenstand hierher um alle Rezepte zu sehen in denen der Gegenstand verwendet wird\n\nNur simple Rezepte zeigen was sie herstellen.",
+        "recipesboxdsc": "Ziehe einen Gegenstand hierher um alle Rezepte zu sehen in denen der Gegenstand verwendet wird\n\nNur simple Rezepte zeigen was sie herstellen",
         "combineable": "Kombinierbar",
         "speed1": "Normal",
         "speed2": "Schnell",
         "speed3": "Sehr Schnell",
-        "traded": "Gehandelt",
         "shifttoexpand": "Umschalttaste gedrückt halten zum erweitern",
-        "napinfo": "Kann nicht schlafen, bei Schmerzen/Übelkeit/nicht müde genug",
+        "napinfo": "Kann nicht schlafen, bei Schmerz/Übel/nicht müde",
         "napinfo2": "Schlafqualität hängt vom Boden ab auf dem du schläfst",
         "sleepquality3": "<color=\"green\">Gut</color>",
         "sleepquality2": "<color=\"grey\">Okay</color>",
         "sleepquality1": "<color=\"orange\">Mittelmäßig</color>",
         "sleepquality0": "<color=\"red\">Schlecht</color>",
+        "togglehealthmode": "Wunden-/Rüstungsansicht wechseln",
         "tutexp1": "Noch eine Trainingseinheit.",
         "tutexp2": "Mhm...",
         "tutexp3": "Die Sachen die die uns einhämmern wollen sind besorgniserregend...",
@@ -1157,6 +1188,7 @@
         "craftrecipes": "Siehe Rezepte...",
         "craftresultcondition": "% Zustand",
         "craftconditionaffect": "Beeinflusst durch Zustand der ersten Komponente",
+        "craftamount": "Macht ",
         "tagdressing": "Beliebiger Verband",
         "tagopiate": "Beliebiges Opiat",
         "tagantiseptic": "Beliebiges Antiseptikum",
@@ -1208,6 +1240,11 @@
         "hpopiate": "Opiatmenge",
         "keybinds": "Tastenzuweisung",
         "layer": "Ebene",
+        "toggleheatmode": "Heizmodus einstellen",
+        "activateshower": "Dusche aktivieren",
+        "heaterhot": "Heiß",
+        "heatercold": "Kalt",
+        "heateroff": "Aus",
         "magazinerounds": "Patronen",
         "gunrack": "Schlitten zurückziehen",
         "gunmagazine": "Magazin auswerfen",
@@ -1221,38 +1258,88 @@
         "alerttoounhappy": "Kann keine Nicht-Opiat-Medikamente verwenden, wenn Laune miserabel ist",
         "resetkeybinds": "Auf Standard zurücksetzen",
         "reloadbinds": "Zuweisungen neu laden\n(auf Änderungen prüfen)",
+        "insertsample": "Eine Probe einfügen",
+        "tradeinteract": "Handeln",
+        "read": "Lesen",
+        "repairmetalalloy": "Reparieren mit Metalllegierung",
+        "insertscrap": "Schrott einwerfen",
+        "open": "Öffnen",
+        "learnedrecipe": "Rezept gelernt für r1.",
+        "learnedrecipefail": "Es ist ein Rezept für r1, aber das ist dir bereits bekannt...",
+        "hasbattery": "Enthält Batterie (<>)\n<sprite index=17 tint=1>Gegenstand benutzen um Batterie zu entnehmen",
+        "nobattery": "Keine Batterie (Max. <>)",
+        "small": "Klein",
+        "medium": "Mittel",
+        "large": "Groß",
+        "wantstrade": "Möchte handeln:",
+        "indifferent": "Gleichgültig:",
+        "wantskeep": "Bevorzugt zu behalten:",
+        "wantstradetip": "Niedrigere Preise und höherer Rufgewinn",
+        "indifferenttip": "Normale Preise und Rufgewinn",
+        "wantskeeptip": "Erhöhte Preise und kein Rufgewinn",
+        "costs": "<sprite index=9>Kostet ",
+        "weighs": "<sprite index=0>Wiegt ",
+        "purchase": "Kaufen",
+        "trade": "Dem Händler geben",
+        "reputation": "<sprite index=18>Ruf: ",
+        "reputationtip": "Ruf",
+        "reputationtipdsc": "Beeinflusst die Gegenstandspreise und das Verhalten des Überlebenden dir gegenüber. Wird von deinem allgemeinen Zustand und den Interaktionen mit dem Überlebenden beeinflusst.",
+        "valuegiventip": "Gegebener Wert",
+        "valuegiventipdsc": "Wie viel der Überlebende dir schuldet. Dies ist deine Währung beim Handel mit Gegenständen.",
+        "traderpurchase": "Gegenstand kaufen",
+        "tradingblocked": "Vor zu kurzer Zeit gekauft",
+        "valuegiven": "<sprite index=9>Gegebener Wert: ",
+        "theirinventory": "Händler Inventar",
+        "yourinventory": "Dein Inventar",
+        "haggle": "Feilschen",
+        "haggledsc": "Versuche niedrigere Preise auszuhandeln. Könnte den Händler verärgern wenn es schlecht gemacht wird.",
+        "hug": "Umarmen",
+        "hugdsc": "Gib ihm eine Umarmung. Du könntest ihn verschrecken, wenn er sich dir gegenüber unsicher fühlt.",
+        "threaten": "Bedrohen",
+        "threatendsc": "Drohe ihm um ein oder zwei Gegenstände gratis zu bekommen. Könnte gewaltig nach hinten losgehen.",
+        "rest": "Ausruhen",
+        "restdsc": "Mache ein Nickerchen mit dem Händler, um Vertrauen aufzubauen und einen bequemeren Schlaf zu haben. Es gelten die regulären Bedingungen für das Schlafen.",
+        "exit": "Verlassen",
+        "free": "<color=\"orange\">UMSONST!",
+        "deceased": "Verstorben",
+        "statusreport": "Statusbericht",
+        "firmware": "Firmware",
+        "depth": "Tiefe",
+        "caloriesconsumed": "Verbrauchte Kalorien",
+        "mentalstate": "Mentale Verfassung",
+        "timetaken": "Verstrichene Zeit",
+        "missionstatus": "Missionsstatus",
+        "missionstatusfailure": "Gescheitert",
+        "casualties": "Verluste",
+        "unknown": "Unbekannt",
+        "moodrange-10": "Suizidal",
+        "moodrange-9": "Vollkommen hoffnungslos",
+        "moodrange-8": "Unglaublich miserabel",
+        "moodrange-7": "Entsetzt",
+        "moodrange-6": "Verängstigt",
+        "moodrange-5": "Depressiv",
+        "moodrange-4": "Niedergeschlagen",
+        "moodrange-3": "Aufgebracht",
+        "moodrange-2": "Ängstlich",
+        "moodrange-1": "Unruhig",
+        "moodrange0": "Konstant",
+        "moodrange1": "Gelassen",
+        "moodrange2": "Zufrieden",
+        "moodrange3": "Wohlbefinden",
+        "moodrange4": "Lebhaft",
+        "moodrange5": "Aufgeregt",
+        "moodrange6": "Glücklich",
+        "moodrange7": "Hocherfreut",
+        "moodrange8": "Überglücklich",
+        "moodrange9": "Euphorisch",
+        "moodrange10": "Ekstatisch",
+        "moodrangewiped": "Leer",
+        "moodrangeyethopeful": ", trotz allem hoffnungsvoll...",
         "startlorenote": "Jahr 2XXX \n<>\nDie Menschheit hat sich technologisch signifikant weiterentwickelt. \n<>\nEin ganz bestimmtes Unternehmen widmete sich der Forschung von Biotechnik und begann, tierische sowie menschliche DNA zu kombinieren. \n<>\nDies führte zur Erschaffung der Experiment-Spezies sowie dutzender weiterer Ableger. \n<>\nNach Jahren unethischer privater Tests in Laboren haben sie sich etwas noch viel Größeres vorgenommen. \n<>\nSie wussten von einem grauen Planeten mit blühender Flora, Fauna und einer einfachen Weltraum-Route. \n<>\nBald schon wurden Tausende ihrer Experimente, Gebäude und sonstiger Fracht verschickt. \n<>\nWährend der Großteil ordnungsgemäß verschickt wurde, so wurde aufgrund eines Kalibrierungsfehlers eine große Menge Fracht irrtümlicherweise in das umfangreiche Höhlennetz des Planeten gesendet. \n<>\nDazu gehört auch ein versehentlich versandtes Stück wichtiger experimenteller Technologie, das nun tief in den unterirdischen Systemen liegt, ohne eine einfache Möglichkeit, es zurückzuholen. \n<>\nDies wurde jedoch von den Wissenschaftlern als Gelegenheit angesehen, mehr Verhaltensforschung zu betreiben, indem sie Tausende von Experimenten nach unten schicken, um die verlorene Technologie zurückzuholen. \n<>\nDie Chancen, dass es funktionierte, waren gering, aber der Versand ist billig und die Menge an Subjekten zum Verfeuern reichlich. \n<>\nDu bist eines dieser unglücklichen Exemplare.\nWiderstand ist keine Option.",
         "jsonthing": "hi, this is here so i can copy json text without it annoying me about commas. this entry is not needed :)"
     },
     "character": [
         {
-            "wallnotes": [
-                "Mann- dieser Ort ist... seltsam. Und unheimlich. Da sind diese komischen schwarzen Spinnen, die sich manchmal an mich heranschleichen und mich beißen, wenn ich nicht aufpasse... Hasse die. Sie hinterlassen diese hässlichen, oft entzündeten Wunden in mir... Tut weh, aber die seltsame Verfärbung an meinem Bein verschwindet meistens, wenn ich ein paar dieser leuchtenden Früchte, die hier wachsen, auf die Wunde reibe. Die Situation ist echt mies, aber wenigstens sind wir von Mutter Naturs Antibiotika umgeben..",
-                "Die Menge an Leichen hier ist erschreckend... – Sie haben so viele von uns nach hier unten geschickt! Ich weiß nicht einmal mehr, wie ich hierhergekommen bin... Ich weiß, dass ich von einem Pfeil oder einer Spritze gestochen wurde... Als Nächstes wache ich in einer dieser Rettungskapseln auf, die gerade dabei ist von unserem Labor abzuheben, um in Richtung dieses kleinen grauen Planeten zu fliegen...",
-                "Es geht nicht nur mir so. Fast jeder, der hierhergeschickt wurde, kann anscheinend auch seinen Gesundheitszustand in seinen Gedanken sehen... Es fühlt sich... künstlich an...? Ich weiß, dass keiner von uns diese Einsicht zuvor hatte. Ich frage mich, ob das von einem dieser Chips kommt, die sie uns heimlich eingepflanzt haben.",
-                "Ich habe gerade jemanden in der Ferne gesehen, der in eine dieser grauen Stachelfallen gelaufen ist... Er war auf der Stelle tot... Gott... Ich hab so eine Angst. Ich will hier nicht sterben... Wenn du das liest, bitte pass auf wo du hintrittst, immer, jederzeit und überall. Wir können es uns nicht leisten, hier unten alle zu sterben.",
-                "Ich hab es herausgefunden! Wenn ich etwas von dem roten Blut, das ich manchmal in den herumliegenden weißen Kisten finde, auf eines dieser Terminals spritze, öffnet sich die Tür daneben! Dieses Blut ähnelt seltsamerweise dem Blut unserer Gebieter in unserem zu Hause oben ... Ich frage mich, ob es ihres ist?",
-                "Gib alle Hoffnung auf",
-                "Notiz an mich selbst: Anscheinend ist mein Stoffwechsel NICHT für solche Überlebensszenarien gemacht. Ich nehme immer weiter ab... Ich sehe mittlerweile aus wie ein Stock! Ich sollte mich wirklich öfter satt essen ... Und du solltest das auch tun, zufälliger Leser! Viel Glück da draußen.",
-                "Ich habe beschlossen, einen kleinen Geschmackstest mit den Blutkonserven zu machen, die ich immer wieder finde... Die komischen roten schmecken... metallisch...? Und die mit unserem Blut schmecken künstlich... wie Chemikalien. Beide haben mich ziemlich krank gemacht, aber ich schätze, ich könnte sie als letztes Mittel verwenden, wenn ich durstig bin...?",
-                "Warum sind wir überhaupt hier? Wir werden unser ganzes Leben lang in einem überfüllten Labor festgehalten, wo unsere Gebieter seltsame Tests an uns durchführen, nur damit sie... zufällige Leute hierher schicken? In den Tod...? Ich will hier unten nicht sterben... Ich vermisse meine Freunde von dort oben...",
-                "Die Menge an verstreuten Gebäuden, Kisten und Kapseln ist... seltsam, um es so auszudrücken. Warum schicken sie so viel zufälligen Müll hierher? Warum schicken sie UNS auch hierher..? Ich weiß, wir sollen ein \"wichtiges Stück Fracht\" bergen, aber... Warum ist es überhaupt hier unten? Das ist ein völlig anderer Planet als unser Labor zu Hause!",
-                "Die Luft hier ist kalt... Viel kälter als in den weiß gefliesten Laboren bei uns zu Hause. Ist eigentlich ganz angenehm! Ich mag die Hitze nicht. Lieber hier als da oben!",
-                "Ich bin sehr tief gestürzt... Mein Bein ist völlig verstümmelt, ich glaube es ist gebrochen... Gehen fällt mir sehr schwer, ich muss vorsichtig mit meinen Bewegungen sein, um nicht gleich vor Todesqualen zusammenzubrechen... Ich weiß nicht wie lange ich das noch durchhalte.",
-                "Ich hab mich hier mit jemandem zusammengetan und beschlossen, dass wir versuchen werden, einfach an die Oberfläche zu kommen und dieser elenden Höhle zu entkommen... In dem Moment, als mein Freund durch eines dieser Löcher nach draußen ging... Fing er an, sich sehr merkwürdig zu verhalten... Er kollabierte und verlor schließlich seinen Puls... Irgendetwas ist da draußen. Etwas hindert uns daran hinauszugehen. Sind es unsere Gebieter? Zwingen sie uns, hierzubleiben...?",
-                "(Hier ist eine ziemlich lausig gemachte Zeichnung, die wie einer deiner Gebieter aussieht. Mit weißem Laboranzug und Tazer in Hand. Das Gesicht ist mit einem großen X ausgekratzt. Die Waffe ruft schreckliche Erinnerungen wieder wach.)",
-                "Dieser Ort kann manchmal ziemlich kalt werden, besonders wenn ich nass werde... Ich muss mich ständig mit körperlicher Arbeit beschäftigen, um warm zu bleiben. Es ist eine anstrengende Existenz...",
-                "Fuck... Seid vorsichtig in den Tümpeln hier, besonders dann, wenn sie tief sind... Schwimmen kann ziemlich erschöpfend sein, ich bin in einem dieser Wasserreservoirs fast ertrunken, nachdem ich von der Strömung hineingerissen wurde. Sie zu entleeren kann durchaus nützlich sein, man muss nur vorsichtig an die Sache herangehen.",
-                "Ich liebe dieses fucking Fentanyl, Mann. Mein Leben war so beschissen, bevor ich hier herkam... Eingesperrt in diesen spießigen weißen Laboren... Nachdem ich hierher gebracht und ein paar von diesen Opiaten bekommen habe, ist alles einfach soooooo viel besser geworden... Ich wünschte nur... Ich wünschte ich würde mehr finden...",
-                "Ich muss damit aufhören an Orten festzustecken, wenn ich kein Licht bei mir habe. Selbst diese leuchtenden Pflänzchen sind gut genug dafür... Meine Augen sind nicht annähernd gut genug, um die Gegend um mich herum zu erleuchten. Meine jetzt fehlende linke Hand hat es auf die harte Tour gelernt. Ich habe keine Ahnung, wie ich noch am Leben bin.",
-                "Alles tut weh.",
-                "Ich habe ein wenig von einem Gespräch zwischen einigen unserer Gebieter mitgehört... Anscheinend ist diese Fracht die wir bergen, eine Art \"fortschrittliche Energiequelle\". Irgendwas mit... eine große Menge an Energie speichern, um sie dann zu verteilen... aber drahtlos? Ich bin mir nicht sicher, was das überhaupt bedeuten soll... Vielleicht weiß einer von euch mehr darüber.",
-                "Nein nein nein nein nein. Hilfe. Hilf mir. Bitte. Wenn jemand das hier findet... Ich wurde getroffen... Ich kann die Blutung nicht stoppen... Ich hab Angst, ich bin so schwach. Bitte...",
-                "Ich kann es. Ich kann es endlich tun. Ich habe mein ganzes Leben lang hierauf gewartet, aber jetzt ist die Zeit endlich gekommen. Ich habe alles was ich brauche, um es zu tun. Ich... Ich aktiviere meine grüne Aura.",
-                "Die Verhältnisse zwischen den Rassen hier scheint sehr ungleichmäßig zu sein. Die Experimente sind überall, aber andere Spezies wie ich scheinen viel weniger zahlreich vertreten zu sein... Etwas seltsam. Mir gefallen die vielen Verluste überhaupt nicht. Wir müssen uns gegenseitig mehr helfen.",
-                "Eine Kreuzung aus \"Mensch, Fuchs und Ratte\"“... Was soll das bedeuten? Was sind das überhaupt alles für Wesen? Ich habe überhört, wie wir von unseren Gebietern so genannt wurden... Wie viel wird vor uns noch verheimlicht? Der Gedanke macht mir Angst... In dem Labor wo wir aufgewachsen sind, habe ich nie wirklich die Möglichkeit in Betracht gezogen, dass es da draußen überhaupt noch etwas anderes gibt. Und jetzt bin ich hier... Ich begreife... das einfach alles nicht. Ich wünschte ich könnte...",
-                "Was zum Teufel macht ihr da Leute??? Warum schickt ihr so viele unserer beschissenen NOTWENDIGEN Vorräte auf diesen trockenen Haufen Dreck? Dieser Planet, der, soweit meine Quellen korrekt sind, keine verfickten Ozeane oder sonst irgendetwas hat??? Wir BRAUCHTEN diese scheiß Schnorchel... Unsere Kunden haben so lange auf die Dinger gewartet... Was macht unser Management da??? Ich hasse diesen verkackten Job. Ich reiche eine Beschwerde ein. Wenn ihr das Faxgerät auch noch verschickt, finde ich euch und dann setzt es was.\n\n(An dem Papier ist ein Miniatur-Faxgerät festgetackert)"
-            ],
             "seeGravel": [
                 "Da wären wir...",
                 "Okay... Legen wir los.",
@@ -2027,7 +2114,7 @@
                 "Das sollte reichen... Bye-bye... Tut mir leid... Ich hoffe, es gibt ein Leben nach dem Tod für mich...",
                 "Das ist das Ende. Ich hoffe derjenige der meine Leiche findet, macht das meiste daraus. Ich kann das nicht mehr. Tut mir leid.",
                 "Es macht keinen Sinn mehr. Hat es von Anfang an nicht. Ich beende es. Fuck... Scheiß auf ALLES hier.",
-                "Wenn es mich nicht umbringt mir die Pulsadern aufzuschneiden, werde ich mir selbst die Augen ausreißen, damit ich dieses schreckliche Wekt nie wieder sehen muss.",
+                "Wenn es mich nicht umbringt mir die Pulsadern aufzuschneiden, werde ich mir selbst die Augen ausreißen, damit ich dieses schreckliche Welt nie wieder sehen muss.",
                 "Ich weiß nicht was auf mich wartet, aber ich kann endlich ruhen... etwas entspannen... Es gibt keinen Grund mehr für Emotionen...",
                 "AHHHH! SCHEIß DRAUF! AUF ALLES! ICH HALTE ES NICHT MEHR AUS! LASST MICH GEHEN! ICH BIN DURCH!",
                 "Das war's. Ich bin am FUCKING Ende. Endlich tue ich es... Tschüss. Fucking TSCHAU. Ich bin RAUS.",
@@ -2185,7 +2272,7 @@
                 "Er tut mir leid... ",
                 "Ich hoffe dass ich nicht so enden werde.",
                 "Oje... Ew... Man.",
-                "Ich glaube sie atmet nicht...",
+                "Ich glaube er atmet nicht...",
                 "Jep, das ist in der Tat eine Leiche...",
                 "Ich kann einfach nicht aufhören sie anzustarren...",
                 "Fuck man... Argh... Das ist ätzend.",
@@ -2194,7 +2281,7 @@
                 "Awww... Das ist ein trauriger Anblick.",
                 "Ich wusste dass mehr von uns hier sind...",
                 "Es wird alles gut... Es wird alles gut.",
-                "Oh fuck. Sie ist tot...",
+                "Oh fuck. Er ist tot...",
                 "*panisches schnaufen*",
                 "*finsteres dreinschauen*",
                 "Jemand sollte ihm ein ordentliches Begräbnis erweisen.",
@@ -2536,14 +2623,6 @@
                 "Ich bin so zittrig und benommen... I-ich brauche mehr Opiate...",
                 "Brauche mehr... D-Drogen..."
             ],
-            "opiateaddiction": [
-                "Ich will mehr Drogen...",
-                "Ich könnte... Noch einen Shot vertragen...?",
-                "Ich würde liebend gerne ein paar Schmerztabletten exen...",
-                "Ich glaube ich bin süchtig...",
-                "Noch ein Schuss...? Bitte?",
-                "Ich muss mich beruhigen..."
-            ],
             "cantBreathe": [
                 "Ich kann nicht atmen!",
                 "Ich... kriege keine Luft...",
@@ -2613,6 +2692,22 @@
                 "Fuck- Warte... Mein <limb>... Ahh...",
                 "Mein <limb> ist so wund..."
             ],
+            "hitgroundhard": [
+                "Agh!",
+                "Ack!",
+                "Fuck!",
+                "Augh!",
+                "Ghagh!",
+                "Ugh!",
+                "Ngghh!",
+                "Au!",
+                "Aaautsch!",
+                "Argh!",
+                "Nffgh...",
+                "Aaawgh!",
+                "Ngghhh...",
+                "Ough!"
+            ],
             "bigpain": [
                 "AU!!!",
                 "AGH!!!",
@@ -2640,29 +2735,29 @@
                 "STOP!!!",
                 "VERDAMMT NOCH MAL!!!"
             ],
-            "scream": [
-                "Ah!!",
-                "Ahhh!",
-                "Mist!",
-                "Aaaaa!",
-                "Gah!",
-                "Scheiße!",
-                "Waah!",
-                "Wooah!",
-                "Wah!",
-                "Oooohh!",
-                "Weee!",
-                "Ohh!",
-                "Ohhsch-!",
-                "Fuuhh!?",
-                "Waaa?!",
-                "Heeey!",
-                "Aahhg!",
-                "Aagh!",
-                "Aah!",
-                "Aaa!"
+            "fallscream": [
+                "AAAAH!!",
+                "AAAAHHH!",
+                "OH FUCK!!",
+                "AAAAAAAA!",
+                "AAGHHAH!",
+                "SCHEISSE!",
+                "WAAAAHHH!",
+                "WOOAAAH!",
+                "WAAAAHH!",
+                "OOOOOHHH!",
+                "WHEEEAAAA!",
+                "OHH! AHHH!",
+                "OHHHHSSHHH!",
+                "FUUHHH!?",
+                "WHHAAAA?!",
+                "HEEEEEY!",
+                "AAHHHHJG!",
+                "AAAAACK!",
+                "AAH!",
+                "AAAAAAAAAAHHH!"
             ],
-            "terrified": [
+            "hitbycreature": [
                 "AAAHHHHH!",
                 "AAAAAAAAHHHHH!",
                 "AHHH!! FUCK!!!",
@@ -2702,6 +2797,32 @@
                 "Viel zu feucht alles!",
                 "Das Wasser muss runter von mir."
             ],
+            "dirty": [
+                "Ugh... Ich bin so dreckig!",
+                "Ich brauche wirklich ein Bad.",
+                "Ich bin mit Modder bedeckt.",
+                "Ich bin völlig mit Dreck überzogen.",
+                "Eugh... Mein Fell ist ganz schmutzig.",
+                "Ich glaube ich brauche eine Dusche.",
+                "Vielleicht liegt es nur an mir, aber ich glaube ich fange an zu stinken.",
+                "All dieser Dreck an mir... Ich fühle mich wie ein Tier.",
+                "Das ist nicht sehr hygienisch...",
+                "Kann ich ein schnelles Bad nehmen?",
+                "Ich sollte mich waschen.",
+                "Ich muss diesen ganzen Dreck abwaschen.",
+                "Viel zu dreckig.",
+                "Sollte wirklich den ganzen Schmutz abwaschen...",
+                "Also SO unsauber zu sein ist schon grenzwertig...",
+                "Zeit für ein Bad!",
+                "Ich bin mir ziemlich sicher die Rettungskapseln haben Duschen... Ich könnte wirklich eine gebrauchen.",
+                "Wie bin ich nur so schmutzig geworden?",
+                "Herrje, ich bin ÜBERZOGEN mit Matsch!",
+                "Mein Fell ist so schmuddelig!",
+                "Guh! Ich bin komplett mit Unrat bedeckt.",
+                "Da ist Ruß in meinem Fell.",
+                "Ich fühle mich eklig. Ich brauche wirklich ein Bad, oder so...",
+                "Könnte eine Dusche gebrauchen!"
+            ],
             "watchlike": [
                 "Ich mag dieses Uhren-Dingens. Ist praktisch."
             ],
@@ -2718,7 +2839,7 @@
                 "SCHEISSE! ... Auaahhh... Das war verdammt laut...",
                 "NEIN!!! Leck mich Alter... Aghhh, war das laut..."
             ],
-            "regret": [
+            "murderregret": [
                 "Warum... Warum hab ich das getan..? F-fuck...",
                 "Gh... Oh Gott... Warum...?",
                 "Ich... Das war grauenhaft.. Ich bin ein Monster...",
@@ -2734,44 +2855,63 @@
                 "Hay!",
                 "Hallo!"
             ],
-            "tradermeet": [
+            "tradermeetnormal": [
                 "Hey!",
                 "Hallo!",
                 "Oh! Endlich kommt mal jemand vorbei...",
-                "Heya.",
+                "Oh! Heya.",
                 "Hey! Tut gut jemanden lebendiges zu sehen.",
                 "Hey, Kollege.",
                 "Willkommen!"
             ],
-            "tradeeanswer": [
-                "Nette Kapsel.",
-                "Sorry fürs reinplatzen.",
-                "...Jap.",
-                "Tut gut eine lebende Seele hier unten zu sehen.",
-                "Ich schätze wir stecken beide in der gleichen Situation.",
-                "...Also.",
-                "...hi.",
-                "Freut mich dich zu sehen."
+           "tradermeetgood": [
+                "Ah! Hi!!",
+                "Hallo! Wie geht's dir?",
+                "Aah! Hallo!! Hi!"
             ],
-            "traderanswer": [
-                "Ich habe mich erstmal hier eingenistet, ich überleg mir später wohin es weitergeht...",
-                "Ich ruhe mich momentan hier aus.",
-                "Ich mache eine Pause in dieser Kapsel. Ich frage mich warum wir alle hier sind...",
-                "*gähn*",
-                "Hmmm...",
-                "Ziemlich gemütlich hier drin, was?",
-                "Ich mache mir Sorgen über unsere derzeitige Lage... Dieser Ort hat eine ziemlich hohe Sterberate.",
-                "Ich hoffe du genießt deinen Aufenthalt, haha...",
-                "Hier drinnen ist es sicher. Du solltest dich auch ausruhen."
+            "tradermeetbad": [
+                "Hheeyy...Ich mag deine Anwesenheit nicht..?",
+                "H... Hallo... Uhh...",
+                "...Hey.",
+                "...Hm. Hallo."
             ],
-            "traderspeaktrade": [
-                "...Wie auch immer, ich habe ein bisschen Zeug bei mir, wenn du tauschen willst.",
-                "...ich hoffe dir geht es soweit gut. Ich habe ein paar Sachen dabei, wenn du tauschen möchtest.",
-                "Also, ich betreibe hier so eine Art kleinen Laden. Willst du irgendwas'?",
-                "...Nun, ich habe einige Wertsachen hier drinnen verstaut. Wirf mir etwas Zeug zu und ich geb dir was dafür zurück!",
-                "Wie dem auch sei, willst du etwas?",
-                "Wenn du schon mal hier bist, willst du etwas tauschen?",
-                "...Hmm. Ich könnte einige Gegenstände tauschen. Bist du an etwas Bestimmtem interessiert?"
+            "traderhugsuccess": [
+                "Awww... Danke dir.",
+                "Ahhh... Danke, mein Freund.",
+                "Mmmh... Aww, danke!",
+                "Ah! Mmhh... Vielen dank...",
+                "Aw! Du bist ja süß!",
+                "...Danke dir, das habe ich gebraucht."
+            ],
+            "traderhugfail": [
+                "AHHH! Fassen mich nicht einfach so an...",
+                "Hey! Kein rumfummeln",
+                "Aghh! Hey! Nicht anfassen!",
+                "Ich passe...",
+                "Nein danke.",
+                "Wa- Hey! Nimm deine Pfoten weg.",
+                "Hey! Fass mich nicht an! Ich vertraue dir nicht."
+            ],
+            "traderhagglesuccess": [
+                "...Okay!",
+                "Mmmmhmmm... Verstanden.",
+                "Ich denk darüber nach.",
+                "Ich behalts im Hinterkopf...",
+                "O-okay... sicher...",
+                "Das ergibt Sinn für mich!",
+                "Uh huh.",
+                "Hmm... Okay."
+            ],
+            "traderhagglefail": [
+                "So richtig überzeugend klang das nicht.",
+                "...Nein, danke.",
+                "Nee he.",
+                "Kein Interesse.",
+                "Was? Warum sollte ich das tun...?",
+                "Meeehhh... Ein andermal.",
+                "Meh.",
+                "...Nhh...",
+                "...Ugh. Sorry."
             ],
             "traderdepressed": [
                 "...Äh... ...bist du okay? Du siehst ein wenig... mitgenommen aus...?",
@@ -2780,28 +2920,6 @@
                 "...Du siehst mitgenommen aus. Geht es dir gut? Hallo...?",
                 "Hey! Wie geht es diiiiiiiir......du siehst nicht so gut aus, Kollege... Ähm...",
                 "Hey! ... Was soll dieser starre Blick? Ähm..."
-            ],
-            "traderhurt": [
-                "Oh, oh, du siehst nicht so gut aus. Bist du okay? Brauchst du Hilfe?",
-                "Ahh! Kein Schritt näher, du blutest mich noch voll...",
-                "...Oh. Oh, oh du siehst nicht gut aus. Was ist passiert?",
-                "...Brauchst du Hilfe bei dem da...?"
-            ],
-            "tradeehurt": [
-                "Hilf mir, bitte.",
-                "Hast du Medizin übrig?",
-                "Verband, bitte.",
-                "Ich blute, ich brauche etwas Hilfe... ...bitte."
-            ],
-            "traderhurtanswer": [
-                "...ähm, einzige was ich dabei hab sind Stofffetzen. Ich hoffe du wirst wieder ok.",
-                "...Hier sind ein paar Stoffreste. Du kannst dich hier ausruhen. Ich hoffe es geht dir gut!"
-            ],
-            "tradershow": [
-                "Das ist was ich habe. Gib mir ein paar Sachen und du kannst dir was nehmen.",
-                "Das hab ich dabei. Leg Gegenstände hier ab und ich werde sie nehmen.",
-                "Hier. Wirf mir deine Sachen zu und ich gebe dir was hier von.",
-                "Gib mir ein bisschen Zeug und such dir was aus."
             ],
             "tradergiveitem": [
                 "Danke!",
@@ -2825,37 +2943,33 @@
                 "Ein paar Dinge brauche ich aber erst noch.",
                 "Erst bezahlen!"
             ],
-            "traderdispleased": [
-                "Verschwinde.",
-                "Ich habe nichts für dich. Bitte geh.",
-                "Geh weg. Ich will nichts mit dir zu tun haben.",
-                "Hey! Du. Hau ab!",
-                "Ich würde es vorziehen kein Risiko einzugehen. Ist nicht persönlich.",
-                "Kein Interesse.",
-                "Ich stehe das hier alleine durch.",
-                "Bitte lass mich in Ruhe."
-            ],
             "traderwarning": [
-                "VERSCHWINDE.",
-                "Geh. JETZT.",
-                "RAUS! RAUS HIER!",
+                "Verschwinde.",
+                "Geh. Jetzt.",
+                "Raus! Raus hier!",
                 "Verlass diese Kapsel.",
                 "Ich will dich hier nicht haben. Geh.",
-                "HAU AB!",
-                "RAUS.",
-                "RAUS MIT DIR!",
+                "Hau ab!",
+                "Raus.",
+                "Raus mit dir!",
                 "Verzieh dich.",
                 "Verpiss dich!",
-                "Verpiss dich.",
-                "Ich werde mich nicht wiederholen."
+                "Verpiss dich."
             ],
             "tradercombat": [
-                "Hurensohn. Wichser. Ich hab deine Scheiße satt.",
+                "Ich hab deine Scheiße satt.",
                 "Verpiss DICH!",
                 "MIR REICHT ES MIR DIR!",
                 "FICK DICH!",
                 "RAUS! RAUS HIER! SOFORT! RAUS!",
-                "DU PISSER! RAUS HIER!"
+                "RAUS HIER!"
+                ],
+            "traderthreatensuccess": [
+                "Okay, okay, meine Güte... Nimm dir was du willst, aber tu mir nicht weh...",
+                "Arschloch... Na gut. Mach nur. Bitte geh danach.",
+                "Nggh... Fick dich... Nimm einfach und verschwinde!",
+                "Bitte tu mir nicht weh! Nimm etwas und... geh bitte...",
+                "...okay. Nimm dir was und komm nicht zurück. Spar dir deine Drohungen."
             ],
             "traderlightbreak": [
                 "Alter, was soll der Scheiß? Warum machst du das? Verpiss dich.",
@@ -2863,6 +2977,30 @@
                 "Hey! Was zum Teufel! Die hab ich gebraucht! Piss dich verdammt nochmal!",
                 "Ahh! Du DIEB! Raus mit dir!",
                 "Alter. Okay... Okay mann. Okay... Ich... Äh... Bitte geh weg."
+            ],
+            "traderwakegreet": [
+                "Guten Morgen'.",
+                "Hi! Du bist wach.",
+                "Morgen, Schlafmütze.",
+                "Wie hast du geschlafen?",
+                "Hoffe du hast gut geschlafen.",
+                "Gut ausgeruht, hoffe ich?"
+            ],
+            "traderseegun": [
+                "...Woah moment! Steck die Waffe weg, Mann... wie auch immer.",
+                "Hey! Was soll die Waffe? Steck sie weg, bitte. ...Also.",
+                "Ich hoffe du benutzt diese Waffe nicht, haha.",
+                "Ey, ich habe keine Waffe, also steck deine weg, Kumpel."
+            ],
+            "tradermeetimpairedspeech": [
+                "...Häh? Was? Hast du irgendwas in deinem Mund? Ich kann dich nicht verstehen...",
+                "Mmmff mff mmmmfff mhfff! So hörst du dich an.",
+                "Ich verstehe dass wir uns in einem schlechten Szenario befinden, aber du kannst dich wenigstens etwas bemühen klar und deutlich zu sprechen..."
+            ],
+            "traderseehurt": [
+                "Da du verletzt bist, kannst du dir umsonst ein Verband nehmen wenn du hier einen findest...",
+                "Aww, du bist verletzt. Wenn du einen Verband bei mir findest, kannst du ihn nehmen! Ich weiß nicht mehr ob ich einen habe...",
+                "Ohh, dir scheint es nicht gut zu gehen... Ich sag dir was, wenn du einen Verband siehst kannst du ihn dir umsonst nehmen."
             ],
             "swingresponse": [
                 "TUT MIR LEID!",
@@ -2912,7 +3050,7 @@
             ]
         },
         {
-            "tradermeet": [
+            "tradermeetnormal": [
                 "Grüße.",
                 "Hallo.",
                 "Ist mir eine Freude dich kennenzulernen.",
@@ -2921,51 +3059,33 @@
                 "Ich grüße dich.",
                 "Willkommen.",
                 "Schön dich zu treffen!",
-                "Ich hoffe alles ist gut.",
-                "Ich fühle mich geehrt, einen anderen Überlebenden zu sehen."
+                "Ich hoffe alles ist gut."
             ],
-            "traderanswer": [
-                "Unsere Situation scheint ziemlich ernst zu sein. Aber ich bin hoffnungsvoll, dass einige hier lebend rauskommen...",
-                "...Auch wenn ich ungerne so aus dem Schlaf gerissen werde, ist es doch schön jemand lebendigen hier draußen zu sehen.",
-                "Ich bin seit kurzem mich in dieser Kapsel am ausruhen. Der Gummiboden ist echt gemütlich zum Ausruhen!",
-                "Es kommt eher selten vor dass ich jemanden sehe, der nicht wie ein zerfetzter Teppichboden aussieht. Schön dich zu sehen.",
-                "Schön jemanden lebendiges hier draußen zu sehen!",
-                "Ich hoffe dir geht's gut. Da draußen ist es hart.",
-                "Ruh dich mit mir aus wenn du möchtest. Diese Kapsel ist echt bequem.",
-                "Ich bin froh eine lebende Seele zu sehen. Das gibt mir etwas Hoffnung..."
+            "tradermeetgood": [
+                "Ich fühle mich geehrt einen anderen Überlebenden zu sehen.",
+                "Oh! Hallo! Wie geht es dir, mein Freund?",
+                "Grüße, mein Lieber. Wie geht es dir?",
+                "Ah! Grüße. Du siehst aber munter aus!",
+                "Ah, wie glücklich bin ich jemanden wie dich zu sehen!"
             ],
-            "traderspeaktrade": [
-                "Wonach suchst du?",
-                "Also, was möchtest du?",
-                "Wie dem auch sei, suchst du nach etwas?",
-                "So, wie kann ich dir helfen?",
-                "Wie auch immer. Wie kann ich behilflich sein?",
-                "Reden wir nicht um den heißen Brei herum: Möchtest du etwas?",
-                "Nun, ich habe ein paar Dinge bei mir die ich hergeben würde. Bist du an etwas interessiert?"
+            "tradermeetbad": [
+                "...Ich bin nicht beeindruckt.",
+                "Argh. Hallo...",
+                "...Du überraschst mich. Grüße.",
+                "...Hallo.",
+                "Sei gegrüßt. Bitte verzichte darauf mich anzufassen.",
+                "Hallo, mein gleichgesinnter Überlebender.",
+                "Grüße. Bitte benutz nächstes Mal die Tür.",
+                "Willkommen.",
+                "Grüße."
             ],
-            "traderdepressed": [
-                "... Deine Miene ist beängstigend... Du siehst wie versteinert aus. Versuch NICHT irgendetwas Seltsames zu tun, bitte.",
-                "Noch einer von euch Freaks... Da kommt nicht mal ein einziges Wort. Mach keine Dummheiten.",
-                "...wie still. Du siehst verstört aus. Ich hoffe du bekommst die Hilfe die du brauchst. Ich kann dir nicht viel anbieten, sorry.",
-                "Hallo. ...Oh. Tut mir leid... Bitte sei vorsichtig."
-            ],
-            "traderhurt": [
-                "Du bist verwundet! Hmmh... Warte mal.",
-                "Oh Mist. Du blutest. Gib mir einen Moment.",
-                "Oh. Blut. Das ist nicht hygienisch... Einen Moment."
-            ],
-            "traderhurtanswer": [
-                "Benutz dies für die Wunde. Achte darauf sie sauber zu halten, falls möglich disinfizier sie.",
-                "Nimm das. Bitte blute nicht hier drinnen, das ist unhygienisch.",
-                "Flick dich zusammen und blute mich bitte nicht voll. Ich will mir nicht noch irgendeine Krankheit einfangen."
-            ],
-            "tradershow": [
-                "Alles klar. Ich habe das hier bei mir.",
-                "Das ist mein Vorrat.",
-                "Das ist alles was ich bei mir habe.",
-                "Ich bin bereit das alles zu tauschen.",
-                "Hier.",
-                "Wenn dich etwas davon interessiert, bin ich bereit es zu tauschen."
+            "traderwakegreet": [
+                "Guten Morgen.",
+                "Hey, du bist endlich wach.",
+                "Grüße, du bist aufgewacht.",
+                "Sieh mal einer an wer aufgewacht ist!",
+                "Schlafmütze. Willkommen zurück!",
+                "Du hast geschlafen wie ein Welpe, haha..."
             ],
             "tradergiveitem": [
                 "Danke schön.",
@@ -2975,6 +3095,26 @@
                 "Nützlich.",
                 "Mit Vergnügen.",
                 "Ich werde das gut gebrauchen können."
+            ],
+            "traderhagglesuccess": [
+                "Na gut..",
+                "Ich mache eine Ausnahme für dich.",
+                "Ah, du scheinst nett zu sein.",
+                "Du hast ein gutes Argument.",
+                "Ich akzeptiere deine Nachfrage.",
+                "Ich verstehe dich, Kumpel. Geht klar.",
+                "Dem muss ich zustimmen.",
+                "Einverstanden..."
+            ],
+            "traderhagglefail": [
+                "Wie wäre es mit nein?",
+                "Ich bin keine verdammte Wohlfahrt.",
+                "Ich akzeptiere nur Fakten und Logik, kein unkoordiniertes flehen.",
+                "Nein.",
+                "Das war das schlechteste Argument das ich je gehört habe.",
+                "Ich muss deine Anfrage ablehnen.",
+                "Negativ.",
+                "Keine Ausnahmen, sorry."
             ],
             "traderbuy": [
                 "Keine Rückerstattung.",
@@ -2995,24 +3135,25 @@
                 "Du machst Witze.",
                 "Wie unverschämt."
             ],
-            "traderdispleased": [
-                "Geh einfach.",
-                "Ich möchte nicht mit dir in Kontakt treten. Ich habe nichts was ich dir geben kann.",
-                "Noch einer von euch Dieben. Raus hier!",
-                "Ich habe kein Interesse.",
-                "Bitte lass meine Kapsel in Ruhe. Ich war zuerst hier.",
-                "Nicht jetzt. Sorry.",
-                "Ich hab keinen Nerv um mich mit dir rumzuärgern."
+            "traderthreatensuccess": [
+                "Es liegt nicht in meinem Interesse verletzt zu werden. Nimm was auch immer und geh.",
+                "Na schön. Such dir etwas aus und verlasse bitte meine Kapsel.",
+                "Ich hoffe Unglück wartet auf dich. Na gut. Nimm was und geh.",
+                "Du bist eine schreckliche Person, weißt du das?",
+                "So löst du also deine Probleme. Mhm. Na gut.",
+                "Musste es wirklich so weit kommen? Du solltest es besser wissen... Ugh. Na schön.",
+                "Ein Raubüberfall stand nicht auf meiner Liste. Aber okay. Tu mir einfach nicht weh."
             ],
             "traderwarning": [
                 "Hau ab. Sofort.",
                 "Deine Anwesenheit wird nicht geschätzt. Geh.",
-                "Habe ich mich nicht klar ausgedrückt?",
                 "RAUS.",
                 "Glaubst du ich mein das nicht ernst? Raus.",
                 "Raus. Hier.",
                 "Bitte. Geh wieder.",
-                "VERSCHWINDE."
+                "Verschwinde.",
+                "Ich habe im Moment keine Nerven übrig für dich.",
+                "Bitte lass meine Kapsel in Ruhe. Ich war zuerst hier."
             ],
             "tradercombat": [
                 "Ich wollte nicht dass es so weit kommt.",
@@ -3023,13 +3164,176 @@
                 "Das ist MEINE KAPSEL! RAUS!",
                 "Ich dulde KEINEN weiteren Moment DEINER Anwesenheit!"
             ],
+            "traderhugsuccess": [
+                "Ahh... Ich... Ich erlaube es.",
+                "Wie liebevoll...",
+                "Awww. Das hast du wirklich gebraucht...",
+                "Aww, was für eine liebe Person du bist.",
+                "Mmmhh...",
+                "Was für ein Ausdruck der Zuneigung..."
+            ],
+            "traderhugfail": [
+                "KEIN ANFASSEN!",
+                "Untersteh dich.",
+                "Aufhören. Keine Umarmungen.",
+                "Nein. Stopp. Fass mich nicht an.",
+                "Ew! Nimm deine Hände weg von mir."
+            ],
+            "traderseegun": [
+                "Bevor wir reden, bitte leg erst die Waffe weg. Also...",
+                "Ich hoffe das ist kein Überfall. Falls nicht, steck die Waffe weg... So oder so...",
+                "Nimm die Waffe aus meinem Gesicht, das ist keine aktive Schießerei. Wie auch immer...",
+                "Versuchst du ABSICHTLICH dich mir gegenüber als Bedrohung darzustellen, oder findest du die Waffe sieht einfach nur cool aus?"
+            ],
+            "tradermeetimpairedspeech": [
+                "Was sagst du da..? Ich kann dich nicht verstehen.",
+                "Deine Aussprache ist extrem undeutlich. Nur damit du es weißt.",
+                "Ich kann kaum verstehen was du mir sagen willst."
+            ],
+            "traderseehurt": [
+                "Du scheinst verletzt zu sein und blutest... Du kannst dir einen Verband nehmen wenn du möchtest.",
+                "Ew! Bitte blute nicht meinen ganzen Boden voll. Wenn du einen Verband siehst, nimm ihn dir und versorge dich erstmal. Geht aufs Haus.",
+                "Das sieht nicht gut aus... Du kannst dir umsonst einen Verband nehmen wenn du einen bei mir findest."
+            ],
             "traderlightbreak": [
-                "...Alter. Ich hab Augen. Verfickter Dieb... Hau ab!",
+                "...Alter. Ich hab Augen. Dieb... Hau ab!",
                 "Oh, du Idiot! Verschwinde, sofort! RAUS!",
                 "EY! Fick dich! Mach dass du wegkommst!",
                 "Warum zum Teufel würdest du das tun!? Raus hier! Das Licht hab ich gebraucht!",
                 "Warum zerstörst du meine Kapsel!? Raus mit dir, aber SOFORT!"
             ]
         }
+            ],
+    "notes": [
+        [
+            {
+                "Item1": "es ist grauenvoll. es sind so viele leichen... ich hab angst. warum haben die so viele von uns hierher geschickt? ich verstehe es nicht. ich verstehe es wirklich nicht. sie haben mich mit einer art pfeil bewusstlos gemacht und mich in eine kapsel gesteckt um mich hierher zu verschleppen. ich hasse diesen planeten.",
+                "Item2": ""
+            },
+            {
+                "Item1": "Ich habe andere befragt, ob sie ebenfalls in der Lage sind, unseren physischen Zustand in unseren Gedanken zu sehen, und es hat sich herausgestellt, dass dies fast alle anderen hier können. Sehr interessant – so etwas konnten wir zu Hause noch nicht. Wurde uns etwas eingepflanzt? Keiner von uns hat sichtbare Implantate. Mir ist auch aufgefallen, dass nur sehr wenige Personen diese Eigenschaft nicht mit uns teilen, offenbar fehlt ihnen das, was uns dazu befähigt. Seltsam.",
+                "Item2": "Sprites/noteDrawings/puppet"
+            },
+            {
+                "Item1": "ich nehme immer weiter ab. ich muss mehr essen um in form zu bleiben. das ganze herumlaufen verbraucht sehr schnell kalorien. ich schätze ich muss mich öfter satt essen.",
+                "Item2": "Sprites/noteDrawings/underweight"
+            },
+            {
+                "Item1": "es ist furchtbar. es ist so fucking furchtbar. ich kann nicht mehr. das ist eine selbstmordmission. gebt alle hoffnung auf. es hat keinen sinn.",
+                "Item2": "Sprites/noteDrawings/x"
+            },
+            {
+                "Item1": "ich verstehe nicht warum wir hier sind. wozu? ich weiß dass ich eine Art batterie oder so etwas bergen soll. ich nehme an die anderen haben die gleiche mission. gibt es nicht effizientere wege das zu tun? rein logisch gesehen? warum schickt man uns hierher? ich vermisse meine freunde. ich will nicht sterben.",
+                "Item2": "Sprites/noteDrawings/alone"
+            },
+            {
+                "Item1": "ich bin hingefallen. schwer. mein bein ist gebrochen. das ist wirklich übel. schon die kleinste bewegung ist schmerzhaft. ich brauche ein paar schmerzmittel.",
+                "Item2": "Sprites/noteDrawings/brokenleg"
+            },
+            {
+                "Item1": "ich habe überhört, wie unsere gebieter uns als eine mutierte kreuzung aus \"mensch, fuchs und ratte\" bezeichnet haben, was auch immer das bedeuten mag. wie viel wird uns vorenthalten? was informationen angeht? der gedanke macht mir angst. ich habe nie darüber nachgedacht dass es etwas außerhalb unseres zuhauses gibt. und jetzt bin ich hier. ich begreife das alles nicht.\n(Auf dem Papier ist etwas zu sehen, das wie ein Selbstporträt aussieht.)",
+                "Item2": "Sprites/noteDrawings/experiment"
+            },
+            {
+                "Item1": "Ich habe festgestellt, dass Zeichnen eine gute Zuflucht von meiner aktuellen Situation ist. Es scheint, als würden wir alle mit unseren mentalen Zuständen zu kämpfen haben, jeder auf seine Weise. Es ist schön sich manchmal von der harschen Realität abzulenken.",
+                "Item2": ""
+            },
+            {
+                "Item1": "planet ist gut .  essen viel gutes fleisch .  dune glücklich\n(Du kannst etwas erkennen, das wie ein sehr schlecht gemachtes Selbstporträt aussieht.)",
+                "Item2": "Sprites/noteDrawings/dune"
+            },
+            {
+                "Item1": "Das Verhältniss der Spezies scheint sehr ungleichmäßig zu sein. Die Experimente sind überall, aber andere Spezies wie unsere scheinen viel weniger zahlreich zu sein. Seltsam... Wie dem auch sei, mir gefallen die vielen Verluste überhaupt nicht. Wir müssen uns gegenseitig mehr helfen.",
+                "Item2": "Sprites/noteDrawings/milky"
+            }
+        ],
+        [
+            {
+                "Item1": "ugh, dieser ort ist ätzend. ich werde ständig von irgendwelchen spinnen gebissen die aus dem nichts kommen. ich glaube sie sind giftig, denn sie hinterlassen übel aussehende infizierte wunden... die glühpflanzenfrüchte helfen allerdings dagegen",
+                "Item2": "Sprites/noteDrawings/spider"
+            },
+            {
+                "Item1": "the red blinking lights in the dark are spike traps. watch out for them. please. please. someone just walked into one in the distance, i just heard a yelp and silence after. stay safedie rot blinkenden lichter in der dunkelheit sind stachelfallen. hüte dich vor ihnen. bitte. bitte. gerade ist jemand in der ferne in eine hineingelaufen, ich habe nur einen schrei gehört und danach stille. pass auf dich auf",
+                "Item2": ""
+            },
+            {
+                "Item1": "es ist kalt hier. so kalt. viel kälter als in unserem früheren Zuhause. ehrlich gesagt, ich mag es. in den tümpeln zu baden fühlt sich gut an, es ist erfrischend. mir gefällt dieser urlaub",
+                "Item2": "Sprites/noteDrawings/pool"
+            },
+            {
+                "Item1": "ich habe mich mit jemandem zusammengetan, wir haben beschlossen zu versuchen durch eines dieser löcher an die oberfläche zu gelangen. mein freund ist als erster hinausgetreten, und sofort vor schock angefangen zu stolpern. er schien starke Schmerzen zu haben. er hat sich übergeben, ist dann zusammengebrochen und hat kurz darauf aufgehört zu atmen. und auf seiner haut bildeten sich blasen, vor allem am kopf und hals herum. etwas hindert uns daran hinauszugehen. ich hab angst.",
+                "Item2": "Sprites/noteDrawings/radiation"
+            },
+            {
+                "Item1": "Nass zu werden scheint ziemlich gefährlich zu sein wenn man nicht aufpasst. Die Temperatur hier ist viel niedriger als in unserem Zuhause, und es scheint dass man durch zu langes Nasssein in einen hypotermischen Zustand geraten kann. Versuch dich körperlich zu betätigen wenn du dich schnell aufwärmen musst, ich hab festgestellt dass das hilft.",
+                "Item2": ""
+            },
+            {
+                "Item1": "ich muss wirklich aufhören meine lichtquellen zu verlieren. ist egal was man benutzt, sogar diese seltsamen leuchtenden pflanzen sind gut genug. ich vergesse sie immer wieder, stolpere, und verletze mich versehentlich. nicht gut.",
+                "Item2": "Sprites/noteDrawings/glowplant"
+            }
+        ],
+        [
+            {
+                "Item1": "anscheinend können diese schuppen mit den seltsamen computern daneben geöffnet werden wenn man etwas rotes Blut darauf spritzt. es muss explizit rotes Blut sein, sonst funktioniert es nicht. im inneren befinden sich einige kisten, die kann öffnen und das zeug mitnehmen. nützlich.",
+                "Item2": "Sprites/noteDrawings/bloodbag"
+            },
+            {
+                "Item1": "Nach Untersuchung der chemischen Zusammensetzung der verschieden farbigen Blutbeutel die ich hier gefunden habe, scheint es, dass sie sich in ihrer Zusammensetzung erheblich unterscheiden. Das rote Blut unterscheidet sich vollkommen von unserem und dem Blut der Kreaturen hier. Es scheint aus welchem Grund auch immer eine leicht metallische Zusammensetzung zu haben, wie seltsam. Wir sollten es besser nicht auf uns selbst anwenden.",
+                "Item2": ""
+            },
+            {
+                "Item1": "(Hier ist eine ziemlich lausig gemachte Zeichnung, die wie einer deiner Gebieter aussieht. In den Händen hält er etwas, dass für dich wie ein Tazer aussieht. Das Gesicht ist mit einem großen X ausgekratzt. Die Waffe ruft schreckliche Erinnerungen wieder wach.)",
+                "Item2": "Sprites/noteDrawings/scientist"
+            },
+            {
+                "Item1": "ich wäre gerade beinahe ertrunken. ich bin vorher noch nie geschwommen, und es ist sehr anstrengend. es ist schwer mich über Wasser zu halten wenn ich erschöpft bin. ich stelle es mir ziemlich schmerzhaft vor für immer zu sinken. sei vorsichtig.",
+                "Item2": "Sprites/noteDrawings/drown"
+            },
+            {
+                "Item1": "habe ein wenig von unseren gebietern mitbekommen. anscheinend handelt es sich bei der fracht die wir holen sollen um eine art \"fortschrittliche energiequelle\". irgendwas mit eine große Menge an Energie speichern und sie dann \"drahtlos\" zu verteilen. ich weiß nicht was das meiste davon bedeutet, aber vielleicht ist es gut zu wissen. passt auf euch auf",
+                "Item2": ""
+            },
+            {
+                "Item1": "Vor kurzem habe ich eine Art Bohrer gefunden, aber es fehlen ein paar Teile. Ich weiß nicht genau was noch fehlt, außer der Abdeckplatte für alle Mechanismen... Könnte hilfreich sein wenn ich ihn wieder funktionsfähig kriege.",
+                "Item2": ""
+            }
+        ],
+        [
+            {
+                "Item1": "ugh. ist das heiß hier unten. muss meine bewegungen wirklich gut einteilen und aufpassen dass ich nicht vor Hitze umfalle. habe festgestellt dass es hilft in die wasserbecken zu springen... im notfall vielleicht sogar in die braunen.",
+                "Item2": ""
+            }
+        ],
+        [
+            {
+                "Item1": "In diesem Gebiet scheint es eine hohe Menge an radioaktivem Abfall zu geben. Das erschwert zwar die Navigation, aber wir sollten nicht vergessen, dass wir kurze Dosen ionisierender Strahlung ohne größere Probleme verkraften können, solange wir dieser nicht zu lange ausgesetzt sind. Wir sind ohnehin schon von Krebs geplagt, vermutlich weil wir unnatürlich sind, daher sind die Auswirkungen auf unsere gesamte Lebensdauer vernachlässigbar.",
+                "Item2": ""
+            }
+        ],
+        [
+            {
+                "Item1": "dune sehen großes Monster. motiviert zu töten      dune jagen monster und töten und essen . lecker essen . großer jäger von bestien!",
+                "Item2": ""
+            }
+        ],
+        [
+            {
+                "Item1": "es ist viel zu kalt hier. muss mein besten versuchen kein bisschen nass zu werden, sonst bekomme ich große schwierigkeiten. zu unserem glück gibt es viele dieser seltsamen sporenpflanzen die etwas wärme abgeben, sowie diese seltsamen maschinen. falls möglich lauf zwischen denen hin und her, schätze ich. besser nicht in der eisigen kälte stecken bleiben.",
+                "Item2": "Sprites/noteDrawings/xaloris"
+            }
+        ],
+        [
+            {
+                "Item1": "Es ist seltsam wie es hier regnen kann. Ich habe tatsächlich noch nie echten Regen gesehen... Es ist eigentlich ganz schön, auch wenn es unhygienisch ist. Ich wundere mich immer noch wie es möglich ist, dass es hier unten eine so hohe Wasserkonzentration gibt. Vielleicht tropft das Wasser von den oben liegenden Eiskappen hier herunter?",
+                "Item2": ""
+            }
+        ],
+        [
+            {
+                "Item1": "",
+                "Item2": ""
+            }
+        ]
     ]
 }
