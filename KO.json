@@ -1250,7 +1250,7 @@
         "gunsafety": "안정 장치",
         "alertitemblocked": "아이템 벽에 막힘",
         "alertitemfar": "아이템 너무 멂",
-        "alertinvalidrecipe": "잘못된 제조법",
+        "alertinvalidrecipe": "잘못된 제작법",
         "alertcraftconainer": "제작에 추가하기전에 용기를 비우세요",
         "alertsellcontainer": "팔기전 용기를 비우세요",
         "alertpickupwearable": "입는 것은 손이나 용기에 들고다닐 수 없습니다",
@@ -1263,8 +1263,8 @@
         "repairmetalalloy": "합금괴로 수리하기",
         "insertscrap": "고철를 넣으세요",
         "open": "열기",
-        "learnedrecipe": "이미 r1 제작법을 배움.",
-        "learnedrecipefail": "r1 제작법이 있다. 이미 아는데...",
+        "learnedrecipe": "r1 제작법을 배웠다.",
+        "learnedrecipefail": "r1 제작법이 있지만, 이미 알고 있다...",
         "hasbattery": "배터리 있음 (<>)\n<sprite index=17 tint=1> 도구로 제거하기",
         "nobattery": "배터리 없음 (최대. <>)",
         "small": "소형",
@@ -3336,3 +3336,4 @@
         ]
     ]
 }
+
