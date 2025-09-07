@@ -2729,7 +2729,7 @@
                 "Merde- Attends... Mon <limb>... Argh...",
                 "J’ai tellement mal au <limb>..."
             ],
-            "hit": [
+            "hitgroundhard": [
                 "Argh !",
                 "Gack !",
                 "Fuck !",
@@ -2772,7 +2772,7 @@
                 "STOP !!!",
                 "BORDEL !!!"
             ],
-            "scream": [
+            "fallscream": [
                 "AAAAH !!",
                 "AAAAHHH !",
                 "CHIEEER !",
@@ -2794,7 +2794,7 @@
                 "AAH !",
                 "AAAAAAAAAAHHH !"
             ],
-            "terrified": [
+            "hitbycreature": [
                 "AAAHHHHH !",
                 "AAAAAAAAHHHHH !",
                 "AHHH !! MERDE !!!",
@@ -2897,7 +2897,7 @@
                 "MINCE ! ... Aaaaïe... C’était tellement fort...",
                 "NOOON !!! Putain, merde... Arghh, c’était bruyant..."
             ],
-            "regret": [
+            "murderregret": [
                 "Why... Why did I do that..? F-fuck...",
                 "Gh... God... Why..?",
                 "I... That was horrible.. I'm a monster...",
