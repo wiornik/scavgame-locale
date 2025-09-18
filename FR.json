@@ -613,8 +613,8 @@
         "gunminedsc": "Colloquially called the \"Toe popper\".",
         "sawblade": "Sawblade",
         "sawbladedsc": "Brings up horrifying memories.",
-        "LoreNote": "Written note",
-        "LoreNotedsc": "Left behind by another survivor."
+        "LoreNote": "Page de journal",
+        "LoreNotedsc": "Laissée derrière par un autre survivant."
     },
     "moodles": {
         "dead": "Mort",
@@ -3277,7 +3277,7 @@
                 "Item2": "Sprites/noteDrawings/underweight"
             },
             {
-                "Item1": "c’est affreux. c’est une putain de torture. je peux plus faire ça. c’est une mission suicide. abandonnez tout espoir. tout ça n’a aucun sens",
+                "Item1": "c’est horrible. c’est une putain de torture. je peux plus faire ça. c’est une mission suicide. abandonnez tout espoir. tout ça n’a aucun sens",
                 "Item2": "Sprites/noteDrawings/x"
             },
             {
@@ -3297,7 +3297,7 @@
                 "Item2": ""
             },
             {
-                "Item1": "planet is good .  eat a lot of good flesh .  dune happy\n(You can make out what looks like a very poorly made self-portrait.)",
+                "Item1": "planète est bon .  mange plein de bonne chair .  dune content\n(Vous reconnaissez ce qui ressemble à un autoportrait peu abouti.)",
                 "Item2": "Sprites/noteDrawings/dune"
             },
             {
@@ -3365,25 +3365,25 @@
         ],
         [
             {
-                "Item1": "There seems to be a high amount of radioactive waste in this area. While that does make it difficult to navigate, we should keep in mind that we can take brief doses of ionizing radiation without too much issue, as long as the exposure doesn't last too long. We're already riddled with cancer due to presumably being unnatural, thus the effect on our entire lifespan is negligible.",
+                "Item1": "Il semble y avoir une grande quantité de déchets radioactifs dans cette zone. Bien que cela rende la navigation difficile, il faut que nous gardions en tête que nous pouvons encaisser de faibles doses radiations ionisantes sans trop de répercussions, tant que l’exposition n’est pas prolongée. Nous sommes déjà en proie au cancers, supposément du fait de notre nature artificielle, ce faisant l’effet est négligeable sur notre durée de vie.",
                 "Item2": ""
             }
         ],
         [
             {
-                "Item1": "dune see big monster. motivated to kill      dune chase monster and kill and eat . great food . great hunter of beast !",
+                "Item1": "dune voir gros monstre. motiver à tuer      dune chasse et tue et mange . bonne nourriture . grand chasseur de bête !",
                 "Item2": ""
             }
         ],
         [
             {
-                "Item1": "way too cold in here. have to try my best to not get wet at all, or ill be in big trouble. lucky us, there are a lot of those weird sporey plants that give off some heat, along with those weird machines. run between those when possible, i guess. better not get stuck in the freezing cold.",
+                "Item1": "il fait beaucoup trop froid ici. je dois faire de mon mieux pour pas me retrouver mouillé, sinon j’aurais de gros problèmes. heureusement, il y a plein de plantes a spores qui dégagent un peu de chaleur, autant qu’il y a ces machines étranges. je crois qu’il est préférable de courir en les esquivant du mieux que possible. autant ne pas rester coincé dans le froid glacial.",
                 "Item2": "Sprites/noteDrawings/xaloris"
             }
         ],
         [
             {
-                "Item1": "It's odd how it rains here. I've never actually seen real rain before... It's rather pretty, even if unsanitary. I still wonder how it is possible for there to be such a higher water concentration down here. Perhaps, the water from the above ice cap is dripping down to here?",
+                "Item1": "C’est étrange comme il pleut ici. Je n’avais jammais vu de vraie pluie avant... C’est plutôt joli, même si très peu hygyénique. Je me demande tout de même comment est-il possible qu’il y ait une aussi haute concentration en eau ici-bas. Peut-être que l’eau de la calote gelée au dessus arrive à ruisseler jusqu’ici ?",
                 "Item2": ""
             }
         ],
