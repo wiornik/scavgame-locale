@@ -3265,7 +3265,7 @@
     "notes": [
         [
             {
-                "Item1": "c’est une horreur. il y a des corps partout... j’ai peur. pourquoi ils nous ont emmenés ici ? je ne comprends pas. je n’y comprend rien. ils m’ont assommé avec une espèce de fléchette puis m’ont forcé à entrer dans une capsule pour m’envoyer sur cette planète. je déteste cet endroit.",
+                "Item1": "c’est une horreur. il y a des corps partout... j’ai peur. pourquoi ils nous ont emmenés ici ? je ne comprends pas. je n’y comprend rien. ils m’ont assommé avec une espèce de fléchette puis m’ont forcé dans une capsule pour m’envoyer sur cette planète. je déteste cet endroit.",
                 "Item2": ""
             },
             {
@@ -3281,7 +3281,7 @@
                 "Item2": "Sprites/noteDrawings/x"
             },
             {
-                "Item1": "i dont get why we're here. what for? i know im supposed to retrieve some kind of battery cell or something. im assuming others have the same mission. arent there more efficient ways of doing this? logically? why send us here. i miss my friends. i dont want to die.",
+                "Item1": "je ne vois pas ce qu’on fait là. et pour faire quoi ? je sais que je suis sensé récupérer une sorte de pile ou quelque chose comme ça. j’imagine que les autres aussi ont la même mission. il n’y pas une technique plus efficace pour faire ça ? logiquement ? pourquoi nous envoyer ici. mes amis me manquent. je ne veux pas mourir.",
                 "Item2": "Sprites/noteDrawings/alone"
             },
             {
@@ -3289,11 +3289,11 @@
                 "Item2": "Sprites/noteDrawings/brokenleg"
             },
             {
-                "Item1": "i overheard our captors calling us a mutated amalgamation of a \"human, fox and rat\", whatever any of that means. how much is there being kept from us? information wise? the thought scares me. ive never considered anything being outside of where we were raised. and now im here. i cant wrap my head around all of this.\n(On the paper is what looks to be a self-portrait.)",
+                "Item1": "j’ai entendu nos geôliers nous appeler des mutations d’amalgames de « l’humain, du renard et du rat », quoi que cela veuille dire. how much is there being kept from us? information wise? the thought scares me. ive never considered anything being outside of where we were raised. and now im here. i cant wrap my head around all of this.\n(On the paper is what looks to be a self-portrait.)",
                 "Item2": "Sprites/noteDrawings/experiment"
             },
             {
-                "Item1": "I have found drawing to be a decent escape to the situation I have found myself in. It seems all of us are struggling with our mental states, one way or another. It is nice to get a distraction from the harsh reality at times.",
+                "Item1": "J’ai découvert que le dessin était un bon échapatoire pour la situation dans laquelle je me trouve. Il semble que nous soyons tous, d’une manière ou d’une autre, en prise avec nos émotions et notre esprit. Ça fait du bien de se distraire de la dure rélaité des fois.",
                 "Item2": ""
             },
             {
@@ -3307,59 +3307,59 @@
         ],
         [
             {
-                "Item1": "ugh, this place sucks. i keep being bitten by random spiders i cant see in time. i think theyre venomous, as they leave nasty looking infected wounds in me... the glowplant fruit do help with those though",
+                "Item1": "argh, cet endroit est merdique. je n’arrête pas de me faire mordre par des arraignés sorties de nul part que je n’arrive jammais à voir à temps. je crois qu’elles sont venimeuses, parce qu’elles me laissent des vilaines plaies infectées... le fruit de plante lumineuse peut aider à les soulager heureusement",
                 "Item2": "Sprites/noteDrawings/spider"
             },
             {
-                "Item1": "the red blinking lights in the dark are spike traps. watch out for them. please. please. someone just walked into one in the distance, i just heard a yelp and silence after. stay safe",
+                "Item1": "les lumières rouges qui clignottent dans le noir sont des pièges à pics. faites-y gaffe. pitié. pitié. quelqu’un vient de marcher dessus plus loin, j’ai juste entendu un cri puis plus rien. soyez prudents",
                 "Item2": ""
             },
             {
-                "Item1": "its cold here. so cold. much colder than our previous home. honestly, i like it. bathing in the pools feels nice, its refreshing. im liking this vacation",
+                "Item1": "il fait froid ici. très froid. beaucoup plus froid qu’à notre résidence d’avant. franchement, j’aime bien. ça fait du bien de se baigner dans le bassins, c’est rafraîchissant. je les aime bien ces vacances",
                 "Item2": "Sprites/noteDrawings/pool"
             },
             {
-                "Item1": "i met up with someone, we agreed to try to go out to the surface through one of those holes to the outside. my friend stepped out first, and immediately they started stumbling in shock. they seemed to be in a lot of pain. they vomited a bunch, then collapsed and stopped breathing soon after. their skin started blistering too, especially around the head and neck. something is preventing us from leaving. im scared.",
+                "Item1": "j’ai rencontré quelqu’un, nous nous étions mis d’accord pour essayer d’atteindre la surface en empruntant un des trous menant à l’extérieur. mon ami et sorti le premier, et immédiatement il a commencé à perdre l’équilibre comme sous le choc. il avait l’air de souffrir. il a beaucoup vomi, puis s’est écroulé et a très vite cessé de respirer. sa peau a aussi commencé à cloquer, surtout autour de son cou et sa tête. quelque chose nous empêche de partir. j’ai peur.",
                 "Item2": "Sprites/noteDrawings/radiation"
             },
             {
-                "Item1": "Getting wet seems to be rather dangerous if you're not careful. The temperature here is much lower than at our home, and it seems being drenched for too long can get us in a hypothermic state. Try doing some physical exercise if you need to warm up quickly, I've discovered that helps.",
+                "Item1": "Rester mouillé peut-être assez dangereux si l’on ne fait pas attention. La température ici est bien inférieure à celle chez nous, et il semble que rester trempé trop longtemps peut nous faire entrer en hypothermie. Essayez de faire un peu d’exercice physique pour rapidement vous réchauffer, j’ai découvert que ça aide.",
                 "Item2": ""
             },
             {
-                "Item1": "i really need to stop losing my lights. anything does the job, even those weird glowy plant things. i keep leaving forgetting about them, then tripping up and getting hurt by accident. not good.",
+                "Item1": "il faut vraiment que j’arrête de perdre mes lanternes. n’importe quoi fait l’affaire, même ces plantes brillantes bizarres. je n’arrête pas de partir en oubliant d’en prendre, et après je me retrouve à trébucher par accident et je me fais mal. génial.",
                 "Item2": "Sprites/noteDrawings/glowplant"
             }
         ],
         [
             {
-                "Item1": "apparently those boxes with the weird computers next to them can be opened if you spill some red blood on them. it has to specifically be red blood, otherwise it wont work. it has some crates inside, you can open them and take stuff with you. useful.",
+                "Item1": "apparemment, ces boîtes avec les ordinateurs bizarres à côté peuvent être ouvertes si vous renversez du sang rouge dessus. il faut que ce soit spécifiquement du sang rouge, sinon ça ne marchera pas. il y a des caisses à l’intérieur, vous pouvez les ouvrir pour y trouver des objets. c’est utile.",
                 "Item2": "Sprites/noteDrawings/bloodbag"
             },
             {
-                "Item1": "Investigating the chemical composition of the different colored blood bags I have found here, it seems they are considerably different in their composition. The red blood is completely different than ours and the blood that the creatures here possess. It seems to be somewhat metallic in composition for whatever reason, how odd. Better not use that on ourselves.",
+                "Item1": "Après avoir étudié la composition chimique des poches de sang de différentes couleurs que j’ai trouvées ici, il semble qu’elles soient considérablement différentes les unes des autres. Le sang rouge est complètement différent du nôtre et de celui des créatures qui vivent ici. Il semble avoir une composition quelque peu métallique, pour une raison que j’ignore. C’est étrange. Mieux vaut ne pas s’en injecter nous-mêmes.",
                 "Item2": ""
             },
             {
-                "Item1": "(There is a poorly made drawing of what looks to be one of your captors. They are holding what you can make out as a tazer. Their face is scratched out with a big X. The weapon brings back horrible memories.)",
+                "Item1": "(C’est un dessin enfantin de ce qui ressemble à l’un de vos geôliers, vêtu d’une blouse blanche et un taser à la main. Son visage est griffé d’un grand X. Son arme vous rappelle d’horribles souvenirs.)",
                 "Item2": "Sprites/noteDrawings/scientist"
             },
             {
-                "Item1": "i almost drowned just a moment ago. ive never swam before, and its very exhausting. its hard to keep myself above the surface when im tired. i imagine sinking forever to be pretty painful... be careful.",
+                "Item1": "je viens presque de me noyer à l’instant. je n’avais jamais nagé avant, et c’est très fatiguant. difficile de rester à flot quand on est fatigué. j’imagine que couler pour toujours doit être assez douloureux... faites attention.",
                 "Item2": "Sprites/noteDrawings/drown"
             },
             {
-                "Item1": "overhearing a little bit from our captors, apparently the cargo we are supposed to get is some kind \"advanced energy source\". something about storing a large amount of power and distributing it \"wirelessy\". i do not know what most of that means, but maybe it will be useful to know. stay safe",
+                "Item1": "en écoutant un peu nos geôliers, apparemment la cargaison que nous récupérons est une sorte de « source d’énergie avancée ». quelque chose comme le stockage d’une grande quantité d’énergie, et la possibilité de la distribuer « sans fil ». je ne suis pas sûr de ce que cela veut dire, mais peut être que c’est bon à savoir. bon courage.",
                 "Item2": ""
             },
             {
-                "Item1": "Recently found a drill of sorts, but it's missing a few parts. I can't seem to figure out what it needs, aside from the covering panel for all the mechanisms... Could prove helpful if I was to get it to a working state.",
+                "Item1": "J'ai récemment trouvé une sorte de foreuse. mais il manque quelques pièces. Je n’arrive pas à trouver ce qui lui manque pour fonctionner, à l’exeption du couvecle qui protège tous les méchanismes... Cela pourrait m’être utile si j’arrivais à la faire fonctionner.",
                 "Item2": ""
             }
         ],
         [
             {
-                "Item1": "ugh. its so hot in here. really need to space out my movements and be careful as to not fall numb from the heat. ive found that taking dives in the water pools here helps... maybe even the brown ones if desperate.",
+                "Item1": "argh. il fait si chaud ici. il faut vraiment que je ménage mes mouvements et que je fasse attention à ne pas me laisser assommer pas cette chaleur. j’ai dévouvert que faire un plongeon de temps en temps dans les bassins alentours peut aider... peut-être même les marrons si on est vraiment démuni.",
                 "Item2": ""
             }
         ],
@@ -3371,19 +3371,19 @@
         ],
         [
             {
-                "Item1": "dune voir gros monstre. motiver à tuer      dune chasse et tue et mange . bonne nourriture . grand chasseur de bête !",
+                "Item1": "dune voir gros monstre. motivé à tuer      dune chasse et tue et mange . bonne nourriture . grand chasseur de bête !",
                 "Item2": ""
             }
         ],
         [
             {
-                "Item1": "il fait beaucoup trop froid ici. je dois faire de mon mieux pour pas me retrouver mouillé, sinon j’aurais de gros problèmes. heureusement, il y a plein de plantes a spores qui dégagent un peu de chaleur, autant qu’il y a ces machines étranges. je crois qu’il est préférable de courir en les esquivant du mieux que possible. autant ne pas rester coincé dans le froid glacial.",
+                "Item1": "il fait beaucoup trop froid ici. je dois faire de mon mieux pour pas me retrouver mouillé, sinon j’aurais de gros problèmes. heureusement, il y a plein de plantes à spores qui dégagent un peu de chaleur, autant qu’il y a de ces machines étranges. je crois qu’il est préférable de courir en les esquivant du mieux que possible. autant ne pas rester coincé dans le froid glacial.",
                 "Item2": "Sprites/noteDrawings/xaloris"
             }
         ],
         [
             {
-                "Item1": "C’est étrange comme il pleut ici. Je n’avais jammais vu de vraie pluie avant... C’est plutôt joli, même si très peu hygyénique. Je me demande tout de même comment est-il possible qu’il y ait une aussi haute concentration en eau ici-bas. Peut-être que l’eau de la calote gelée au dessus arrive à ruisseler jusqu’ici ?",
+                "Item1": "C’est étrange comme il pleut ici. Je n’avais jammais vu de vraie pluie avant... C’est plutôt joli, même si très peu hygyénique. Je me demande tout de même comment est-il possible qu’il y ait une aussi haute concentration d’eau ici-bas. Peut-être que l’eau gelée de la calote au dessus arrive à ruisseler jusqu’ici ?",
                 "Item2": ""
             }
         ],
