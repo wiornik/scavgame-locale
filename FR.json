@@ -412,8 +412,8 @@
         "striderpeltdsc": "A large piece of thick, fluffy white pelt ripped from a snow strider. Offers considerable insulation from the elements.",
         "funguschunk": "Funugs chunk",
         "funguschunkdsc": "A ripped piece of fungi. Does a decent enough job as food, though you're unsure about the side effects.",
-        "clottingmush": "Clotting mush",
-        "clottingmushdsc": "A small vial of a clot promoting poultice. While not particularly useful on its own, it could be refined further...",
+        "clottingmush": "Pâte coagulante",
+        "clottingmushdsc": "Une petite fiole contenant un cataplasme favorisant la coagulation. Bien qu’elle ne soit pas particulièrement utile en soi, elle pourrait être retravaillée...",
         "bunchunk": "Bunchunk",
         "bunchunkdsc": "A piece of fungus with clot-promoting properties. While not particularly useful on its own, it could be refined further...",
         "smallbattery": "Petite batterie",
@@ -857,11 +857,11 @@
         "wet4dsc": "Complètement détrempé ! L’eau vous pèse. Température et confort fortement diminués.",
         "underweight1dsc": "Essayez de prendre un peu de poids.",
         "underweight2dsc": "Poids insuffisant par rapport à votre espèce. Plus faible que la normale. Capacité de charge réduite.",
-        "underweight3dsc": "Vous êtes dangereusement maigre et frêle. Bien plus faible que d’habitude, sujet à l’épuisement et à la léthargie. Capacité de charge réduite.",
+        "underweight3dsc": "Vous êtes dangereusement maigre et frêle. Bien plus faible que d’habitude, prône à l’épuisement et à la léthargie. Capacité de charge réduite.",
         "underweight4dsc": "Vous êtes excessivement maigre. Vous pouvez sentir et voir vos os sous votre fourrure. Risque élevé d’arrêt cardiaque. Capacité de charge très réduite.",
         "overweight1dsc": "Essayez de perdre un peu de poids.",
         "overweight2dsc": "En surpoids, bien que vous ayez l’air dans la moyenne par rapport aux autres espèces. Moins adroit, vous vous fatiguez plus vite.",
-        "overweight3dsc": "Dangereusement massif et rondouillet. Beaucoup moins adroit et sujet à l’épuisement.",
+        "overweight3dsc": "Dangereusement massif et rondouillet. Beaucoup moins adroit et d’avantage prône à l’épuisement.",
         "overweight4dsc": "L’obésité met votre vie en danger. Vous êtes un gros sac poilu empli de gourmandise. Risque élevé d’arrêt cardiaque.",
         "depression1dsc": "La gravité de votre situation commence à vous préoccuper. Essayez de vous distraire.",
         "depression2dsc": "Vous manquez de motivation pour continuer, difficultés émotionnelles. Les choses ne semblent pas s’améliorer. Trouvez un moyen de vous distraire.",
@@ -900,8 +900,8 @@
         "bradycardiadsc": "Votre fréquence cardiaque semble anormalement basse.",
         "rnrsdsc": "Choc neural causé par une régénération soudaine et rapide de tissu cérébral. Même si vous vous y habituerez après un certain temps, il vaut mieux éviter une autre dose pour l’instant. (<>)",
         "rippedjawdsc": "Votre mâchoire inférieure a été arrachée à la suite d’un traumatisme crânien grave. Manger et parler vous est désormais beaucoup plus difficile. Vous êtes horriblement marqué par cette expérience.",
-        "rippedeyedsc": "One of your eyes has been ripped out, halving your field of view. You are somewhat scarred by the experience. Don't lose the remaining one.",
-        "rippedeyesdsc": "Both of your eyes have been ripped out. You can only get by using feel and sound. At least you no longer need a light source...",
+        "rippedeyedsc": "L’un de vos yeux a été arraché, réduisant de moitié votre champ de vision. Vous êtes quelque peu secoué par cette expérience. Ne perdez pas celui qui reste.",
+        "rippedeyesdsc": "Vos deux yeux ont été arrachés. Vous ne pouvez vous fier qu’à votre toucher ainsi qu’a votre ouïe. Au moins, vous n’aurez plus besoin d’une source de lumière...",
         "lowimmunitydsc": "Your immune system is severely weakened, be it due to dirtyness, hunger, thirst or more. Infections are much more dangerous. Take better care of yourself.",
         "highimmunitydsc": "Your immune system is working at high capacity, likely due to antibiotics. Infections are much less dangerous, and might even regress on their own if near 200%.",
         "amputationdsc": "One of your extremities has been dismembered. Traumatizing. Obviously, any use of the lobbed off limb is permanently gone.",
@@ -1613,7 +1613,7 @@
             ],
             "confused": [
                 "Qu’est ce qui m’arrive...?",
-                "Oumph...",
+                "Oumpf...",
                 "Je suis désorienté...",
                 "Je suis où...?",
                 "Argh. Aïe...",
@@ -2695,7 +2695,7 @@
                 "Argh !",
                 "Aïe !",
                 "Ouille !",
-                "Oumph !",
+                "Oumpf !",
                 "ÇA... fait mal !",
                 "Mon <limb>... Aïe...",
                 "Aïe ! Rhah...",
@@ -2895,7 +2895,7 @@
                 "GAH ! Chier ! Mes oreilles !",
                 "AHHH ! Merde... Mes oreilles sifflent...",
                 "MINCE ! ... Aaaaïe... C’était tellement fort...",
-                "NOOON !!! Putain, merde... Arghh, c’était bruyant..."
+                "NOOON !!! Putain, merde... Argh, c’était bruyant..."
             ],
             "murderregret": [
                 "Pourquoi... Pourquoi j’ai fait ça..? M-merde...",
@@ -2936,36 +2936,36 @@
             "traderhugsuccess": [
                 "Awww... Merci.",
                 "Ahhh... Merci, l’ami.",
-                "Mmmh... Aww, thanks!",
-                "Ah! Mmhh... Thank you...",
-                "Aw! You're so nice!",
-                "...Thank you, I needed that."
+                "Mmmh... Aww, merci !",
+                "Ah ! Mmhh... Avec plaisir...",
+                "Aw ! Tu es si gentil !",
+                "...Merci, J’en avais besoin."
             ],
             "traderhugfail": [
-                "AHHH! Don't touch me out of nowhere...",
-                "Hey! No touchy.",
-                "Aghh! Hey! No touchies!",
-                "I'll pass...",
-                "No thanks.",
-                "Wh- Hey! Get your paws off of me.",
-                "Hey! Don't touch me! I don't trust you."
+                "AHHH ! Ne me touches pas comme ça...",
+                "Hé ! Pas touche.",
+                "Argh ! Hé ! Bas les pattes !",
+                "Je vais passer mon tour...",
+                "Non merci.",
+                "Qu’est-ce que- Hé ! Sors tes pattes de moi.",
+                "Hé ! Ne me touche pas ! On se connaît pas."
             ],
             "traderhagglesuccess": [
-                "...Okay!",
-                "Mmmmhmmm... Got it.",
-                "I'll think about it.",
-                "I'll consider...",
-                "Y-yeah... Sure...",
-                "Makes sense to me!",
-                "Uh huh.",
-                "Hmm... Okay."
+                "...D’accord !",
+                "Mmmmhmmm... Compris.",
+                "Je vais y réfléchir.",
+                "Je prends note...",
+                "O-oui... Bien sur...",
+                "Ça me semble logique.",
+                "Mm-hm.",
+                "Hmm... Ok."
             ],
             "traderhagglefail": [
-                "You didn't sound very convincing there.",
-                "...No, thanks.",
-                "Nuh uh.",
-                "Not interested.",
-                "What? Why would I do that..?",
+                "Tu n’as pas l’air très convaincant là.",
+                "...Non, merci.",
+                "Nan.",
+                "Pas intéressé.",
+                "Quoi ? Pourquoi je ferais ça...?",
                 "Meeehhh... Another time.",
                 "Meh.",
                 "...Nhh...",
@@ -3289,11 +3289,11 @@
                 "Item2": "Sprites/noteDrawings/brokenleg"
             },
             {
-                "Item1": "j’ai entendu nos geôliers nous appeler des mutations d’amalgames de « l’humain, du renard et du rat », quoi que ça veuille dire. qu’est-ce qu’on continue à nous cacher ? en termes d’informations ? rien que d’y penser me fait peur. je n’avais jammais imaginé me retrouver ailleurs que là où nous avons grandi. et maintenant je me retrouve ici. je n’y comprends vraiment rien.\n(La page comporte ce qui semble être un autoportait.)",
+                "Item1": "j’ai entendu nos geôliers nous appeler des mutations d’amalgames de « l’humain, du renard et du rat », quoi que ça veuille dire. qu’est-ce qu’on continue à nous cacher ? en termes d’informations ? rien que d’y penser me fait peur. je n’avais jamais imaginé me retrouver ailleurs que là où nous avons grandi. et maintenant je me retrouve ici. je n’y comprends vraiment rien.\n(La page comporte ce qui semble être un auto-portait.)",
                 "Item2": "Sprites/noteDrawings/experiment"
             },
             {
-                "Item1": "J’ai découvert que le dessin était un bon échapatoire pour la situation dans laquelle je me trouve. Il semble que nous soyons tous, d’une manière ou d’une autre, en prise avec nos émotions et notre esprit. Ça fait du bien de se distraire de la dure rélaité des fois.",
+                "Item1": "J’ai découvert que le dessin était un bon échappatoire pour la situation dans laquelle je me trouve. Il semble que nous soyons tous, d’une manière ou d’une autre, en prise avec nos émotions et notre esprit. Ça fait du bien de se distraire de la dure réalité des fois.",
                 "Item2": ""
             },
             {
@@ -3301,17 +3301,17 @@
                 "Item2": "Sprites/noteDrawings/dune"
             },
             {
-                "Item1": "La distribution des espèces ici semble très disporportionnée. Les Éxperiences sont partout, tandis que les autres expèces comme la mienne semblent beaucoup moins nombreuses. Étrange... Quoi qu’il en soit, la quantitié de victimes ici me déplaît fortement. Nous avons besoin de d’avantage d’aide.",
+                "Item1": "La distribution des espèces ici semble très disproportionnée. Les Expériences sont partout, tandis que les autres espèces comme la mienne semblent beaucoup moins nombreuses. Étrange... Quoi qu’il en soit, la quantité de victimes ici me déplaît fortement. Nous avons besoin de d’avantage d’aide.",
                 "Item2": "Sprites/noteDrawings/milky"
             }
         ],
         [
             {
-                "Item1": "argh, cet endroit est merdique. je n’arrête pas de me faire mordre par des arraignés sorties de nul part que je n’arrive jammais à voir à temps. je crois qu’elles sont venimeuses, parce qu’elles me laissent des vilaines plaies infectées... le fruit de plante lumineuse peut aider à les soulager heureusement",
+                "Item1": "argh, cet endroit est merdique. je n’arrête pas de me faire mordre par des araignées sorties de nul part que je n’arrive jamais à voir à temps. je crois qu’elles sont venimeuses, parce qu’elles me laissent des vilaines plaies infectées... le fruit de plante lumineuse peut aider à les soulager heureusement",
                 "Item2": "Sprites/noteDrawings/spider"
             },
             {
-                "Item1": "les lumières rouges qui clignottent dans le noir sont des pièges à pics. faites-y gaffe. pitié. pitié. quelqu’un vient de marcher dessus plus loin, j’ai juste entendu un cri puis plus rien. soyez prudents",
+                "Item1": "les lumières rouges qui clignotent dans le noir sont des pièges à pics. faites-y gaffe. pitié. pitié. quelqu’un vient de marcher dessus plus loin, j’ai juste entendu un cri puis plus rien. soyez prudents",
                 "Item2": ""
             },
             {
@@ -3353,13 +3353,13 @@
                 "Item2": ""
             },
             {
-                "Item1": "J'ai récemment trouvé une sorte de foreuse. mais il manque quelques pièces. Je n’arrive pas à trouver ce qui lui manque pour fonctionner, à l’exeption du couvecle qui protège tous les méchanismes... Cela pourrait m’être utile si j’arrivais à la faire fonctionner.",
+                "Item1": "J'ai récemment trouvé une sorte de foreuse. mais il manque quelques pièces. Je n’arrive pas à trouver ce qui lui manque pour fonctionner, à l’exception du couvercle qui protège tous les mécanismes... Cela pourrait m’être utile si j’arrivais à la faire fonctionner.",
                 "Item2": ""
             }
         ],
         [
             {
-                "Item1": "argh. il fait si chaud ici. il faut vraiment que je ménage mes mouvements et que je fasse attention à ne pas me laisser assommer pas cette chaleur. j’ai dévouvert que faire un plongeon de temps en temps dans les bassins alentours peut aider... peut-être même les marrons si on est vraiment démuni.",
+                "Item1": "argh. il fait si chaud ici. il faut vraiment que je ménage mes mouvements et que je fasse attention à ne pas me laisser assommer pas cette chaleur. j’ai découvert que faire un plongeon de temps en temps dans les bassins alentours peut aider... peut-être même les marrons si on est vraiment démuni.",
                 "Item2": ""
             }
         ],
@@ -3383,7 +3383,7 @@
         ],
         [
             {
-                "Item1": "C’est étrange comme il pleut ici. Je n’avais jammais vu de vraie pluie avant... C’est plutôt joli, même si très peu hygyénique. Je me demande tout de même comment est-il possible qu’il y ait une aussi haute concentration d’eau ici-bas. Peut-être que l’eau gelée de la calote au dessus arrive à ruisseler jusqu’ici ?",
+                "Item1": "C’est étrange comme il pleut ici. Je n’avais jamais vu de vraie pluie avant... C’est plutôt joli, même si très peu hygiénique. Je me demande tout de même comment est-il possible qu’il y ait une aussi haute concentration d’eau ici-bas. Peut-être que l’eau gelée de la calotte au dessus arrive à ruisseler jusqu’ici ?",
                 "Item2": ""
             }
         ],
