@@ -609,8 +609,8 @@
         "sidestabberdsc": "Un étrange animal en symbiose avec un champignon. Éjecte une grande pointe sur chaque proie qui passe.",
         "skullcrusher": "Broyeur de crâne",
         "skullcrusherdsc": "Peut vous donner la migraine.",
-        "gunmine": "Gunmine",
-        "gunminedsc": "Colloquially called the \"Toe popper\".",
+        "gunmine": "Mine-fusil",
+        "gunminedsc": "Connue sous le petit nom de « Pète-orteil »",
         "sawblade": "Scie circulaire",
         "sawbladedsc": "Vous rappelle d’horribles souvenirs .",
         "LoreNote": "Page de journal",
@@ -2138,7 +2138,7 @@
                 "P-peut-être que je devrais mettre un terme à tout ça la prochaine fois... Hahaha..."
             ],
             "angeronitem": [
-                "UGH! FUCK this thing! Grhh..."
+                "ARGH ! TIENS, prends-toi ça ! Grrr..."
             ],
             "suicide": [
                 "Adieu. Bon PUTAIN DE DÉBARRAS. J’en ai MARRE !!! JE VOUS EMMERDE TOUS !",
@@ -3142,7 +3142,7 @@
                 "Tiens, vous avez fini par vous réveiller ?",
                 "Ça y est, enfin debout.",
                 "Devinez qui est réveillé !",
-                "Bon retour parmi nous ! Tête de loir.",
+                "Bon retour parmi nous ! Tête de loir.",
                 "Tu as dormi comme un chiot, haha..."
             ],
             "tradergiveitem": [
