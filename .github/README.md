@@ -83,7 +83,7 @@ If you want to be added as a team member you might as well query that on the [de
 1. Clone this fork directly:
 
 ```bash
-git clone https://github.com/<this-fork-owner>/<repo-name>.git
+git clone https://github.com/clemtomera/scavgame-locale.git
 cd <repo-name>
 ```
 
