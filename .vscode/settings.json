@@ -1,11 +1,15 @@
 {
-    "cSpell.maxNumberOfProblems": 100000,
-    "cSpell.language": "fr",
-    "cSpell.ignoreRegExpList": [
-        "/\"[^\"]*\"(?=\\s*:)/", // Ignore JSON keys
-        "/<limb>/i", // Ignore <limb> tags in JSON values
-        "/<sprite/i", // Ignore <sprite> tags in JSON values
-        "/\\b\\w*([a-zA-ZÀ-ÖØ-öø-ÿ])\\1\\1\\w*\\b/", // Ignore words with 3 consecutive identical letters including accents (eg. Aaaaah)
-        "/\"Item2\"\\s*:\\s*\"[^\"\\\\]*\\/[^\"]*\"/" // Ignore paths in Item2 JSON values
-        ]
+  // Spell checker settings
+  "cSpell.maxNumberOfProblems": 100000,
+  "cSpell.language": "fr",
+  "cSpell.ignoreRegExpList": [
+    "/\"[^\"]*\"(?=\\s*:)/", // Ignore JSON keys
+    "/<limb>/i", // Ignore <limb> tags in JSON values
+    "/<sprite/i", // Ignore <sprite> tags in JSON values
+    "/\\b\\w*([a-zA-ZÀ-ÖØ-öø-ÿ])\\1\\1\\w*\\b/", // Ignore words with 3 consecutive identical letters including accents (eg. Aaaaah)
+    "/\"Item2\"\\s*:\\s*\"[^\"\\\\]*\\/[^\"]*\"/" // Ignore paths in Item2 JSON values
+  ],
+
+  // Enable word wrap for easier editing of long entries
+  "editor.wordWrap": "on"
 }
