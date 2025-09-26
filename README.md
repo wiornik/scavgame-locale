@@ -8,7 +8,7 @@ Localization files for the "Scavenge Game" by Orsoniks.
 | [Français (FR)](/FR.json)  | [Azurian](https://github.com/clemtomera)                                                                            |                                                                             |
 | [Русский (RU)](/RU.json)   | [Tairel](https://github.com/Tairelol), [olv](https://github.com/Ol1vver), [Flam3masterr](https://github.com/Flam3masterr)                                         |
 | [Беларускі (BY)](/BY.json)   | [Russian kid](https://github.com/Russiankids)   |
-| [Português (PT)](/PT.json) | [a-cake](https://github.com/a-cake), [a-cake2](https://github.com/a-cake2), [woforu](https://github.com/woforu)     |
+| [Português (PT)](/PT.json) | [a-cake](https://github.com/a-cake)/[a-cake2](https://github.com/a-cake2), [woforu](https://github.com/woforu)       |
 | [Polski (PL)](/PL.json)   | [Fracix](https://github.com/Fracix), [wiornik](https://github.com/wiornik)                                                                             |
 | [Español (ES)](/ES.json)   | [Derkala](https://github.com/Derkala), [ItsVoidSK](https://github.com/ItsVoidSK)                                                                             |
 | [Deutsch (DE)](/DE.json)   | [Zorobis](https://github.com/Zorobis)                                                                                |
