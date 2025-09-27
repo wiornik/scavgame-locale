@@ -2,7 +2,6 @@ name: Monthly FR Contribution PR
 
 on:
   schedule:
-    # Run at midnight UTC on days 27–30; we'll filter inside
     - cron: '0 0 27-30 * *'
   workflow_dispatch:
 
@@ -32,7 +31,7 @@ jobs:
           fi
 
       - name: Exit if not penultimate day
-        if: steps.datecheck.outputs.lastday == 'false' && github.event_name != 'workflow_dispatch'
+        if: ${{ steps.datecheck.outputs.lastday == 'false' && github.event_name != 'workflow_dispatch' }}
         run: |
           echo "Not the penultimate day of the month. Exiting."
           exit 0
@@ -46,7 +45,6 @@ jobs:
       - name: Update FR.json (and possibly README.md)
         id: update
         run: |
-          # Track file changes
           changed_fr=false
           changed_readme=false
 
@@ -59,20 +57,17 @@ jobs:
           if ! git diff --quiet -- README.md; then
             changed_readme=true
           else
-            git checkout -- README.md # discard if unchanged
+            git checkout -- README.md
           fi
 
-          # Exit if no changes
           if [ "$changed_fr" = "false" ] && [ "$changed_readme" = "false" ]; then
             echo "No changes detected, exiting."
             exit 0
           fi
 
-          # Set outputs
           echo "changed_fr=$changed_fr" >> "$GITHUB_OUTPUT"
           echo "changed_readme=$changed_readme" >> "$GITHUB_OUTPUT"
 
-          # Commit
           git config user.name "${{ secrets.GIT_USER_NAME }}"
           git config user.email "${{ secrets.GIT_USER_EMAIL }}"
           git add FR.json README.md || true
@@ -84,24 +79,39 @@ jobs:
 
           git commit -m "$commit_msg"
 
-      - name: Push fork main
+      - name: Push fork update branch
         run: |
+          git checkout -B fr-update
           git remote set-url origin https://x-access-token:${MONTHLY_PR_TOKEN}@github.com/${{ github.repository }}.git
-          git push origin main
+          git push -u origin fr-update --force
         env:
           MONTHLY_PR_TOKEN: ${{ secrets.MONTHLY_PR_TOKEN }}
 
-      - name: Create or update Pull Request
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.MONTHLY_PR_TOKEN }}
-          commit-message: "Update FR.json"
-          title: "FR.json monthly update"
-          body: |
-            This PR contains the updated `FR.json`$([[ "${{ steps.update.outputs.changed_readme }}" == "true" ]] && echo " and `README.md`").
+      - name: Create or update Pull Request to upstream
+        env:
+          GH_TOKEN: ${{ secrets.MONTHLY_PR_TOKEN }}
+        run: |
+          PR_NUMBER=$(gh pr list \
+            --repo Orsoniks/scavgame-locale \
+            --head "${{ github.repository_owner }}:fr-update" \
+            --json number -q '.[0].number')
 
-            Last updated automatically on $(date +'%Y-%m-%d').
-          base: main
-          branch: main
-          repository: Orsoniks/scavgame-locale
-          delete-branch: false
+          body="This PR contains the updated \`FR.json\`"
+          if [ "${{ steps.update.outputs.changed_readme }}" == "true" ]; then
+            body="$body and \`README.md\`"
+          fi
+          body="$body\n\nLast updated automatically on $(date +'%Y-%m-%d')."
+
+          if [ -z "$PR_NUMBER" ]; then
+            gh pr create \
+              --repo Orsoniks/scavgame-locale \
+              --head "${{ github.repository_owner }}:fr-update" \
+              --base main \
+              --title "FR.json monthly update" \
+              --body "$body"
+          else
+            gh pr edit "$PR_NUMBER" \
+              --repo Orsoniks/scavgame-locale \
+              --title "FR.json monthly update" \
+              --body "$body"
+          fi
