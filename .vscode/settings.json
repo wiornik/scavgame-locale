@@ -9,6 +9,27 @@
     "/\\b\\w*([a-zA-ZÀ-ÖØ-öø-ÿ])\\1\\1\\w*\\b/", // Ignore words with 3 consecutive identical letters including accents (eg. Aaaaah)
     "/\"Item2\"\\s*:\\s*\"[^\"\\\\]*\\/[^\"]*\"/" // Ignore paths in Item2 JSON values
   ],
+  "cSpell.ignoreWords": [
+    // Game-specific terms
+    "amnésium",
+    "cérégénol",
+    "champi-bungali",
+    "champimarron",
+    "champitombe",
+    "côtécorcheur",
+    "férisson",
+    "frigiant",
+    "géoarbre",
+    "géoarbres",
+    "géofruit",
+    "infinipierre",
+    "ombrôdeur",
+    "plantiation",
+    "rebondignon",
+    "roncedos",
+    "toxiroche",
+    "xaloris"
+  ],
 
   // Enable word wrap for easier editing of long entries
   "editor.wordWrap": "on"
